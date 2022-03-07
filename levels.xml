@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
+<input>
+	<level name="We're absolute beginners" key="absolute-beginners" iconUrl="https://snakeomatic-game-artifacts.s3.amazonaws.com/static/level-icons/absolute-beginners.png"/>
+	<level name="We are the champions" key="we-are-the-champions" iconUrl="https://snakeomatic-game-artifacts.s3.amazonaws.com/static/level-icons/absolute-beginners.png"/>
+</input>
