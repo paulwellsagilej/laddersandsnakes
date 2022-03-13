@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml>
+
+<input>
+	<question level="1.0" key="de9c8922" win="15">
+		<prompt text="Who composed Beethoven's fifth symphony?">
+		 	<midiAndLedEvents file="BeethovenFifth.snake" />
+		</prompt>
+		<hint cost="5" action="disable-one" />
+		<response format="single-pick-to-submit">
+			<button text="Mozart" />
+			<button text="Beethoven" correct="true" />
+			<button text="Bach" />
+		</response>
+	</question>
+
+	<question level="1.0" key="0912daa8" win="25">
+		<prompt text="What can you hear?">
+			<midiAndLedEvents interval="PerfectOctave" split="false" notes="true" lights="false"/>
+		</prompt> 
+		<hint cost="5">
+			<midiAndLedEvents interval="PerfectOctave" split="true" notes="true" lights="true"/>
+		</hint>
+		<response format="radio-then-submit">
+			<button text="Perfect Octave" correct="true" />
+			<button text="Augmented Fourth" />
+			<button text="Major Third" />
+		</response>
+	</question>
+
+	<question level="1.0" key="09e89b93" win="25">
+		<prompt text="What is this?" image="trebleClef.png" />
+		<hint cost="10" action="disable-one" />
+		<response format="radio-then-submit">
+			<button text="Treble Clef" correct="true" />
+			<button text="Bass Clef" />
+			<button text="Spaghetti Clef" />
+		</response>
+	</question>
+
+	<question level="1.0" key="97b7f8de" win="50">
+		<prompt text="Arrange these notes in order of pitch, lowest pitch left, highest pitch right." />
+		<hint cost="15" action="solve-one" />
+		<response format="arrange-then-submit">
+			<button imageKey="quaver.png" position="2" >
+				<midiAndLedEvents singleNote="C3" notes="true" lights="false"/>
+			</button>
+			<button imageKey="quaver.png" position="1" >
+				<midiAndLedEvents singleNote="G4" notes="true" lights="false"/>
+			</button>
+			<button midi="E2" imageKey="quaver.png" position="0" >
+				<midiAndLedEvents singleNote="F2" notes="true" lights="false"/>
+			</button>
+		</response>
+	</question>
+
+	<question level="1.0" key="f58ab296" win="50">
+		<prompt text="Which of these symbols are rests?" />
+		<hint cost="25" action="disable-two" />
+		<response format="combine-then-submit">
+			<button imageKey="minimRest.png" correct="true" />
+			<button imageKey="quaverRest.png" correct="true" />
+			<button imageKey="pause.png" />
+			<button imagekey="trebleClef.png" />
+			<button imageKey="sharp.png" />
+		</response>
+	</question>
+
+	<question level="1.0" key="f58ab296" win="15">
+		<prompt text="Play Middle C" />
+		<hint cost="10">
+			<midiAndLedEvents singleNote="C3" notes="true" lights="true"/> 
+		</hint>
+		<response format="play-single-note-to-submit" pianoKey="C3" />
+	</question>
+	
+	<question level="2.0" key="3a204ced" win="100">
+		<prompt text="Play a C major triad in root position" />
+		<hint cost="20" text="C, E, G" />
+		<response format="record-midi-sequence-then-submit" detectMidi="CMajorTriad"/>
+	</question>
+</input>
