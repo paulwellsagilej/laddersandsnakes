@@ -42,13 +42,13 @@
 		<prompt text="Arrange these notes in order of pitch, lowest pitch left, highest pitch right." />
 		<hint cost="15" action="solve-one" />
 		<response format="arrange-then-submit">
-			<button imageKey="quaver.png" position="2" >
+			<button image="quaver.png" position="2" >
 				<midiAndLedEvents singleNote="C3" notes="true" lights="false"/>
 			</button>
-			<button imageKey="quaver.png" position="1" >
+			<button image="quaver.png" position="1" >
 				<midiAndLedEvents singleNote="G4" notes="true" lights="false"/>
 			</button>
-			<button midi="E2" imageKey="quaver.png" position="0" >
+			<button image="quaver.png" position="0" >
 				<midiAndLedEvents singleNote="F2" notes="true" lights="false"/>
 			</button>
 		</response>
@@ -71,7 +71,7 @@
 		<hint cost="10">
 			<midiAndLedEvents singleNote="C3" notes="true" lights="true"/> 
 		</hint>
-		<response format="play-single-note-to-submit" pianoKey="C3" />
+		<response format="play-single-note-to-submit" detectMidi="C3" />
 	</question>
 	
 	<question level="2.0" key="3a204ced" win="100">
