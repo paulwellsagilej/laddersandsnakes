@@ -2,11 +2,11 @@
 <!DOCTYPE xml>
 
 <input>
-	<question level="1.0" key="de9c8922" win="15" tag="General">
+	<question level="1.0" id="de9c8922" win="15" tag="General">
 		<prompt text="Who composed *Beethoven's* fifth symphony?">
 			<snakeFile file="BeethovenFifth.snake" />
 		</prompt>
-		<hint cost="5" action="disable-one" />
+		<hint cost="1" action="disable-one" />
 		<response format="single-pick-to-submit">
 			<button id="676834c6" text="Mozart" />
 			<button id="2eda6c33" text="Beethoven" correct="true" />
@@ -14,13 +14,11 @@
 		</response>
 	</question>
 
-	<question level="1.0" key="0912daa8" win="25" tag="Aural">
+	<question level="1.0" id="0912daa8" win="25" tag="Aural">
 		<prompt text="What can you hear?" requiresTriggerButton="true">
 			<randomizedInterval interval="PerfectOctave" split="false" notes="true" lights="false" />
 		</prompt>
-		<hint cost="5">
-			<randomizedInterval interval="PerfectOctave" split="true" notes="true" lights="true" />
-		</hint>
+		<hint cost="2" text="Listen again."/>
 		<response format="radio-then-submit">
 			<button id="562ab1a7" text="Perfect Octave" correct="true" />
 			<button id="b741fa3d" text="Augmented Fourth" />
@@ -28,9 +26,9 @@
 		</response>
 	</question>
 
-	<question level="1.0" key="09e89b93" win="25" tag="Theory">
+	<question level="1.0" id="09e89b93" win="25" tag="Theory">
 		<prompt text="What is this?" image="trebleClef.png" />
-		<hint cost="10" action="disable-one" />
+		<hint cost="3" action="disable-one" />
 		<response format="radio-then-submit">
 			<button id="93282b8d" text="Treble Clef" correct="true" />
 			<button id="4221179d" text="Bass Clef" />
@@ -38,25 +36,42 @@
 		</response>
 	</question>
 
-	<question level="1.0" key="97b7f8de" win="50" tag="Aural">
+	<question level="1.0" id="97b7f8de" win="50" tag="Aural">
 		<prompt text="Arrange these notes in order of *pitch*, lowest pitch left, highest pitch right." />
-		<hint cost="15" action="solve-one" />
+		<hint cost="4" action="solve-one" />
 		<response format="arrange-then-submit">
-			<button id="" image="quaver.png" correctPosition="2">
+			<button id="8377c0b3" image="quaver.png" correctPosition="2">
 				<singleNote pianoKey="C3" note="true" light="false" />
 			</button>
-			<button id="" image="quaver.png" correctPosition="1">
+			<button id="ff2086c5" image="quaver.png" correctPosition="1">
 				<singleNote pianoKey="G4" note="true" light="false" />
 			</button>
-			<button id="" image="quaver.png" correctPosition="0">
+			<button id="6892b7f3" image="quaver.png" correctPosition="0">
 				<singleNote pianoKey="F2" note="true" light="false" />
 			</button>
 		</response>
 	</question>
-	<question level="1.0" key="f58ab296" win="50" tag="Theory">
+
+	<question level="1.0" id="64c5e40d" win="50" tag="Aural">
+		<prompt text="Arrange these notes in order of length, shortest first, longest last." />
+		<hint cost="5" action="solve-one" />
+		<response format="arrange-then-submit">
+			<button id="009c1567" correctPosition="1">
+				<singleNote pianoKey="C3" note="true" light="false" duration="1000" />
+			</button>
+			<button id="ec421cba" correctPosition="2">
+				<singleNote pianoKey="C3" note="true" light="false" duration= "2000"/>
+			</button>
+			<button id="847f00b7" correctPosition="0">
+				<singleNote pianoKey="C3" note="true" light="false" duration="500" />
+			</button>
+		</response>
+	</question>
+
+	<question level="1.0" id="f58ab296" win="50" tag="Theory">
 		<prompt text="Which of these symbols are *rests*?" />
-		<hint cost="25" action="disable-two" />
-		<response format="combine-then-submit">
+		<hint cost="6" action="disable-two" />
+		<response format="checkboxes-then-submit">
 			<button id="fe7a61fa" image="minimRest.png" correct="true" />
 			<button id="42fcf124" image="quaverRest.png" correct="true" />
 			<button id="bf59e796" image="pause.png" />
@@ -65,21 +80,34 @@
 		</response>
 	</question>
 
-	<question level="1.0" key="f58ab296" win="15" tag="Playing">
+	<question level="1.0" id="f58ab296" win="15" tag="Playing">
 		<prompt text="Play Middle C" />
-		<hint cost="10">
+		<hint cost="7">
 			<singleNote pianoKey="C3" note="true" light="true" />
 		</hint>
 		<response format="play-single-note-to-submit" detectMidi="C3" />
 	</question>
 
-	<question level="1.0" key="a90dd112" win="15" tag="Playing">
+	<question level="1.0" id="a90dd112" win="15" tag="Playing">
 		<prompt text="Play a D" />
-		<hint cost="10" text="D is the white key between two single black keys" />
+		<hint cost="8" text="D is the white key between two single black keys" />
 		<response format="play-single-note-to-submit" detectMidi="C3" />
 	</question>
 
-	<question level="2.0" key="54509f15" win="15" tag="Theory">
+	<question level="1.0" id="30f4e8ee" win="15" tag="Playing">
+		<prompt text="What is this?">
+			<singleNote pianoKey="E3" note="true" light="true" />
+		</prompt>
+		<hint cost="9" action="disable-one" />
+		<response format="radio-then-submit">
+			<button id="26c762ed" text="C" />
+			<button id="14fb340c" text="C#" />
+			<button id="1ad01f46" text="E" correct="true" />
+			<button id="6e86de3b" text="A" />
+		</response>
+	</question>
+
+	<question level="2.0" id="54509f15" win="15" tag="Theory">
 		<prompt text="Which clef is this?" image="bassClef.png" />
 		<hint cost="10" image="bassClefAnnotated.png" />
 		<response format="single-pick-to-submit">
@@ -88,9 +116,28 @@
 		</response>
 	</question>
 
-	<question level="2.0" key="3a204ced" win="100" tag="Playing" timeout="30">
+	<question level="2.0" id="3a204ced" win="100" tag="Playing" timeout="30">
 		<prompt text="Play a C major triad in root position" />
-		<hint cost="20" text="C, E, G" />
+		<hint cost="11" text="C, E, G" />
 		<response format="record-midi-sequence-then-submit" detectMidi="CMajorTriad" />
+	</question>
+	
+	<question level="1.0" id="859b082d" win="25" tag="Aural">
+		<prompt text="Are these notes ascending or descending?">
+			<sequence>
+				<singleNote pianoKey="C3" note="true" light="false"/>
+				<singleNote pianoKey="E3" note="true" light="false"/>
+			</sequence>
+		</prompt>
+		<hint cost="12">
+			<sequence>
+				<singleNote pianoKey="C3" note="true" light="true"/>
+				<singleNote pianoKey="E3" note="true" light="true"/>
+			</sequence>
+		</hint> 
+		<response format="single-pick-to-submit">
+			<button id="0881ac6e" text="Ascending" correct="true" />
+			<button id="ea623acd" text="Descending" />
+		</response>
 	</question>
 </input>
