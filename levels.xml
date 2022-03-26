@@ -3,6 +3,6 @@
 
 <!-- These should be kept manually in height order, highest at the top. Height must be unique -->
 <input>
-	<level name="We are the champions"     height="2.0" icon="2_0.png"/>
-	<level name="We're absolute beginners" height="1.0" icon="1_0.png"/>
+	<level height="2.0" icon="2_0.png" length="20" elongationPercentage="40" name="We are the champions" />
+	<level height="1.0" icon="1_0.png" length="10" elongationPercentage="10" name="We're absolute beginners"/>
 </input>
