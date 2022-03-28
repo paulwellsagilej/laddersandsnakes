@@ -52,6 +52,16 @@
 		</response>
 	</question>
 
+	<question level="1.0" id="43985b63" win="50" category="Theory/Terminology">
+		<prompt text="Which means broken chord?" />
+		<hint cost="4" action="disable-one" />
+		<response format="single-pick-to-submit">
+			<button id="1ebc6920" text="arpeggio" correct="true"/>
+			<button id="cccf322c" text="adagio"/>
+			<button id="5790625a" text="cappuccino"/>
+		</response>
+	</question>
+
 	<question level="1.0" id="64c5e40d" win="50" category="Aural/Rhythm">
 		<prompt text="Arrange these notes in order of length, shortest first, longest last." />
 		<hint cost="5" action="solve-one" />
@@ -135,14 +145,14 @@
 	<question level="1.0" id="859b082d" win="25" category="Aural/Pitch">
 		<prompt text="Are these notes ascending or descending?">
 			<sequence>
-				<singleNote pianoKey="C3" note="true" light="false"/>
-				<singleNote pianoKey="E3" note="true" light="false"/>
+				<singleNote pianoKey="C3" note="true" light="pink"/>
+				<singleNote pianoKey="E3" note="true" light="green"/>
 			</sequence>
 		</prompt>
 		<hint cost="12">
 			<sequence>
-				<singleNote pianoKey="C3" note="true" light="true"/>
-				<singleNote pianoKey="E3" note="true" light="true"/>
+				<singleNote pianoKey="C3" note="true" light="orange"/>
+				<singleNote pianoKey="E3" note="true" light="blue"/>
 			</sequence>
 		</hint> 
 		<response format="single-pick-to-submit">
