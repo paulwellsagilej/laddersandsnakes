@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xml>
 
-<input>
-	<question level="1.0" id="de9c8922" win="15" category="General/History">
+
+<!-- 
+These are the easiest questions. Level 1.0
+ -->
+<level height="1.0">
+
+<!--
+The prompt contains a text question and also plays some notes on the piano.
+The hint disables one incorrect answer making it easier to choose the right answer.
+The response is a choice from three buttons. Only one is correct. 
+ -->
+	<question id="de9c8922" win="15" category="General/History">
 		<prompt text="Who composed Beethoven's fifth symphony?">
 			<snakeFile file="BeethovenFifth.snake" />
 		</prompt>
@@ -14,7 +24,12 @@
 		</response>
 	</question>
 
-	<question level="1.0" id="0912daa8" win="25" category="Aural/Intervals">
+<!-- 
+The prompt just says "what can you hear?" and the game will pick a random octave, eg C3 and C4.
+The hint just plays the notes again.
+The response is a choice from three intervals. Only one is correct. 
+ -->
+	<question id="0912daa8" win="25" category="Aural/Intervals">
 		<prompt text="What can you hear?" requiresTriggerButton="true">
 			<randomizedInterval interval="PerfectOctave" split="false" notes="true" lights="false" />
 		</prompt>
@@ -26,7 +41,12 @@
 		</response>
 	</question>
 
-	<question level="1.0" id="09e89b93" win="25" category="Theory/Notation">
+<!-- 
+The prompt is some text saying "what is this?" and a picture.
+The hint disables one incorrect response.
+The response is a choice of three buttons. Only one is correct. 
+ -->
+	<question id="09e89b93" win="25" category="Theory/Notation">
 		<prompt text="What is this?" image="trebleClef.png" />
 		<hint cost="3" action="disable-one" />
 		<response format="radio-then-submit">
@@ -36,23 +56,35 @@
 		</response>
 	</question>
 
-	<question level="1.0" id="97b7f8de" win="50" category="Aural/Pitch">
+
+<!-- 
+The prompt is just text. 
+The response is three buttons. When you press the button the piano plays a note and shows a light.
+There are three answer spaces. To win you need to press the buttons in the right order. 
+The hint will put one of the buttons in the right place for you.
+ -->
+	<question id="97b7f8de" win="50" category="Aural/Pitch">
 		<prompt text="Arrange these notes in order of pitch, lowest pitch left, highest pitch right." />
 		<hint cost="4" action="solve-one" />
 		<response format="arrange-then-submit">
 			<button id="8377c0b3" image="quaver.png" correctPosition="2">
-				<singleNote pianoKey="C3" note="true" light="false" />
+				<singleNote pianoKey="C3" note="true" color="red" />
 			</button>
 			<button id="ff2086c5" image="quaver.png" correctPosition="1">
-				<singleNote pianoKey="G4" note="true" light="false" />
+				<singleNote pianoKey="G4" note="true" color="green" />
 			</button>
 			<button id="6892b7f3" image="quaver.png" correctPosition="0">
-				<singleNote pianoKey="F2" note="true" light="false" />
+				<singleNote pianoKey="F2" note="true" color="blue" />
 			</button>
 		</response>
 	</question>
 
-	<question level="1.0" id="43985b63" win="50" category="Theory/Terminology">
+<!-- 
+The prompt it just text. 
+The hint disables one wrong answer.
+The response is to press one button with the right answer. Note that the piano and snake are not involved in this question. 
+ -->
+	<question id="43985b63" win="50" category="Theory/Terminology">
 		<prompt text="Which means broken chord?" />
 		<hint cost="4" action="disable-one" />
 		<response format="single-pick-to-submit">
@@ -62,23 +94,33 @@
 		</response>
 	</question>
 
-	<question level="1.0" id="64c5e40d" win="50" category="Aural/Rhythm">
+<!-- 
+The prompt is text.
+The hint will press one of the buttons for you
+The response is to press the buttons in the right order so that the notes increase in length.
+ -->
+	<question id="64c5e40d" win="50" category="Aural/Rhythm">
 		<prompt text="Arrange these notes in order of length, shortest first, longest last." />
 		<hint cost="5" action="solve-one" />
 		<response format="arrange-then-submit">
 			<button id="009c1567" correctPosition="1">
-				<singleNote pianoKey="C3" note="true" light="false" duration="1000" />
+				<singleNote pianoKey="C3" note="true" duration="1000" />
 			</button>
 			<button id="ec421cba" correctPosition="2">
-				<singleNote pianoKey="C3" note="true" light="false" duration= "2000"/>
+				<singleNote pianoKey="C3" note="true" duration= "2000"/>
 			</button>
 			<button id="847f00b7" correctPosition="0">
-				<singleNote pianoKey="C3" note="true" light="false" duration="500" />
+				<singleNote pianoKey="C3" note="true" duration="500" />
 			</button>
 		</response>
 	</question>
 
-	<question level="1.0" id="f58ab296" win="50" category="Theory/Notation">
+<!-- 
+The prompt is text.
+The hint disables two incorrect answers.
+The response is buttons with pictures. Select the two buttons showing pictures of rests.
+ -->
+	<question id="f58ab296" win="50" category="Theory/Notation">
 		<prompt text="Which of these symbols are rests?" />
 		<hint cost="6" action="disable-two" />
 		<response format="checkboxes-then-submit">
@@ -90,23 +132,38 @@
 		</response>
 	</question>
 
-	<question level="1.0" id="f58ab296" win="15" category="Playing/Foundational">
+<!-- 
+The prompt is text only.
+The hint puts a light on the snake.
+The response is a single note.
+ -->
+	<question id="f58ab296" win="15" category="Playing/Foundational">
 		<prompt text="Play Middle C" />
 		<hint cost="7">
-			<singleNote pianoKey="C3" note="true" light="true" />
+			<singleNote pianoKey="C3" note="true" color="red" />
 		</hint>
 		<response format="play-single-note-to-submit" detectMidi="C3" />
 	</question>
 
-	<question level="1.0" id="a90dd112" win="15" category="Playing">
+<!-- 
+The prompt is text.
+The hint is text.
+The response is any D played on the piano
+ -->
+	<question id="a90dd112" win="15" category="Playing">
 		<prompt text="Play a D" />
 		<hint cost="8" text="D is the white key between two single black keys" />
-		<response format="play-single-note-to-submit" detectMidi="C3" />
+		<response format="play-single-note-to-submit" detectMidi="D?" />
 	</question>
 
-	<question level="1.0" id="30f4e8ee" win="15" category="Playing/Foundational">
+<!-- 
+The prompt is text and E3 played on the piano and a green light on the snake by E3.
+The response is just buttons with text naming differen notes.
+The hint disables one incorrect button. 
+ -->
+	<question id="30f4e8ee" win="15" category="Playing/Foundational">
 		<prompt text="What is this?">
-			<singleNote pianoKey="E3" note="true" light="true" />
+			<singleNote pianoKey="E3" note="true" color="green" />
 		</prompt>
 		<hint cost="9" action="disable-one" />
 		<response format="radio-then-submit">
@@ -117,7 +174,12 @@
 		</response>
 	</question>
 
-	<question level="1.0" id="c133fd32" win="15" category="Tech/Piano">
+<!-- 
+The prompt is some text and a picture. 
+The hint disables one incorrect button. 
+The response buttons are just text. 
+ -->
+	<question id="c133fd32" win="15" category="Tech/Piano">
 		<prompt text="What does this pedal do?" image="sustainPedal.png"/>
 		<hint cost="9" action="disable-one" />
 		<response format="single-pick-to-submit">
@@ -126,32 +188,22 @@
 			<button id="bc8fd81f" text="Suspect" />
 		</response>
 	</question>
-
-	<question level="2.0" id="54509f15" win="15" category="Theory/Notation">
-		<prompt text="Which clef is this?" image="bassClef.png" />
-		<hint cost="10" image="bassClefAnnotated.png" />
-		<response format="single-pick-to-submit">
-			<button id="e1e9ba1e" text="The F clef" correct="true" />
-			<button id="08f80331" text="The G clef" />
-		</response>
-	</question>
-
-	<question level="2.0" id="3a204ced" win="100" category="Playing/Chords">
-		<prompt text="Play a C major triad in root position"  timeout="30"/>
-		<hint cost="11" text="C, E, G" />
-		<response format="record-midi-sequence-then-submit" detectMidi="CMajorTriad" />
-	</question>
 	
-	<question level="1.0" id="859b082d" win="25" category="Aural/Pitch">
+<!-- 
+The prompt is text and the piano plays notes. There are no lights.
+The hint plays the piano again but this time shows lights on the snake. 
+The response is just two buttons.
+ -->	
+	<question id="859b082d" win="25" category="Aural/Pitch">
 		<prompt text="Are these notes ascending or descending?">
 			<sequence>
-				<singleNote pianoKey="C3" note="true" light="pink"/>
-				<singleNote pianoKey="E3" note="true" light="green"/>
+				<singleNote pianoKey="C3" note="true"/>
+				<singleNote pianoKey="E3" note="true"/>
 			</sequence>
 		</prompt>
 		<hint cost="12">
 			<sequence>
-				<singleNote pianoKey="C3" note="true" light="orange"/>
+				<singleNote pianoKey="C3" note="true" color="orange"/>
 				<singleNote pianoKey="E3" note="true" light="blue"/>
 			</sequence>
 		</hint> 
@@ -160,4 +212,4 @@
 			<button id="ea623acd" text="Descending" />
 		</response>
 	</question>
-</input>
+</level>
