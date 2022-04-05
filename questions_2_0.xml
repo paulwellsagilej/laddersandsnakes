@@ -3,7 +3,7 @@
 
 <level height="2.0">
 	<question level="2.0" id="54509f15" win="15" category="Theory/Notation">
-		<prompt text="Which clef is this?" image="bassClef.png" />
+		<prompt text="Which clef is this?" s3ImageKey="bassClef.png" />
 		<hint cost="10" image="bassClefAnnotated.png" />
 		<response format="single-pick-to-submit">
 			<button id="e1e9ba1e" text="The F clef" correct="true" />

@@ -14,7 +14,7 @@ The response is a choice from three buttons. Only one is correct.
  -->
 	<question id="de9c8922" win="15" category="General/History">
 		<prompt text="Who composed Beethoven's fifth symphony?">
-			<snakeFile file="BeethovenFifth.snake" />
+			<midiFile file="BeethovenFifth.mid" />
 		</prompt>
 		<hint cost="1" action="disable-one" />
 		<response format="single-pick-to-submit">
@@ -31,7 +31,7 @@ The response is a choice from three intervals. Only one is correct.
  -->
 	<question id="0912daa8" win="25" category="Aural/Intervals">
 		<prompt text="What can you hear?" requiresTriggerButton="true">
-			<randomizedInterval interval="PerfectOctave" split="false" notes="true" lights="false" />
+			<randomizedInterval interval="PerfectOctave" split="false" notes="true" lights="false" id="f7e0e26d"/>
 		</prompt>
 		<hint cost="2" text="Listen again."/>
 		<response format="radio-then-submit">
@@ -47,7 +47,7 @@ The hint disables one incorrect response.
 The response is a choice of three buttons. Only one is correct. 
  -->
 	<question id="09e89b93" win="25" category="Theory/Notation">
-		<prompt text="What is this?" image="trebleClef.png" />
+		<prompt text="What is this?" s3ImageKey="trebleClef.png" />
 		<hint cost="3" action="disable-one" />
 		<response format="radio-then-submit">
 			<button id="93282b8d" text="Treble Clef" correct="true" />
@@ -67,13 +67,13 @@ The hint will put one of the buttons in the right place for you.
 		<prompt text="Arrange these notes in order of pitch, lowest pitch left, highest pitch right." />
 		<hint cost="4" action="solve-one" />
 		<response format="arrange-then-submit">
-			<button id="8377c0b3" image="quaver.png" correctPosition="2">
+			<button id="8377c0b3" s3ImageKey="quaver.png" correctPosition="2">
 				<singleNote pianoKey="C3" note="true" color="red" />
 			</button>
-			<button id="ff2086c5" image="quaver.png" correctPosition="1">
+			<button id="ff2086c5" s3ImageKey="quaver.png" correctPosition="1">
 				<singleNote pianoKey="G4" note="true" color="green" />
 			</button>
-			<button id="6892b7f3" image="quaver.png" correctPosition="0">
+			<button id="6892b7f3" s3ImageKey="quaver.png" correctPosition="0">
 				<singleNote pianoKey="F2" note="true" color="blue" />
 			</button>
 		</response>
@@ -124,11 +124,11 @@ The response is buttons with pictures. Select the two buttons showing pictures o
 		<prompt text="Which of these symbols are rests?" />
 		<hint cost="6" action="disable-two" />
 		<response format="checkboxes-then-submit">
-			<button id="fe7a61fa" image="minimRest.png" correct="true" />
-			<button id="42fcf124" image="quaverRest.png" correct="true" />
-			<button id="bf59e796" image="pause.png" />
-			<button id="e2426c58" image="trebleClef.png" />
-			<button id="4dbf4a33" image="sharp.png" />
+			<button id="fe7a61fa" s3ImageKey="minimRest.png" correct="true" />
+			<button id="42fcf124" s3ImageKey="quaverRest.png" correct="true" />
+			<button id="bf59e796" s3ImageKey="pause.png" />
+			<button id="e2426c58" s3ImageKey="trebleClef.png" />
+			<button id="4dbf4a33" s3ImageKey="sharp.png" />
 		</response>
 	</question>
 
@@ -180,7 +180,7 @@ The hint disables one incorrect button.
 The response buttons are just text. 
  -->
 	<question id="c133fd32" win="15" category="Tech/Piano">
-		<prompt text="What does this pedal do?" image="sustainPedal.png"/>
+		<prompt text="What does this pedal do?" s3ImageKey="sustainPedal.png"/>
 		<hint cost="9" action="disable-one" />
 		<response format="single-pick-to-submit">
 			<button id="b9b04943" text="Suspend" />
