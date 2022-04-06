@@ -16,7 +16,7 @@ The response is a choice from three buttons. Only one is correct.
 		<prompt text="Who composed Beethoven's fifth symphony?">
 			<midiFile file="BeethovenFifth.mid" />
 		</prompt>
-		<hint cost="1" action="disable-one" />
+		<hint cost="1"/>
 		<response format="single-pick-to-submit">
 			<button id="676834c6" text="Mozart" />
 			<button id="2eda6c33" text="Beethoven" correct="true" />
@@ -31,7 +31,7 @@ The response is a choice from three intervals. Only one is correct.
  -->
 	<question id="0912daa8" win="25" category="Aural/Intervals">
 		<prompt text="What can you hear?" requiresTriggerButton="true">
-			<randomizedInterval interval="PerfectOctave" split="false" notes="true" lights="false" id="f7e0e26d"/>
+			<randomizedInterval interval="PerfectOctave" split="false" notes="true" color="false" owerNoteOptions="C, D, G" id="f7e0e26d"/>
 		</prompt>
 		<hint cost="2" text="Listen again."/>
 		<response format="radio-then-submit">
@@ -48,7 +48,7 @@ The response is a choice of three buttons. Only one is correct.
  -->
 	<question id="09e89b93" win="25" category="Theory/Notation">
 		<prompt text="What is this?" s3ImageKey="trebleClef.png" />
-		<hint cost="3" action="disable-one" />
+		<hint cost="3"/>
 		<response format="radio-then-submit">
 			<button id="93282b8d" text="Treble Clef" correct="true" />
 			<button id="4221179d" text="Bass Clef" />
@@ -65,7 +65,7 @@ The hint will put one of the buttons in the right place for you.
  -->
 	<question id="97b7f8de" win="50" category="Aural/Pitch">
 		<prompt text="Arrange these notes in order of pitch, lowest pitch left, highest pitch right." />
-		<hint cost="4" action="solve-one" />
+		<hint cost="4"/>
 		<response format="arrange-then-submit">
 			<button id="8377c0b3" s3ImageKey="quaver.png" correctPosition="2">
 				<singleNote pianoKey="C3" note="true" color="red" />
@@ -86,7 +86,7 @@ The response is to press one button with the right answer. Note that the piano a
  -->
 	<question id="43985b63" win="50" category="Theory/Terminology">
 		<prompt text="Which means broken chord?" />
-		<hint cost="4" action="disable-one" />
+		<hint cost="4"/>
 		<response format="single-pick-to-submit">
 			<button id="1ebc6920" text="arpeggio" correct="true"/>
 			<button id="cccf322c" text="adagio"/>
@@ -101,7 +101,7 @@ The response is to press the buttons in the right order so that the notes increa
  -->
 	<question id="64c5e40d" win="50" category="Aural/Rhythm">
 		<prompt text="Arrange these notes in order of length, shortest first, longest last." />
-		<hint cost="5" action="solve-one" />
+		<hint cost="5"/>
 		<response format="arrange-then-submit">
 			<button id="009c1567" correctPosition="1">
 				<singleNote pianoKey="C3" note="true" duration="1000" />
@@ -122,7 +122,7 @@ The response is buttons with pictures. Select the two buttons showing pictures o
  -->
 	<question id="f58ab296" win="50" category="Theory/Notation">
 		<prompt text="Which of these symbols are rests?" />
-		<hint cost="6" action="disable-two" />
+		<hint cost="6"/>
 		<response format="checkboxes-then-submit">
 			<button id="fe7a61fa" s3ImageKey="minimRest.png" correct="true" />
 			<button id="42fcf124" s3ImageKey="quaverRest.png" correct="true" />
@@ -165,7 +165,7 @@ The hint disables one incorrect button.
 		<prompt text="What is this?">
 			<singleNote pianoKey="E3" note="true" color="green" />
 		</prompt>
-		<hint cost="9" action="disable-one" />
+		<hint cost="9"/>
 		<response format="radio-then-submit">
 			<button id="26c762ed" text="C" />
 			<button id="14fb340c" text="C#" />
@@ -181,7 +181,7 @@ The response buttons are just text.
  -->
 	<question id="c133fd32" win="15" category="Tech/Piano">
 		<prompt text="What does this pedal do?" s3ImageKey="sustainPedal.png"/>
-		<hint cost="9" action="disable-one" />
+		<hint cost="9"/>
 		<response format="single-pick-to-submit">
 			<button id="b9b04943" text="Suspend" />
 			<button id="26bd5771" text="Sustain" correct="true" />
@@ -197,14 +197,14 @@ The response is just two buttons.
 	<question id="859b082d" win="25" category="Aural/Pitch">
 		<prompt text="Are these notes ascending or descending?">
 			<sequence>
-				<singleNote pianoKey="C3" note="true"/>
-				<singleNote pianoKey="E3" note="true"/>
+				<singleNote pianoKey="F#4" delay="500" duration="1000" note="true" color="red"/>
+				<singleNote pianoKey="G#4" delay="1500" duration="1000" note="true" color="red"/>
 			</sequence>
 		</prompt>
 		<hint cost="12">
 			<sequence>
 				<singleNote pianoKey="C3" note="true" color="orange"/>
-				<singleNote pianoKey="E3" note="true" light="blue"/>
+				<singleNote pianoKey="E3" note="true" color="blue"/>
 			</sequence>
 		</hint> 
 		<response format="single-pick-to-submit">
