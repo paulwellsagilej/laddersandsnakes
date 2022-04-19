@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xml>
 
-<level height="2.0">
-	<question id="54509f15" win="15" category="Theory/Notation">
+<level height="2.0" win="25">
+	<question id="54509f15" category="Theory/Notation">
 		<prompt text="Which clef is this?" s3ImageKey="bassClef.png" />
-		<hint cost="10" image="bassClefAnnotated.png" />
+		<hint cost="10" s3ImageKey="bassClefAnnotated.png" />
 		<response format="single-pick-to-submit">
 			<button id="e1e9ba1e" text="The F clef" correct="true" />
 			<button id="08f80331" text="The G clef" />
 		</response>
 	</question>
 
-	<question id="3a204ced" win="100" category="Playing/Chords">
+	<question id="3a204ced" category="Playing/Chords">
 		<prompt text="Play a C major triad in root position"  timeout="30"/>
 		<hint cost="11" text="C, E, G" />
 		<response format="record-midi-sequence-then-submit" detectMidi="CMajorTriad" />
 	</question>
 
-	<question id="a56fbb43" win="100" category="Playing/Reading">
-		<prompt text="Play this" timeout="30" lilypond="\score{{ d'2 e'4 e'b1}}"/>
+	<question id="a56fbb43" category="Playing/Reading">
+		<prompt text="Play this" timeout="30" lilyPond="\score{{ d'2 e'4 e'b1}}"/>
 		<hint cost="11" text="D, E, E, B" />
 		<response format="record-midi-sequence-then-submit" detectMidi="DEEB" />
 	</question>
