@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE xml>
+<level height="2.0" length="12" win="25" hintCost="5">
 
-<level height="2.0" win="25">
 	<question id="54509f15" category="Theory/Notation">
 		<prompt text="Which clef is this?" s3ImageKey="bassClef.png" />
 		<hint cost="10" s3ImageKey="bassClefAnnotated.png" />
@@ -22,4 +22,5 @@
 		<hint cost="11" text="D, E, E, B" />
 		<response format="record-midi-sequence-then-submit" detectMidi="DEEB" />
 	</question>
+	
 </level>
