@@ -74,7 +74,7 @@
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button correct="true" id="d2ccf74a">
-				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'4 e g2&#10;  }&#10;  \midi{}&#10;}" />
+				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'4 e g2&#10;  }&#10;}" />
 			</button>
 			<button id="488a49ff">
 				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'4 g' e2&#10;  }&#10;}" />
