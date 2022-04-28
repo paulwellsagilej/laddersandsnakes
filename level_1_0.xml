@@ -87,6 +87,28 @@
 			<lilyPond id="a33f8bb3" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'4 e g2&#10;  }&#10;  \midi{}&#10;}" />
 		</hint>
 	</question>
+	
+	<question category="Theory/hamony" id="2f5188db">
+        <prompt text="What type of chord is this?">
+            <lilyPond image="true" lights="true" notes="true" script="\version &quot;2.14.1&quot;&#10;\include &quot;english.ly&quot;&#10;&#10;\score {&#10;   \relative c'' {&#10;  &lt;a c e&gt; 1&#10;}&#10;}"/>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="74ea356f" text="Major"/>
+            <button id="bcf089be" text="Minor"/>
+            <button id="f444259f" text="Diminished"/>
+        </response>
+        <hint/>
+    </question>
+    
+    <question category="Playing/intervals" id="7cdd7686">
+        <prompt text="Please play a note one octave above this note.">
+            <lilyPond image="true" script="\version &quot;2.14.1&quot;&#10;\include &quot;english.ly&quot;&#10;&#10;\score {&#10;   \relative c'' {&#10;  a8 |&#10;}&#10;}"/>
+        </prompt>
+        <response detect="\version &quot;2.14.1&quot;&#10;\include &quot;english.ly&quot;&#10;&#10;\score {&#10;   \relative c''' {&#10;  a8 |&#10;}&#10;}" format="play-single-note-to-submit"/>
+        <hint>
+            <lilyPond id="cdb184e9" lights="true" script="\version &quot;2.14.1&quot;&#10;\include &quot;english.ly&quot;&#10;&#10;\score {&#10;   \relative c'' {&#10;  a8 |&#10;}&#10;}"/>
+        </hint>
+    </question>
 
 	<randomizedInterval>
 		<intervals>
