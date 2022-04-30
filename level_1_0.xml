@@ -30,13 +30,13 @@
 		<prompt text="Arrange in ascending order" />
 		<response format="arrange-then-submit">
 			<button correct="true" id="8644a0a1">
-				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;    c' &#10;  }&#10;}" />
+				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'&#10;  }&#10;  \midi{}&#10;  \layout {}&#10;}" />
 			</button>
 			<button correct="true" id="7ff7e3a2">
-				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;    e' &#10;  }&#10;}" />
+				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   e'&#10;  }&#10;  \midi{}&#10;  \layout {}&#10;}" />
 			</button>
 			<button correct="true" id="b1bc3bfe">
-				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;    g' &#10;  }&#10;}" />
+				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   g'&#10;  }&#10;  \midi{}&#10;  \layout {}&#10;}" />
 			</button>
 		</response>
 		<hint />
@@ -110,6 +110,7 @@
         </hint>
     </question>
 
+<!-- 
 	<randomizedInterval>
 		<intervals>
 			<interval name="perfect-octave" />
@@ -125,5 +126,6 @@
 		<hint />
 		<response options="3" text="true" notes="true" split="true" />
 	</randomizedInterval>
+ -->
 
 </level>
