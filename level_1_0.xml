@@ -4,7 +4,7 @@
 <level height="1.0" length="10" win="15" hintCost="3">
 	<question category="General/History" id="1ff1bfee">
 		<prompt text="Who composed Beethoven's fifth symphony?">
-			<lilyPond notes="true" script="\score&#10;{&#10;&#9;&#9;\relative&#10;&#9;&#9;{&#10;&#9;&#9;g' &#10;&#9;&#9;g &#10;&#9;&#9;g &#10;&#9;&#9;\bar &quot;|&quot; ees1&#10;&#9;&#9;}&#10;&#9;\midi{}&#10;&#9;\layout{}&#10;}" />
+			<lilyPond notes="true" template="treble.ly" content="g'16 g g ees2 f16 f f d2" />
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button correct="true" id="f95243c3" text="Beethoven" />
@@ -16,7 +16,7 @@
 
 	<question category="Playing/Reading" id="e00c4484">
 		<prompt text="What is the name of the symbol on the left?">
-			<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  {&#10;    c'&#10;  }&#10;}" />
+			<lilyPond image="true" template="treble.ly" script="c'" />
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button id="ad71a6c0" text="Spaghetti clef" />
@@ -26,33 +26,33 @@
 		<hint />
 	</question>
 
-	<question category="Theory/Pitch" id="50e1bb8d">
-		<prompt text="Arrange in ascending order" />
-		<response format="arrange-then-submit">
-			<button correct="true" id="8644a0a1">
-				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'&#10;  }&#10;  \midi{}&#10;  \layout {}&#10;}" />
+	<question category="Theory/Rests" id="85061bf8">
+		<prompt text="Which of these are rests?" />
+		<response format="checkboxes-then-submit">
+			<button correct="true" id="da24377f">
+				<lilyPond image="true" template="treble.ly" content="r" />
 			</button>
-			<button correct="true" id="7ff7e3a2">
-				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   e'&#10;  }&#10;  \midi{}&#10;  \layout {}&#10;}" />
+			<button correct="true" id="88392a92">
+				<lilyPond image="true" template="treble.ly" content="r2" />
 			</button>
-			<button correct="true" id="b1bc3bfe">
-				<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   g'&#10;  }&#10;  \midi{}&#10;  \layout {}&#10;}" />
+			<button id="f50e95e4">
+				<lilyPond image="true" template="treble.ly" content="c'" />
 			</button>
 		</response>
 		<hint />
 	</question>
 
-	<question category="Theory/Rests" id="85061bf8">
-		<prompt text="Which of these are rests?" />
-		<response format="checkboxes-then-submit">
-			<button correct="true" id="da24377f">
-				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;    \omit Clef&#10;  }&#10;  \relative&#10;  {&#10;    r&#10;  }&#10;}" />
+	<question category="Theory/Pitch" id="50e1bb8d">
+		<prompt text="Arrange in ascending order" />
+		<response format="arrange-then-submit">
+			<button correct="true" id="8644a0a1">
+				<lilyPond image="true" lights="true" notes="true" template="treble.ly" content="c'" />
 			</button>
-			<button correct="true" id="88392a92">
-				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;    \omit Clef&#10;  }&#10;  \relative&#10;  {&#10;    r2&#10;  }&#10;}" />
+			<button correct="true" id="7ff7e3a2">
+				<lilyPond image="true" lights="true" notes="true" template="treble.ly" content="e'" />
 			</button>
-			<button id="f50e95e4">
-				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;    \omit Clef&#10;  }&#10;  \relative&#10;  {&#10;    c'2&#10;  }&#10;}" />
+			<button correct="true" id="b1bc3bfe">
+				<lilyPond image="true" lights="true" notes="true" template="treble.ly" content="g'" />
 			</button>
 		</response>
 		<hint />
@@ -60,37 +60,37 @@
 
 	<question category="Playing/Reading" id="deffd2d5">
 		<prompt text="Play this note">
-			<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   f'2&#10;  }&#10;  \midi{}&#10;}" />
+			<lilyPond image="true" template="treble.ly" content="f'" />
 		</prompt>
 		<response detect="f" format="play-single-note-to-submit" />
 		<hint>
-			<lilyPond id="56c02f8c" lights="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   f'2&#10;  }&#10;  \midi{}&#10;}" />
+			<lilyPond lights="true" template="treble.ly" content="f'" />
 		</hint>
 	</question>
 
 	<question category="Aural/identify" id="51faf43a">
 		<prompt text="What can you hear?">
-			<lilyPond notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'4 e g2&#10;  }&#10;  \midi{}&#10;}" />
+			<lilyPond notes="true" template="treble.ly" content="c'4 e g2" />
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button correct="true" id="d2ccf74a">
-				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'4 e g2&#10;  }&#10;}" />
+				<lilyPond image="true" template="treble.ly" content="c'4 e g" />
 			</button>
 			<button id="488a49ff">
-				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'4 g' e2&#10;  }&#10;}" />
+				<lilyPond image="true" template="treble.ly" content="c'4 g'" />
 			</button>
 			<button id="1c1f1639">
-				<lilyPond image="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   g'4 g e2&#10;  }&#10;}" />
+				<lilyPond image="true" template="treble.ly" content="g'4 g e" />
 			</button>
 		</response>
 		<hint>
-			<lilyPond id="a33f8bb3" lights="true" notes="true" script="\version &quot;2.20.0&quot;&#10;\score{&#10;  \new Staff &#10;  \with { &#10;    \omit TimeSignature &#10;  }&#10;  \relative&#10;  {&#10;   c'4 e g2&#10;  }&#10;  \midi{}&#10;}" />
+			<lilyPond notes="true" lights="true" template="treble.ly" content="c'4 e g2"  />
 		</hint>
 	</question>
 
 	<question category="Theory/hamony" id="2f5188db">
 		<prompt text="What type of chord is this?">
-			<lilyPond image="true" lights="true" notes="true" script="\version &quot;2.14.1&quot;&#10;\include &quot;english.ly&quot;&#10;&#10;\score {&#10;   \relative c'' {&#10;  &lt;a c e&gt; 1&#10;}&#10;}" />
+			<lilyPond image="true" lights="true" notes="true" template="treble.ly" content="&lt;c'e g&gt;" />
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button correct="true" id="74ea356f" text="Major" />
@@ -101,12 +101,12 @@
 	</question>
 
 	<question category="Playing/intervals" id="7cdd7686">
-		<prompt text="Please play a note one octave above this note.">
-			<lilyPond image="true" script="\version &quot;2.14.1&quot;&#10;\include &quot;english.ly&quot;&#10;&#10;\score {&#10;   \relative c'' {&#10;  a8 |&#10;}&#10;}" />
+		<prompt text="Play a note one octave above this note.">
+			<lilyPond image="true" template="treble.ly" content="c'" />
 		</prompt>
-		<response detect="\version &quot;2.14.1&quot;&#10;\include &quot;english.ly&quot;&#10;&#10;\score {&#10;   \relative c''' {&#10;  a8 |&#10;}&#10;}" format="play-single-note-to-submit" />
+		<response detect="c''" format="play-single-note-to-submit" />
 		<hint>
-			<lilyPond id="cdb184e9" lights="true" script="\version &quot;2.14.1&quot;&#10;\include &quot;english.ly&quot;&#10;&#10;\score {&#10;   \relative c'' {&#10;  a8 |&#10;}&#10;}" />
+			<lilyPond id="cdb184e9" lights="true" image="true" content="c''" />
 		</hint>
 	</question>
 
