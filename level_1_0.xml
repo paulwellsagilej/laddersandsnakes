@@ -4,7 +4,9 @@
 <level height="1.0" length="10" win="15" hintCost="3">
 	<question category="General/History" id="1ff1bfee">
 		<prompt text="Who composed Beethoven's fifth symphony?">
-			<lilyPond notes="true" template="treble.ly" content="g'16 g g ees2 f16 f f d2" />
+			<lilyPond notes="true" template="treble.ly">
+				<insert content="g'16 g g ees2 f16 f f d2" />
+			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button correct="true" id="f95243c3" text="Beethoven" />
@@ -14,9 +16,26 @@
 		<hint />
 	</question>
 
+	<question category="Theory/notes" id="b25bd3a2">
+		<prompt text="A period in the music when we play no notes is called a..." >
+			<lilyPond notes="true" template="stave.ly">
+				<insert content="r2 r4 r8 r8" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="589e721e" text="rest" />
+			<button id="a1eb1f1f" text="break" />
+			<button id="2b433936" text="pause" />
+			<button id="1043c753" text="holiday" />
+		</response>
+		<hint />
+	</question>
+
 	<question category="Playing/Reading" id="e00c4484">
 		<prompt text="What is the name of the symbol on the left?">
-			<lilyPond image="true" template="treble.ly" script="c'" />
+			<lilyPond image="true" template="treble.ly">
+				<insert content="c'" />
+			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button id="ad71a6c0" text="Spaghetti clef" />
@@ -30,29 +49,46 @@
 		<prompt text="Which of these are rests?" />
 		<response format="checkboxes-then-submit">
 			<button correct="true" id="da24377f">
-				<lilyPond image="true" template="treble.ly" content="r" />
+				<lilyPond image="true" template="treble.ly">
+					<insert content="r4" />
+					<insert content="r8" />
+				</lilyPond>
 			</button>
 			<button correct="true" id="88392a92">
-				<lilyPond image="true" template="treble.ly" content="r2" />
+				<lilyPond image="true" template="treble.ly">
+					<insert content="r1" />
+					<insert content="r2" />
+				</lilyPond>
 			</button>
 			<button id="f50e95e4">
-				<lilyPond image="true" template="treble.ly" content="c'" />
+				<lilyPond image="true" template="treble.ly">
+					<insert content="c'1" />
+					<insert content="c'2" />
+					<insert content="c'4" />
+					<insert content="c'8" />
+				</lilyPond>
 			</button>
 		</response>
 		<hint />
 	</question>
 
 	<question category="Theory/Pitch" id="50e1bb8d">
-		<prompt text="Arrange in ascending order" />
+		<prompt text="Arrange these notes in ascending order" />
 		<response format="arrange-then-submit">
 			<button correct="true" id="8644a0a1">
-				<lilyPond image="true" lights="true" notes="true" template="treble.ly" content="c'" />
+				<lilyPond image="true" lights="true" notes="true" template="treble.ly">
+					<insert content="c'" />
+				</lilyPond>
 			</button>
 			<button correct="true" id="7ff7e3a2">
-				<lilyPond image="true" lights="true" notes="true" template="treble.ly" content="e'" />
+				<lilyPond image="true" lights="true" notes="true" template="treble.ly">
+					<insert content="e'" />
+				</lilyPond>
 			</button>
 			<button correct="true" id="b1bc3bfe">
-				<lilyPond image="true" lights="true" notes="true" template="treble.ly" content="g'" />
+				<lilyPond image="true" lights="true" notes="true" template="treble.ly">
+					<insert content="g'" />
+				</lilyPond>
 			</button>
 		</response>
 		<hint />
@@ -60,37 +96,53 @@
 
 	<question category="Playing/Reading" id="deffd2d5">
 		<prompt text="Play this note">
-			<lilyPond image="true" template="treble.ly" content="f'" />
+			<lilyPond image="true" template="treble.ly">
+				<insert content="f'" />
+			</lilyPond>
 		</prompt>
 		<response detect="f" format="play-single-note-to-submit" />
 		<hint>
-			<lilyPond lights="true" template="treble.ly" content="f'" />
+			<lilyPond lights="true" template="treble.ly">
+				<insert content="f'" />
+			</lilyPond>
 		</hint>
 	</question>
 
 	<question category="Aural/identify" id="51faf43a">
 		<prompt text="What can you hear?">
-			<lilyPond notes="true" template="treble.ly" content="c'4 e g2" />
+			<lilyPond notes="true" template="treble.ly">
+				<insert content="c'4 e g2" />
+			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button correct="true" id="d2ccf74a">
-				<lilyPond image="true" template="treble.ly" content="c'4 e g" />
+				<lilyPond image="true" template="treble.ly">
+					<insert content="c'4 e g" />
+				</lilyPond>
 			</button>
 			<button id="488a49ff">
-				<lilyPond image="true" template="treble.ly" content="c'4 g'" />
+				<lilyPond image="true" template="treble.ly">
+					<insert content="c'4 g'" />
+				</lilyPond>
 			</button>
 			<button id="1c1f1639">
-				<lilyPond image="true" template="treble.ly" content="g'4 g e" />
+				<lilyPond image="true" template="treble.ly">
+					<insert content="g'4 g e" />
+				</lilyPond>
 			</button>
 		</response>
 		<hint>
-			<lilyPond notes="true" lights="true" template="treble.ly" content="c'4 e g2"  />
+			<lilyPond notes="true" lights="true" template="treble.ly">
+				<insert content="c'4 e g2" />
+			</lilyPond>
 		</hint>
 	</question>
 
 	<question category="Theory/hamony" id="2f5188db">
 		<prompt text="What type of chord is this?">
-			<lilyPond image="true" lights="true" notes="true" template="treble.ly" content="&lt;c'e g&gt;" />
+			<lilyPond image="true" lights="true" notes="true" template="treble.ly">
+				<insert content="&lt;c'e g&gt;" />
+			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button correct="true" id="74ea356f" text="Major" />
@@ -102,11 +154,15 @@
 
 	<question category="Playing/intervals" id="7cdd7686">
 		<prompt text="Play a note one octave above this note.">
-			<lilyPond image="true" template="treble.ly" content="c'" />
+			<lilyPond image="true" template="treble.ly">
+				<insert content="c'" />
+			</lilyPond>
 		</prompt>
 		<response detect="c''" format="play-single-note-to-submit" />
 		<hint>
-			<lilyPond id="cdb184e9" lights="true" image="true" content="c''" />
+			<lilyPond id="cdb184e9" lights="true" image="true" template="treble.ly">
+				<insert content="c''" />
+			</lilyPond>
 		</hint>
 	</question>
 
