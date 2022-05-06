@@ -2,11 +2,14 @@
 \score{
   \new Staff 
   \with { 
-    \omit TimeSignature 
+    $omitClef
+    $omitTimeSignature 
   }
   \relative
   {
-    $content
+  	$clef
+  	$timeSignature
+   	$content
   }
   \layout{}
   \midi{}
