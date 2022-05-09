@@ -7,7 +7,7 @@
 
 	<question category="General" id="1ff1bfee">
 		<prompt text="Who composed Beethoven's fifth symphony?">
-			<lilyPond notes="true" template="singlestave.ly" clef="treble">
+			<lilyPond notes="true" image="true" lights="true" template="singlestave.ly" clef="treble">
 				<insert content="g'16 g g ees2 f16 f f d2" />
 			</lilyPond>
 		</prompt>
@@ -22,7 +22,7 @@
 	<question category="General" id="2398a979">
 		<prompt text="Whose national anthem is this?">
 			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
-				<insert script="f' f g \bar &quot;|&quot; e4. f8 g4" />
+				<insert content="f' f g \bar &quot;|&quot; e4. f8 g4" />
 			</lilyPond> 
 		</prompt>
 		<response format="single-pick-to-submit">
@@ -36,7 +36,7 @@
     <question category="General" id="aa46ce2a">
         <prompt text="Whose national anthem is this?">
             <lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert script="g'4. e8 \bar “|” c e g c"/>
+                <insert content="g'4. e8 \bar “|” c e g c"/>
             </lilyPond>
         </prompt>
         <response format="single-pick-to-submit">
@@ -80,7 +80,7 @@
 
 	<question category="Theory" id="b3ff356b">
 		<prompt text="Three notes stacked like this is called">
-			<lilyPond image="true" template="singlestave.ly">
+			<lilyPond image="true" template="singlestave.ly" clef="treble">
 				<insert content="&lt;e' g b&gt;1" />
 			</lilyPond>
 		</prompt>
@@ -185,7 +185,9 @@
 	
 	<question category="Theory" id="8cdaed79">
         <prompt text="What do these notes spell?">
-            <lilyPond image="true" lights="true" notes="true" script="c'' a b b a g e2"/>
+            <lilyPond image="true" lights="true" notes="true" template="singlestave.ly" cleaf="treble">
+            	<insert content="c'' a b b a g e2"/>
+            </lilyPond>
         </prompt>
         <response format="single-pick-to-submit">
             <button correct="true" id="61874723" text="Cabbage"/>
@@ -270,8 +272,8 @@
 
 	<question category="Aural" id="c0c70826">
 		<prompt text="Which interval is this?">
-			<lilyPond image="true" lights="true" notes="true">
-				<insert content="c' c''" />
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="c' c'" />
 			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
