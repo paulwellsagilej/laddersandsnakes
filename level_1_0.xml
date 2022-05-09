@@ -21,7 +21,9 @@
 
 	<question category="General" id="2398a979">
 		<prompt text="Whose national anthem is this?">
-			<lilyPond image="true" lights="true" notes="true" script="f' f g e4. f8 g4" />
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert script="f' f g \bar &quot;|&quot; e4. f8 g4" />
+			</lilyPond> 
 		</prompt>
 		<response format="single-pick-to-submit">
 			<button correct="true" id="fc2f54b6" text="Britain" />
@@ -31,6 +33,20 @@
 		<hint />
 	</question>
 
+    <question category="General" id="aa46ce2a">
+        <prompt text="Whose national anthem is this?">
+            <lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+                <insert script="g'4. e8 \bar “|” c e g c"/>
+            </lilyPond>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="42a5bc9e" text="USA"/>
+            <button id="c3d09f4f" text="Canada"/>
+            <button id="ee925134" text="Germany"/>
+        </response>
+        <hint/>
+    </question>
+    
 	<!-- Theory -->
 
 	<question category="Theory" id="b25bd3a2">
@@ -166,6 +182,18 @@
 		</response>
 		<hint />
 	</question>
+	
+	<question category="Theory" id="8cdaed79">
+        <prompt text="What do these notes spell?">
+            <lilyPond image="true" lights="true" notes="true" script="c'' a b b a g e2"/>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="61874723" text="Cabbage"/>
+            <button id="75b1c204" text="Cauliflower"/>
+            <button id="ceaeddf6" text="Broccoli"/>
+        </response>
+        <hint text="Notes are named using only letters A to G"/>
+    </question>
 
 	<!-- Aural -->
 
@@ -256,6 +284,7 @@
 
 	<!-- Reading -->
 
+<!-- 
 	<question category="Reading" id="deffd2d5">
 		<prompt text="Play this note">
 			<lilyPond image="true" template="singlestave.ly" clef="treble">
@@ -269,9 +298,11 @@
 			</lilyPond>
 		</hint>
 	</question>
+ -->
 
 	<!-- Playing -->
 
+<!-- 
 	<question category="Playing" id="aee143f1">
 		<prompt text="Play these notes: C D E" />
 		<response detect="cde" format="record-midi-sequence-then-submit" />
@@ -291,5 +322,6 @@
 			</lilyPond>
 		</hint>
 	</question>
+ -->
 
 </level>
