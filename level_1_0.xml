@@ -49,7 +49,21 @@
     
 	<!-- Theory -->
 
-	<question category="Theory" id="b25bd3a2">
+    <question category="Theory" id="7c6a9cc7">
+        <prompt text="The five lines (and four spaces) on which we write music is called a...">
+            <lilyPond image="true" template="singlestave.ly">
+                <insert script="b'1"/>
+            </lilyPond>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="99a77bda" text="Stave"/>
+            <button id="ac23af28" text="Stove"/>
+            <button id="8adf71a9" text="Steve"/>
+        </response>
+        <hint/>
+    </question>
+    
+    <question category="Theory" id="b25bd3a2">
 		<prompt text="A gap in the music while we play no notes is called a...">
 			<lilyPond notes="true" template="singlestave.ly">
 				<insert content="r2 r4 r8 r8" />
@@ -193,6 +207,20 @@
             <button correct="true" id="61874723" text="Cabbage"/>
             <button id="75b1c204" text="Cauliflower"/>
             <button id="ceaeddf6" text="Broccoli"/>
+        </response>
+        <hint text="Notes are named using only letters A to G"/>
+    </question>
+    
+    <question category="Theory" id="97cb317d">
+        <prompt text="What do these notes spell?">
+            <lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+                <insert script="f' a c e"/>
+            </lilyPond>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="cfdb4434" text="Face"/>
+            <button id="8337ffee" text="Hand"/>
+            <button id="243c77f2" text="Foot"/>
         </response>
         <hint text="Notes are named using only letters A to G"/>
     </question>
