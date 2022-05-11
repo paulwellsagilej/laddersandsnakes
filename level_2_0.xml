@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 <level height="2.0" length="12" win="20" hintCost="6">
-    <question category="Theory/random" id="ccc9cb28">
-        <prompt text="Which major scale has one more sharp than A major?"/>
-        <response format="single-pick-to-submit">
-            <button correct="true" id="cfe9c2ac" text="E Major"/>
-            <button id="efdc68f2" text="D Major"/>
-            <button id="c503f18b" text="B Major"/>
-        </response>
-        <hint text="A fifth above A"/>
-    </question>
+	<question category="Theory" id="ccc9cb28">
+		<prompt text="Which major scale has one more sharp than A major?" />
+		<response format="single-pick-to-submit">
+			<button correct="true" id="cfe9c2ac" text="E Major" />
+			<button id="efdc68f2" text="D Major" />
+			<button id="c503f18b" text="B Major" />
+		</response>
+		<hint text="A fifth above A" />
+	</question>
+
+	<question category="Theory" id="b58f1fe6">
+		<prompt text="Notes in an incomplete bar before the first bar line are called...">
+			<lilyPond clef="treble" image="true" template="singlestave.ly">
+				<insert content="\partial 4 g'8 a  b4 c d e" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="fe480589" text="Anacrusis" />
+			<button id="64a16391" text="Anaconda" />
+			<button id="6bac5ee8" text="Analgesic" />
+		</response>
+		<hint />
+	</question>
 </level>
