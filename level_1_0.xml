@@ -8,7 +8,7 @@
 	<question category="General" id="1ff1bfee">
 		<prompt text="Who composed Beethoven's fifth symphony?">
 			<lilyPond notes="true" image="true" lights="true" template="singlestave.ly" clef="treble">
-				<insert content="g'16 g g ees2 f16 f f d2" />
+				<insert content="g'8 g g ees2 r8 f f f d2" />
 			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
@@ -19,53 +19,81 @@
 		<hint />
 	</question>
 
-	<question category="General" id="2398a979">
-		<prompt text="Whose national anthem is this?">
-			<lilyPond image="true" lights="true" notes="true" clef="treble" template="singlestave.ly">
-				<insert content="f' f g \bar &quot;|&quot; e4. f8 g4" />
-			</lilyPond> 
+	<question category="General" id="81a5855e">
+		<prompt text="Who composed Jesu, Joy of Man's Desiring?">
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="r8 g' a b d c \bar &quot;|&quot; c e d d g fis" />
+			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
-			<button correct="true" id="fc2f54b6" text="Britain" />
-			<button id="aa965daf" text="France" />
-			<button id="d1660e82" text="USA" />
-			<button id="fc5d34cd" text="Germany" />
+			<button correct="true" id="16352678" text="JS Bach" />
+			<button id="b8458816" text="Mozart" />
+			<button id="572adf8b" text="Beethoven" />
+		</response>
+		<hint />
+	</question>
+	
+	<question category="General" id="b5ce0c31">
+        <prompt text="Who composed Mozart's Piano Sonata No 11 in A major?">
+            <lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+                <insert content="cis''8. d16 cis8 e4 e8 b8. cis16 b8 d4 d8"/>
+            </lilyPond>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="7f06a614" text="Mozart"/>
+            <button id="58805ba3" text="Bach"/>
+            <button id="4c05d4a3" text="Beethoven"/>
+        </response>
+        <hint/>
+    </question>
+
+    <question category="General" id="22ceaef5">
+        <prompt text="Whose national anthem is this?">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
+                <insert content="f' f g  e4. f8 g4"/>
+            </lilyPond>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="e12a3843" text="Britain"/>
+            <button id="86c30b56" text="France"/>
+            <button id="3585c2ff" text="Germany"/>
+            <button id="6af79b69" text="USA"/>
+        </response>
+        <hint/>
+    </question>
+
+	<question category="General" id="aa46ce2a">
+		<prompt text="Whose national anthem is this?">
+			<lilyPond image="true" lights="true" notes="true" clef="treble" template="singlestave.ly">
+				<insert content="g'8. e16 \bar “|” c8 e g c2" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="42a5bc9e" text="USA" />
+			<button id="c3d09f4f" text="Canada" />
+			<button id="ee925134" text="Germany" />
+			<button id="a2819e90" text="France" />
 		</response>
 		<hint />
 	</question>
 
-    <question category="General" id="aa46ce2a">
-        <prompt text="Whose national anthem is this?">
-            <lilyPond image="true" lights="true" notes="true" clef="treble" template="singlestave.ly">
-                <insert content="g'4. e8 \bar “|” c e g c"/>
-            </lilyPond>
-        </prompt>
-        <response format="single-pick-to-submit">
-            <button correct="true" id="42a5bc9e" text="USA"/>
-            <button id="c3d09f4f" text="Canada"/>
-            <button id="ee925134" text="Germany"/>
-            <button id="a2819e90" text="France"/>
-        </response>
-        <hint/>
-    </question>
-    
 	<!-- Theory -->
 
-    <question category="Theory" id="e7d15262">
-        <prompt text="The five lines (and four spaces) on which we write music is called a...">
-            <lilyPond image="true" template="singlestave.ly">
-                <insert content="b'1"/>
-            </lilyPond>
-        </prompt>
-        <response format="single-pick-to-submit">
-            <button correct="true" id="f03d5d05" text="Stave"/>
-            <button id="6f7559ff" text="Stove"/>
-            <button id="a0077c38" text="Steve"/>
-        </response>
-        <hint/>
-    </question>
-    
-    <question category="Theory" id="b25bd3a2">
+	<question category="Theory" id="e7d15262">
+		<prompt text="The five lines (and four spaces) on which we write music is called a...">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="b'1" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="f03d5d05" text="Stave" />
+			<button id="6f7559ff" text="Stove" />
+			<button id="a0077c38" text="Steve" />
+		</response>
+		<hint />
+	</question>
+
+	<question category="Theory" id="b25bd3a2">
 		<prompt text="A gap in the music while we play no notes is called a...">
 			<lilyPond notes="true" template="singlestave.ly">
 				<insert content="r2 r4 r8 r8" />
@@ -95,7 +123,7 @@
 	</question>
 
 	<question category="Theory" id="b3ff356b">
-		<prompt text="Three notes stacked like this is called">
+		<prompt text="Three notes stacked like this is called a...">
 			<lilyPond image="true" template="singlestave.ly" clef="treble">
 				<insert content="&lt;e' g b&gt;1" />
 			</lilyPond>
@@ -104,6 +132,7 @@
 			<button correct="true" id="be64cc91" text="Triad" />
 			<button id="d20d09bd" text="Trident" />
 			<button id="2c3a903f" text="Trifle" />
+			<button id="2ef886a9" text="Tripod" />
 		</response>
 		<hint />
 	</question>
@@ -114,6 +143,7 @@
 			<button correct="true" id="86a6819d" text="Interval" />
 			<button id="c0131c98" text="Interlude" />
 			<button id="75e6bd8b" text="Interchange" />
+			<button id="84970737" text="Intersection" />
 		</response>
 		<hint />
 	</question>
@@ -151,15 +181,42 @@
 			<button correct="true" id="8644a0a1">
 				<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
 					<insert content="c'" />
+					<insert content="d'" />
 				</lilyPond>
 			</button>
 			<button correct="true" id="7ff7e3a2">
 				<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-					<insert content="e'" />
+					<insert content="f'" />
+					<insert content="g'" />
 				</lilyPond>
 			</button>
 			<button correct="true" id="b1bc3bfe">
 				<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
+					<insert content="c''" />
+					<insert content="d''" />
+				</lilyPond>
+			</button>
+		</response>
+		<hint />
+	</question>
+
+	<question category="Theory" id="d55b5e9a">
+		<prompt text="Arrange these notes in descending order" />
+		<response format="arrange-then-submit">
+			<button correct="true" id="f8e9188d">
+				<lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+					<insert content="f''" />
+					<insert content="e''" />
+				</lilyPond>
+			</button>
+			<button correct="true" id="20312df6">
+				<lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+					<insert content="c''" />
+				</lilyPond>
+			</button>
+			<button correct="true" id="c2f93cc3">
+				<lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+					<insert content="f'" />
 					<insert content="g'" />
 				</lilyPond>
 			</button>
@@ -198,34 +255,34 @@
 		</response>
 		<hint />
 	</question>
-	
+
 	<question category="Theory" id="8cdaed79">
-        <prompt text="What do these notes spell?">
-            <lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-            	<insert content="c'' a b b a g e2"/>
-            </lilyPond>
-        </prompt>
-        <response format="single-pick-to-submit">
-            <button correct="true" id="61874723" text="Cabbage"/>
-            <button id="75b1c204" text="Cauliflower"/>
-            <button id="ceaeddf6" text="Broccoli"/>
-        </response>
-        <hint text="Notes are named using only letters A to G"/>
-    </question>
-    
-    <question category="Theory" id="97cb317d">
-        <prompt text="What do these notes spell?">
-            <lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-                <insert content="f' a c e"/>
-            </lilyPond>
-        </prompt>
-        <response format="single-pick-to-submit">
-            <button correct="true" id="cfdb4434" text="Face"/>
-            <button id="8337ffee" text="Hand"/>
-            <button id="243c77f2" text="Foot"/>
-        </response>
-        <hint text="Notes are named using only letters A to G"/>
-    </question>
+		<prompt text="What do these notes spell?">
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
+				<insert content="c'' a b b a g e2" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="61874723" text="Cabbage" />
+			<button id="75b1c204" text="Cauliflower" />
+			<button id="ceaeddf6" text="Broccoli" />
+		</response>
+		<hint text="Notes are named using only letters A to G" />
+	</question>
+
+	<question category="Theory" id="97cb317d">
+		<prompt text="What do these notes spell?">
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
+				<insert content="f' a c e" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="cfdb4434" text="Face" />
+			<button id="8337ffee" text="Hand" />
+			<button id="243c77f2" text="Foot" />
+		</response>
+		<hint text="Notes are named using only letters A to G" />
+	</question>
 
 	<!-- Aural -->
 
