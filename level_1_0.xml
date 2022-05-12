@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<level height="1.0" length="10" win="15" hintCost="3">
+<level height="1.0" length="10" win="15" hintCost="3" completion="500">
 
 	<!-- General -->
 

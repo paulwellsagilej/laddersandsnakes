@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
-<level height="2.0" length="12" win="20" hintCost="6">
+<level height="2.0" length="12" win="20" hintCost="6" completion="500">
+
+	<question category="General" id="3dae4bdf">
+		<prompt text="Who composed Air from Handel's Water Music?">
+			<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="a' 8. c16 f,8. a16 g2" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="9e50982c" text="GF Handel" />
+			<button id="fd671430" text="JS Bach" />
+			<button id="bbc22cb5" text="Mozart" />
+		</response>
+		<hint />
+	</question>
+
+	<question category="General" id="833da3f9">
+		<prompt text="Who composed Clair de Lune?">
+			<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;fis' a&gt;8 &lt;fis' a&gt;2 &lt;d fis&gt; &lt;g, bes&gt;8 &lt;cis e&gt; &lt;d fis&gt; &lt;cis e&gt;2" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="a83b97a5" text="Debussy" />
+			<button id="f6a3be17" text="Strauss" />
+			<button id="806b400f" text="Chopin" />
+		</response>
+		<hint />
+	</question>
+	
 	<question category="Theory" id="ccc9cb28">
 		<prompt text="Which major scale has one more sharp than A major?" />
 		<response format="single-pick-to-submit">
@@ -24,4 +53,96 @@
 		</response>
 		<hint />
 	</question>
+
+	<question category="Theory" id="ede6a16b">
+		<prompt text="Put these notes in order, longest first" />
+		<response format="arrange-then-submit">
+			<button correct="true" id="1894847c">
+				<lilyPond image="true" template="singlestave.ly">
+					<insert content="b'1" />
+				</lilyPond>
+			</button>
+			<button correct="true" id="5b49edda">
+				<lilyPond image="true" template="singlestave.ly">
+					<insert content="b'2" />
+				</lilyPond>
+			</button>
+			<button correct="true" id="e7ebbda5">
+				<lilyPond image="true" template="singlestave.ly">
+					<insert content="b'4" />
+				</lilyPond>
+			</button>
+			<button correct="true" id="565af3f0">
+				<lilyPond image="true" template="singlestave.ly">
+					<insert content="b'8" />
+				</lilyPond>
+			</button>
+		</response>
+		<hint />
+	</question>
+
+    <question category="Theory" id="9b6ae95e">
+        <prompt text="Put these rests in order, longest first"/>
+        <response format="arrange-then-submit">
+            <button correct="true" id="cd85dd5d">
+                <lilyPond image="true" template="singlestave.ly">
+                    <insert content="r1"/>
+                </lilyPond>
+            </button>
+            <button correct="true" id="b2dde3d1">
+                <lilyPond image="true" template="singlestave.ly">
+                    <insert content="r2"/>
+                </lilyPond>
+            </button>
+            <button correct="true" id="6bcdda4d">
+                <lilyPond image="true" template="singlestave.ly">
+                    <insert content="r4"/>
+                </lilyPond>
+            </button>
+            <button correct="true" id="97f7932b">
+                <lilyPond image="true" template="singlestave.ly">
+                    <insert content="r8"/>
+                </lilyPond>
+            </button>
+        </response>
+        <hint/>
+    </question>
+    
+    <question category="Aural" id="d9b21b65">
+        <prompt text="Which are major triads?"/>
+        <response format="checkboxes-then-submit">
+            <button correct="true" id="6e6ed3ff">
+                <lilyPond clef="treble" id="3949394d" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;c' e g&gt;"/>
+                </lilyPond>
+            </button>
+            <button correct="true" id="564764f7">
+                <lilyPond clef="treble" id="6ff921f0" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;f' a c&gt;"/>
+                </lilyPond>
+            </button>
+            <button correct="true" id="d6e79f13">
+                <lilyPond clef="treble" id="af644b61" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;g' a c&gt;"/>
+                </lilyPond>
+            </button>
+            <button id="455e94b4">
+                <lilyPond clef="treble" id="f910b849" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;d' f a&gt;"/>
+                </lilyPond>
+            </button>
+            <button id="6b80cd46">
+                <lilyPond clef="treble" id="1a5d744e" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;e' g b&gt;"/>
+                </lilyPond>
+            </button>
+            <button id="cdc3f74c">
+                <lilyPond clef="treble" id="f199743c" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;a' c e&gt;"/>
+                </lilyPond>
+            </button>
+        </response>
+        <hint text="Is the middle note nearer the highest note?"/>
+    </question>
+    
 </level>
