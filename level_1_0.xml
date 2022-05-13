@@ -19,19 +19,19 @@
 		<hint />
 	</question>
 
-	<question category="General" id="81a5855e">
-		<prompt text="Who composed Jesu, Joy of Man's Desiring?">
-			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
-				<insert content="\tuplet 3/2 {r8 g' a } \tuplet 3/2 {b d c} \tuplet 3/2 {c e d} \tuplet 3/2 {d g fis}" />
-			</lilyPond>
-		</prompt>
-		<response format="single-pick-to-submit">
-			<button correct="true" id="16352678" text="JS Bach" />
-			<button id="b8458816" text="Mozart" />
-			<button id="572adf8b" text="Beethoven" />
-		</response>
-		<hint />
-	</question>
+    <question category="General" id="4adb460e">
+        <prompt text="Who composed Bach's Orchestral Suite No. 3 in D major?">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+                <insert content="fis''1 ~ fis4 b8 g e d cis d c2"/>
+            </lilyPond>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="54e52d01" text="JS Bach"/>
+            <button id="98da1c97" text="Mozart"/>
+            <button id="e4b23cdf" text="Beethoven"/>
+        </response>
+        <hint/>
+    </question>
 	
 	<question category="General" id="b5ce0c31">
         <prompt text="Who composed Mozart's Piano Sonata No 11 in A major?">

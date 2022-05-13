@@ -2,6 +2,8 @@
 <!DOCTYPE xml>
 <level height="2.0" length="12" win="20" hintCost="6" completion="500">
 
+	<!-- General -->
+
 	<question category="General" id="3dae4bdf">
 		<prompt text="Who composed Air from Handel's Water Music?">
 			<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
@@ -11,7 +13,21 @@
 		<response format="single-pick-to-submit">
 			<button correct="true" id="9e50982c" text="GF Handel" />
 			<button id="fd671430" text="JS Bach" />
-			<button id="bbc22cb5" text="Mozart" />
+			<button id="bbc22cb5" text="WA Mozart" />
+		</response>
+		<hint />
+	</question>
+    
+	<question category="General" id="81a5855e">
+		<prompt text="Who composed Jesu, Joy of Man's Desiring?">
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
+				<insert content="\tuplet 3/2 {r8 g' a } \tuplet 3/2 {b d c} \tuplet 3/2 {c e d} \tuplet 3/2 {d g fis}" />
+			</lilyPond>
+		</prompt>
+		<response format="single-pick-to-submit">
+			<button correct="true" id="16352678" text="JS Bach" />
+			<button id="b8458816" text="WA Mozart" />
+			<button id="572adf8b" text="LV Beethoven" />
 		</response>
 		<hint />
 	</question>
@@ -23,23 +39,15 @@
 			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
-			<button correct="true" id="a83b97a5" text="Debussy" />
-			<button id="f6a3be17" text="Strauss" />
-			<button id="806b400f" text="Chopin" />
+			<button correct="true" id="a83b97a5" text="Claude Debussy" />
+			<button id="f6a3be17" text="Johann Strauss" />
+			<button id="806b400f" text="Frédéric Chopin" />
 		</response>
 		<hint />
 	</question>
 	
-	<question category="Theory" id="ccc9cb28">
-		<prompt text="Which major scale has one more sharp than A major?" />
-		<response format="single-pick-to-submit">
-			<button correct="true" id="cfe9c2ac" text="E Major" />
-			<button id="efdc68f2" text="D Major" />
-			<button id="c503f18b" text="B Major" />
-		</response>
-		<hint text="A fifth above A" />
-	</question>
-
+	<!-- Theory -->
+	
 	<question category="Theory" id="b58f1fe6">
 		<prompt text="Notes in an incomplete bar before the first bar line are called...">
 			<lilyPond clef="treble" image="true" template="singlestave.ly">
@@ -53,6 +61,20 @@
 		</response>
 		<hint />
 	</question>
+	
+	<question category="Theory" id="eec00faf">
+        <prompt text="Playing the notes of a chord separately rather than together creates...">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
+                <insert content="c'( e g c)"/>
+            </lilyPond>
+        </prompt>
+        <response format="single-pick-to-submit">
+            <button correct="true" id="bf8b7056" text="An Arpeggio"/>
+            <button id="db0bc8ee" text="An Adagio"/>
+            <button id="46ffe02b" text="A digeridoo"/>
+        </response>
+        <hint/>
+    </question>
 
 	<question category="Theory" id="ede6a16b">
 		<prompt text="Put these notes in order, longest first" />
@@ -108,6 +130,8 @@
         <hint/>
     </question>
     
+    <!-- Aural -->
+    
     <question category="Aural" id="d9b21b65">
         <prompt text="Which are major triads?"/>
         <response format="checkboxes-then-submit">
@@ -123,7 +147,7 @@
             </button>
             <button correct="true" id="d6e79f13">
                 <lilyPond clef="treble" id="af644b61" lights="true" notes="true" template="singlestave.ly">
-                    <insert content="&lt;g' a c&gt;"/>
+                    <insert content="&lt;g' b d&gt;"/>
                 </lilyPond>
             </button>
             <button id="455e94b4">

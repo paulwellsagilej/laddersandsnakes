@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<level height="3.0" length="15" win="25" hintCost="12" completion="1000">
+
+	<question category="Theory" id="ccc9cb28">
+		<prompt text="Which major scale has one more sharp than A major?" />
+		<response format="single-pick-to-submit">
+			<button correct="true" id="cfe9c2ac" text="E Major" />
+			<button id="efdc68f2" text="D Major" />
+			<button id="c503f18b" text="B Major" />
+		</response>
+		<hint text="A fifth above A" />
+	</question>
+	
+</level>
