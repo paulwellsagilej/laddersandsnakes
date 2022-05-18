@@ -22,7 +22,7 @@
     <question category="General" id="4adb460e">
         <prompt text="Who composed Bach's Orchestral Suite No. 3 in D major?">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="fis''1 ~ fis4 b8 g e d cis d c2"/>
+                <insert content="fis''1 ~ fis4 b8 g e d cis d cis2"/>
             </lilyPond>
         </prompt>
         <response format="single-pick-to-submit">
@@ -168,7 +168,7 @@
 	</question>
 
 	<question category="Theory" id="42332ee1">
-		<prompt text="The difference in pitch between two notes is called an ..." />
+		<prompt text="The difference in pitch between two notes is called the ..." />
 		<response format="single-pick-to-submit">
 			<button correct="true" id="86a6819d" text="Interval" />
 			<button id="c0131c98" text="Interlude" />
@@ -385,35 +385,52 @@
 		</hint>
 	</question>
 
-	<question category="Aural" id="57db8593">
-		<prompt text="Which of these is a major chord?" />
-		<response format="radio-then-submit">
-			<button correct="true" id="17c212aa" text="Button One" />
-			<button id="a12d4f4b" text="Button two" />
-			<button id="afcf8b92" text="Button three" />
-			<button id="a6d6d96d" text="Button four" />
-			<button id="7cb54992" text="Button five" />
-		</response>
-		<hint />
-	</question>
+    <question category="Aural" id="9410ade6">
+        <prompt text="Which of these are major chords?"/>
+        <response format="checkboxes-then-submit">
+            <button correct="true" id="4df1b3e1">
+                <lilyPond clef="treble" id="ed14da99" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;c' e g&gt;"/>
+                    <insert content="&lt;cis' f gis&gt;"/>
+                </lilyPond>
+            </button>
+            <button correct="true" id="d21dc864">
+                <lilyPond clef="treble" id="d9abd16f" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;f' a c&gt;1"/>
+                    <insert content="&lt;g' b d&gt;1"/>
+                </lilyPond>
+            </button>
+            <button id="7c0ce3b2">
+                <lilyPond clef="treble" id="e07b6def" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;c' cis d dis&gt;1"/>
+                </lilyPond>
+            </button>
+            <button id="cf2394d3">
+                <lilyPond clef="treble" id="e2f956c9" lights="true" notes="true" template="singlestave.ly">
+                    <insert content="&lt;f' fis g gis&gt;1"/>
+                </lilyPond>
+            </button>
+        </response>
+        <hint/>
+    </question>
 
 	<question category="Aural" id="a9e33622">
 		<prompt text="Which one of these is a major chord?" />
 		<response format="radio-then-submit">
-			<button correct="true" id="90883dd2" text="Plink">
+			<button correct="true" id="90883dd2">
 				<lilyPond lights="true" notes="true" template="singlestave.ly" clef="treble">
 					<insert content="&lt;c' e g&gt;1" />
 					<insert content="&lt;f' a c&gt;1" />
 					<insert content="&lt;g' b d&gt;1" />
 				</lilyPond>
 			</button>
-			<button id="51a3b930" text="Plink">
+			<button id="51a3b930">
 				<lilyPond lights="true" notes="true" template="singlestave.ly" clef="treble">
 					<insert content="&lt;d' f a&gt;1" />
 					<insert content="&lt;e' g b&gt;1" />
 				</lilyPond>
 			</button>
-			<button id="6548bb79" text="Plink">
+			<button id="6548bb79">
 				<lilyPond lights="true" notes="true" template="singlestave.ly" clef="treble">
 					<insert content="&lt;a' c e&gt;1" />
 					<insert content="&lt;b' d f&gt;1" />
@@ -425,7 +442,7 @@
 
 	<question category="Aural" id="c0c70826">
 		<prompt text="Which interval is this?">
-			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
 				<insert content="c' c'" />
 			</lilyPond>
 		</prompt>
@@ -438,9 +455,8 @@
 	</question>
 
 	<!-- Reading -->
-
-<!-- 
-	<question category="Reading" id="deffd2d5">
+ 
+	<question category="Reading" id="deffd2d5" ignore="true">
 		<prompt text="Play this note">
 			<lilyPond image="true" template="singlestave.ly" clef="treble">
 				<insert content="f'" />
@@ -453,18 +469,16 @@
 			</lilyPond>
 		</hint>
 	</question>
- -->
-
+ 
 	<!-- Playing -->
-
-<!-- 
-	<question category="Playing" id="aee143f1">
+ 
+	<question category="Playing" id="aee143f1" ignore="true">
 		<prompt text="Play these notes: C D E" />
 		<response detect="cde" format="record-midi-sequence-then-submit" />
 		<hint text="there is no hint" />
 	</question>
 
-	<question category="Playing" id="7cdd7686">
+	<question category="Playing" id="7cdd7686" ignore="true">
 		<prompt text="Play a note one octave above this note.">
 			<lilyPond image="true" template="singlestave.ly">
 				<insert content="c'" />
@@ -477,6 +491,5 @@
 			</lilyPond>
 		</hint>
 	</question>
- -->
 
 </level>
