@@ -65,7 +65,7 @@
 	<question category="General" id="aa46ce2a">
 		<prompt text="Whose national anthem is this?">
 			<lilyPond image="true" lights="true" notes="true" clef="treble" template="singlestave.ly" timeSignature="3/4">
-				<insert content="\partial 4 g'8. e16 \bar “|” c8 e g c2" />
+				<insert content="\partial 4 g'8. e16 c8 e g c2" />
 			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
@@ -289,7 +289,7 @@
 	<question category="Theory" id="8cdaed79">
 		<prompt text="What do these notes spell?">
 			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-				<insert content="c'' a b b a g e2" />
+				<insert content="c'' a b8 b4. a4 g e2" />
 			</lilyPond>
 		</prompt>
 		<response format="single-pick-to-submit">
@@ -317,7 +317,7 @@
 	<question category="Theory" id="b40fe5ec">
         <prompt text="What do these notes spell?">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="b' a d, g e1"/>
+                <insert content="\partial 2. b'8 a d,4 g e1"/>
             </lilyPond>
         </prompt>
         <response format="single-pick-to-submit">
