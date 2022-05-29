@@ -462,7 +462,7 @@
 				<insert content="f'" />
 			</lilyPond>
 		</prompt>
-		<response detect="f" format="play-single-note-to-submit" />
+		<response detect="f*" format="play-single-note-to-submit" />
 		<hint>
 			<lilyPond lights="true" template="singlestave.ly" clef="treble">
 				<insert content="f'" />
@@ -474,7 +474,7 @@
  
 	<question category="Playing" id="aee143f1" ignore="true">
 		<prompt text="Play these notes: C D E" />
-		<response detect="cde" format="record-midi-sequence-then-submit" />
+		<response detect="c* d e" format="record-midi-sequence-then-submit" />
 		<hint text="there is no hint" />
 	</question>
 
