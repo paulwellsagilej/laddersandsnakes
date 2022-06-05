@@ -16,15 +16,29 @@
 	<question category="Playing" id="9a5dab1a">
 		<prompt text="Play these three notes" timeout="30">
 			<lilyPond clef="treble" image="true" template="singlestave.ly">
-				<insert content="e' g b" />
+				<insert content="e g b" />
 			</lilyPond>
 		</prompt>
 		<response expectedMidiScript="e' g b" format="record-midi-sequence-then-submit" />
 		<hint text="Here is the first note">
 			<lilyPond clef="treble" id="11b1a2f0" lights="true" template="singlestave.ly">
-				<insert content="e'" />
+				<insert content="e" />
 			</lilyPond>
 		</hint>
 	</question>
+	
+	<question category="Playing" id="bd5606a8">
+        <prompt text="Play a major triad in root position. This is the tonic." timeout="15">
+            <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
+                <insert content="e1"/>
+            </lilyPond>
+        </prompt>
+        <response expectedMidiScript="&lt;e gis b&gt;" format="play-single-chord-to-submit"/>
+        <hint text="E G# B">
+            <lilyPond clef="treble" id="1ddf4741" lights="true" template="singlestave.ly">
+                <insert content="&lt;e gis b&gt;1"/>
+            </lilyPond>
+        </hint>
+    </question>
 
 </level>

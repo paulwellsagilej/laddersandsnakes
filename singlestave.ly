@@ -5,10 +5,11 @@
     $omitClef
     $omitTimeSignature 
   }
-  \relative
+  \relative c'
   {
   	$clef
   	$timeSignature
+  	$keySignature
    	$content
   }
   \layout{}
