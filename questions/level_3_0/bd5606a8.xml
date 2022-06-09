@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Playing" id="bd5606a8">
+	<prompt text="Play a major triad in root position. This is the tonic." timeout="15">
+		<lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
+			<insert content="e1" />
+		</lilyPond>
+	</prompt>
+	<response expectedMidiScript="&lt;e gis b&gt;" format="play-single-chord-to-submit" />
+	<hint text="E G# B">
+		<lilyPond clef="treble" id="1ddf4741" lights="true" template="singlestave.ly">
+			<insert content="&lt;e gis b&gt;1" />
+		</lilyPond>
+	</hint>
+</question>
