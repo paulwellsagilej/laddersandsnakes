@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="8cdaed79">
+	<prompt text="What do these notes spell?">
+		<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
+			<insert content="c' a b8 b4. a4 g e2" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="61874723" text="Cabbage" />
+		<button id="75b1c204" text="Cauliflower" />
+		<button id="ceaeddf6" text="Broccoli" />
+	</response>
+	<hint text="Notes are named using only letters A to G" />
+</question>

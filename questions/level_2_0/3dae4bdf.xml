@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="General" id="3dae4bdf">
+	<prompt text="Who composed Air from Handel's Water Music?">
+		<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+			<insert content="a' 8. c16 f,8. a16 g2" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="9e50982c" text="GF Handel" />
+		<button id="fd671430" text="JS Bach" />
+		<button id="bbc22cb5" text="WA Mozart" />
+	</response>
+	<hint />
+</question>

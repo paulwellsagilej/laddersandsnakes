@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="General" id="1ff1bfee">
+	<prompt text="Who composed Beethoven's fifth symphony?">
+		<lilyPond notes="true" image="true" lights="true" template="singlestave.ly" clef="treble">
+			<insert content="g8 g g ees2 r8 f f f d2" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="f95243c3" text="Beethoven" />
+		<button id="7891e4fe" text="Mozart" />
+		<button id="61eb24ed" text="Bach" />
+	</response>
+	<hint />
+</question>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Playing" id="7cdd7686" ignore="true">
+	<prompt text="Play a note one octave above this note.">
+		<lilyPond image="true" template="singlestave.ly">
+			<insert content="c" />
+		</lilyPond>
+	</prompt>
+	<response expectedMidiScript="c''" format="play-single-chord-to-submit" />
+	<hint>
+		<lilyPond id="cdb184e9" lights="true" image="true" template="singlestave.ly">
+			<insert content="c'" />
+		</lilyPond>
+	</hint>
+</question>

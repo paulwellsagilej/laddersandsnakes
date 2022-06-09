@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="e00c4484">
+	<prompt text="What is the name of the symbol on the left?">
+		<lilyPond image="true" template="singlestave.ly" clef="treble">
+			<insert content="f1" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button id="ad71a6c0" text="Spaghetti Clef" />
+		<button id="2d4e45e8" text="Bass Clef" />
+		<button correct="true" id="4d9c1f14" text="Treble Clef" />
+	</response>
+	<hint />
+</question>

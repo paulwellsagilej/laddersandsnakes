@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="42332ee1">
+	<prompt text="The difference in pitch between two notes is called the ..." />
+	<response format="single-pick-to-submit">
+		<button correct="true" id="86a6819d" text="Interval" />
+		<button id="c0131c98" text="Interlude" />
+		<button id="75e6bd8b" text="Interchange" />
+		<button id="84970737" text="Intersection" />
+	</response>
+	<hint />
+</question>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="85061bf8">
+	<prompt text="Which of these are rests?" />
+	<response format="checkboxes-then-submit">
+		<button correct="true" id="da24377f">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="r4" />
+				<insert content="r8" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="88392a92">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="r1" />
+				<insert content="r2" />
+			</lilyPond>
+		</button>
+		<button id="f50e95e4">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="c1" />
+				<insert content="c2" />
+				<insert content="c4" />
+				<insert content="c8" />
+			</lilyPond>
+		</button>
+	</response>
+	<hint />
+</question>

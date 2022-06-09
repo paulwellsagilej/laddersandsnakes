@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Reading" id="deffd2d5" ignore="true">
+	<prompt text="Play this note">
+		<lilyPond image="true" template="singlestave.ly" clef="treble">
+			<insert content="f" />
+		</lilyPond>
+	</prompt>
+	<response expectedMidiScript="f" format="play-single-chord-to-submit" />
+	<hint>
+		<lilyPond lights="true" template="singlestave.ly" clef="treble">
+			<insert content="f" />
+		</lilyPond>
+	</hint>
+</question>

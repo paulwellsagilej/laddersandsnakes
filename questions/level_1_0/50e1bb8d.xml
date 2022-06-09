@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="50e1bb8d">
+	<prompt text="Arrange these notes in ascending order" />
+	<response format="arrange-then-submit">
+		<button correct="true" id="8644a0a1">
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
+				<insert content="c" />
+				<insert content="d" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="7ff7e3a2">
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
+				<insert content="f" />
+				<insert content="g" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="b1bc3bfe">
+			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
+				<insert content="c'" />
+				<insert content="d'" />
+			</lilyPond>
+		</button>
+	</response>
+	<hint />
+</question>

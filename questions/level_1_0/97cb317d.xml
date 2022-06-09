@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="97cb317d">
+	<prompt text="What do these notes spell?">
+		<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
+			<insert content="f a c e" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="cfdb4434" text="Face" />
+		<button id="8337ffee" text="Hand" />
+		<button id="243c77f2" text="Foot" />
+	</response>
+	<hint text="Notes are named using only letters A to G" />
+</question>

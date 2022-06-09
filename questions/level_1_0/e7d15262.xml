@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="e7d15262">
+	<prompt text="The five lines (and four spaces) on which we write music is called a...">
+		<lilyPond image="true" template="singlestave.ly">
+			<insert content="b1" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="f03d5d05" text="Stave" />
+		<button id="6f7559ff" text="Stove" />
+		<button id="a0077c38" text="Steve" />
+	</response>
+	<hint />
+</question>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<levels>
+
+	<level height="1.0" length="10" win="15" hintCost="3" completion="500" />
+
+	<level height="2.0" length="12" win="20" hintCost="6" completion="500" />
+
+	<level height="3.0" length="15" win="25" hintCost="12" completion="1000" />
+
+</levels>
+

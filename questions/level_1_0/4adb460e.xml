@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="General" id="4adb460e">
+	<prompt text="Who composed Bach's Orchestral Suite No. 3 in D major?">
+		<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+			<insert content="fis'1 ~ fis4 b8 g e d cis d cis2" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="54e52d01" text="JS Bach" />
+		<button id="98da1c97" text="Mozart" />
+		<button id="e4b23cdf" text="Beethoven" />
+	</response>
+	<hint />
+</question>

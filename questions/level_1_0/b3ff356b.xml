@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="b3ff356b">
+	<prompt text="Three notes stacked like this is called a...">
+		<lilyPond image="true" template="singlestave.ly" clef="treble">
+			<insert content="&lt;e g b&gt;1" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="be64cc91" text="Triad" />
+		<button id="d20d09bd" text="Trident" />
+		<button id="2c3a903f" text="Trifle" />
+		<button id="2ef886a9" text="Tripod" />
+	</response>
+	<hint />
+</question>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="b25bd3a2">
+	<prompt text="A gap in the music while we play no notes is called a...">
+		<lilyPond notes="true" template="singlestave.ly">
+			<insert content="r2 r4 r8 r8" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="589e721e" text="Rest" />
+		<button id="a1eb1f1f" text="Break" />
+		<button id="2b433936" text="Pause" />
+		<button id="1043c753" text="Holiday" />
+	</response>
+	<hint />
+</question>

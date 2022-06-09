@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Playing" id="aee143f1" ignore="true">
+	<prompt text="Play these notes: C D E" />
+	<response expectedMidiScript="c d e" format="record-midi-sequence-then-submit" />
+	<hint text="there is no hint" />
+</question>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="General" id="4c45af7f">
+	<prompt text="Whose national anthem is this?">
+		<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+			<insert content="\partial 2 f4. g8 a4 g bes a g8 e f4" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="30ee41a5" text="Germany" />
+		<button id="fad57893" text="Britain" />
+		<button id="8859d5b1" text="USA" />
+		<button id="e16c00e7" text="France" />
+	</response>
+	<hint />
+</question>

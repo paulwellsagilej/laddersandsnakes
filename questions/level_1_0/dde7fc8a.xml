@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="dde7fc8a">
+	<prompt text="Which tune will not keep you awake all night?" />
+	<response format="single-pick-to-submit">
+		<button correct="true" id="1a2f5bbe">
+			<lilyPond clef="treble" id="96d781cc" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="d e c a' f1" />
+			</lilyPond>
+		</button>
+		<button id="21f50e7e">
+			<lilyPond clef="treble" id="d604b811" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="e d g e" />
+			</lilyPond>
+		</button>
+		<button id="16fb599a">
+			<lilyPond clef="treble" id="bfcdddde" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="b e a d" />
+			</lilyPond>
+		</button>
+	</response>
+	<hint />
+</question>
