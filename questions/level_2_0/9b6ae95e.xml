@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="9b6ae95e">
+	<prompt text="Put these rests in order, longest first" />
+	<response format="arrange-then-submit">
+		<button correct="true" id="cd85dd5d">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="r1" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="b2dde3d1">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="r2" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="6bcdda4d">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="r4" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="97f7932b">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="r8" />
+			</lilyPond>
+		</button>
+	</response>
+	<hint />
+</question>

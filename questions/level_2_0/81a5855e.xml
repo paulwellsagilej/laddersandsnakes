@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="General" id="81a5855e">
+	<prompt text="Who composed Jesu, Joy of Man's Desiring?">
+		<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
+			<insert content="\tuplet 3/2 {r8 g a } \tuplet 3/2 {b d c} \tuplet 3/2 {c e d} \tuplet 3/2 {d g fis}" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="16352678" text="JS Bach" />
+		<button id="b8458816" text="WA Mozart" />
+		<button id="572adf8b" text="LV Beethoven" />
+	</response>
+	<hint />
+</question>

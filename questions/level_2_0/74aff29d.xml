@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="74aff29d">
+	<prompt text="Which of these intervals is an octave?" />
+	<response format="radio-then-submit">
+		<button correct="true" id="51eda48a">
+			<lilyPond clef="treble" id="f2748274" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;c c'&gt;1" />
+			</lilyPond>
+		</button>
+		<button id="d779ff91">
+			<lilyPond clef="treble" id="e84bbc76" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;ais b&gt;1" />
+			</lilyPond>
+		</button>
+		<button id="a9ea6cf4">
+			<lilyPond clef="treble" id="252b0540" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;f b&gt;1" />
+			</lilyPond>
+		</button>
+		<button id="88b97857">
+			<lilyPond clef="treble" id="954a259f" image="true" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;a b&gt;1" />
+			</lilyPond>
+		</button>
+	</response>
+	<hint />
+</question>

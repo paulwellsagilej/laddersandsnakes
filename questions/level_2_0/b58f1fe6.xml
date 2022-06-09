@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="b58f1fe6">
+	<prompt text="Notes in an incomplete bar before the first bar line are called...">
+		<lilyPond clef="treble" image="true" template="singlestave.ly">
+			<insert content="\partial 4 g8 a  b4 c d e" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="fe480589" text="Anacrusis" />
+		<button id="64a16391" text="Anaconda" />
+		<button id="6bac5ee8" text="Analgesic" />
+	</response>
+	<hint />
+</question>

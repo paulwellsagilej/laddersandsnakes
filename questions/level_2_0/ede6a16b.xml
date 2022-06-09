@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="ede6a16b">
+	<prompt text="Put these notes in order, longest first" />
+	<response format="arrange-then-submit">
+		<button correct="true" id="1894847c">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="b1" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="5b49edda">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="b2" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="e7ebbda5">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="b4" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="565af3f0">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="b8" />
+			</lilyPond>
+		</button>
+	</response>
+	<hint />
+</question>

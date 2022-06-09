@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Aural" id="d9b21b65">
+	<prompt text="Which are major triads?" />
+	<response format="checkboxes-then-submit">
+		<button correct="true" id="6e6ed3ff">
+			<lilyPond clef="treble" id="3949394d" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;c e g&gt;" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="564764f7">
+			<lilyPond clef="treble" id="6ff921f0" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;f a c&gt;" />
+			</lilyPond>
+		</button>
+		<button correct="true" id="d6e79f13">
+			<lilyPond clef="treble" id="af644b61" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;g b d&gt;" />
+			</lilyPond>
+		</button>
+		<button id="455e94b4">
+			<lilyPond clef="treble" id="f910b849" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;d f a&gt;" />
+			</lilyPond>
+		</button>
+		<button id="6b80cd46">
+			<lilyPond clef="treble" id="1a5d744e" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;e g b&gt;" />
+			</lilyPond>
+		</button>
+		<button id="cdc3f74c">
+			<lilyPond clef="treble" id="f199743c" lights="true" notes="true" template="singlestave.ly">
+				<insert content="&lt;a c e&gt;" />
+			</lilyPond>
+		</button>
+	</response>
+	<hint text="Is the middle note nearer the highest note?" />
+</question>

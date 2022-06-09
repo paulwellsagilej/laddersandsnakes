@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Playing" id="bc27f482">
+	<prompt text="Play the first four notes of Frere Jacques">
+		<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+			<insert content="c d e c" />
+		</lilyPond>
+	</prompt>
+	<response expectedMidiScript="c' d e c" format="record-midi-sequence-then-submit" />
+	<hint text="C D E C" />
+</question>

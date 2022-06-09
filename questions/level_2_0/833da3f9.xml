@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="General" id="833da3f9">
+	<prompt text="Who composed Clair de Lune?">
+		<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+			<insert content="&lt;fis a&gt;8 &lt;fis' a&gt;2 &lt;d fis&gt; &lt;g, bes&gt;8 &lt;cis e&gt; &lt;d fis&gt; &lt;cis e&gt;2" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="a83b97a5" text="Claude Debussy" />
+		<button id="f6a3be17" text="Johann Strauss" />
+		<button id="806b400f" text="Frédéric Chopin" />
+	</response>
+	<hint />
+</question>

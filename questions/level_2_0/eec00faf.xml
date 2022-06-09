@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<question category="Theory" id="eec00faf">
+	<prompt text="Playing the notes of a chord separately rather than together creates...">
+		<lilyPond clef="treble" image="true" template="singlestave.ly">
+			<insert content="c( e g c)" />
+		</lilyPond>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="bf8b7056" text="An Arpeggio" />
+		<button id="db0bc8ee" text="An Adagio" />
+		<button id="46ffe02b" text="A digeridoo" />
+	</response>
+	<hint />
+</question>
