@@ -4,7 +4,7 @@
 <question category="General" id="1ff1bfee">
 	<prompt text="Who composed Beethoven's fifth symphony?">
 		<lilyPond notes="true" image="true" lights="true" template="singlestave.ly" clef="treble">
-			<insert content="g8 g g ees2 r8 f f f d2" />
+			<insert content="g'8 g g ees2 r8 f f f d2" />
 		</lilyPond>
 	</prompt>
 	<response format="single-pick-to-submit">

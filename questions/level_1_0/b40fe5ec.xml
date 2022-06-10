@@ -4,7 +4,7 @@
 <question category="Theory" id="b40fe5ec">
 	<prompt text="What do these notes spell?">
 		<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-			<insert content="\partial 2. b8 a d,4 g e1" />
+			<insert content="\partial 2. b'8 a d,4 g e1" />
 		</lilyPond>
 	</prompt>
 	<response format="single-pick-to-submit">

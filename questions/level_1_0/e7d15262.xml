@@ -4,7 +4,7 @@
 <question category="Theory" id="e7d15262">
 	<prompt text="The five lines (and four spaces) on which we write music is called a...">
 		<lilyPond image="true" template="singlestave.ly">
-			<insert content="b1" />
+			<insert content="b'1" />
 		</lilyPond>
 	</prompt>
 	<response format="single-pick-to-submit">
