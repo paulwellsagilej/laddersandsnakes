@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" id="7d34bc7f">
+    <prompt text="What does fortissimo mean?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="fc08ce12" text="Very loud"/>
+        <button id="6b1178e0" text="Very fast"/>
+        <button id="2506885c" text="Very quiet"/>
+        <button id="7d234f9e" text="Very slowly"/>
+    </response>
+    <hint/>
+</question>

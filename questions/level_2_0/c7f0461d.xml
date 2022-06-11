@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" id="c7f0461d">
+    <prompt text="What does crescendo mean?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="c1db6336" text="Getting louder"/>
+        <button id="cfbbd503" text="Getting quieter"/>
+        <button id="a751a31e" text="Getting faster"/>
+        <button id="44dcbc63" text="Getting slower"/>
+    </response>
+    <hint/>
+</question>

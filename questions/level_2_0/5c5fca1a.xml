@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" id="5c5fca1a">
+    <prompt text="What does rallentando mean?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="d77499e3" text="Slowing down"/>
+        <button id="ff577470" text="Speeding up"/>
+        <button id="eb29cb61" text="Getting louder"/>
+        <button id="2ffb1afc" text="Getting quieter"/>
+    </response>
+    <hint/>
+</question>

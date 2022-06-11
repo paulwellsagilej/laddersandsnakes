@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" id="5eabe8ab">
+    <prompt text="What does staccato mean?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="a4f07a76" text="Short, separated notes"/>
+        <button id="13f62960" text="Long, smooth notes"/>
+        <button id="a84b62e6" text="Play together, stacked"/>
+    </response>
+    <hint/>
+</question>
