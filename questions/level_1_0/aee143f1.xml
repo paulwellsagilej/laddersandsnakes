@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question category="Playing" id="aee143f1" ignore="true">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Playing" id="aee143f1" ignore="true">
 	<prompt text="Play these notes: C D E" />
 	<response expectedMidiScript="c d e" format="record-midi-sequence-then-submit" />
 	<hint text="there is no hint" />
