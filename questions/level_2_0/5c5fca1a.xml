@@ -1,5 +1,7 @@
-<?xml creationDate="2022-06-11T21:52:46.155667Z" version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" id="5c5fca1a">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="5c5fca1a">
     <prompt text="What does rallentando mean?"/>
     <response format="single-pick-to-submit">
         <button correct="true" id="d77499e3" text="Slowing down"/>
