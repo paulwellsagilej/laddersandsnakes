@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-06-13T16:02:01.242470Z" id="96f97fac">
+    <prompt text="This interval is..">
+        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+            <insert content="&lt;c e&gt;1"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="642897af" text="a third"/>
+        <button id="72bd6a01" text="a fifth"/>
+        <button id="ad243ef9" text="an octave"/>
+        <button id="88463d45" text="a fourth"/>
+    </response>
+    <hint text="the distance between white keys inclusive"/>
+</question>

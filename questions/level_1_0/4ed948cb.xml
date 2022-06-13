@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-06-13T13:45:40.709236Z" id="4ed948cb">
+    <prompt text="What word do these notes spell?">
+        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+            <insert content="a' d, d2"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="a2181e6f" text="Add"/>
+        <button id="7609688c" text="Divide"/>
+        <button id="a696c02d" text="Multiply"/>
+        <button id="d414a5e5" text="Subtract"/>
+    </response>
+    <hint text="Notes are named A B C D E F G"/>
+</question>

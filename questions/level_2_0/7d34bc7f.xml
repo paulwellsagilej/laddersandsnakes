@@ -5,7 +5,7 @@
         <button correct="true" id="fc08ce12" text="Very loud"/>
         <button id="6b1178e0" text="Very fast"/>
         <button id="2506885c" text="Very quiet"/>
-        <button id="7d234f9e" text="Very slowly"/>
+        <button id="7d234f9e" text="Very slow"/>
     </response>
     <hint/>
 </question>
