@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-06-13T19:44:16.438633Z" id="5b2be99b">
+    <prompt text="Another name for half note is...">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="f2"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="2dc6e58b" text="Minim"/>
+        <button id="bd6d44a6" text="Crotchet"/>
+        <button id="bc6b2a47" text="Semibreve"/>
+        <button id="88675152" text="Quaver"/>
+    </response>
+    <hint/>
+</question>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-06-13T19:49:06.535871Z" id="63f3e621">
+    <prompt text="Another name for whole note is...">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="f1"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="1cf15deb" text="Semibreve"/>
+        <button id="dae3ba70" text="Minim"/>
+        <button id="3f68e757" text="Crotchet"/>
+        <button id="db722a42" text="Quaver"/>
+    </response>
+    <hint/>
+</question>

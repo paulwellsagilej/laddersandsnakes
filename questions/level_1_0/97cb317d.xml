@@ -11,6 +11,7 @@
 		<button correct="true" id="cfdb4434" text="Face" />
 		<button id="8337ffee" text="Hand" />
 		<button id="243c77f2" text="Foot" />
+		<button id="e446644" text="Leg" />
 	</response>
 	<hint text="Notes are named using only letters A to G" />
 </question>

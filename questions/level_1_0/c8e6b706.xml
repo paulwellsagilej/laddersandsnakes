@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="General" creationDate="2022-06-29T10:01:03.095998Z" id="c8e6b706">
+    <prompt text="The full name for the 'piano' is..."/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="37cd01ff" text="Piano Forte"/>
+        <button id="5fb8e0f0" text="Piano Fifte"/>
+        <button id="3b8be100" text="Piano Sixte"/>
+        <button id="11795052" text="Piano Sevente"/>
+    </response>
+    <hint text="The second word means strong or loud"/>
+</question>

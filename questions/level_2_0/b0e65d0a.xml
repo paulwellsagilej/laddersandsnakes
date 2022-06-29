@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-06-15T20:44:58.437701Z" id="b0e65d0a">
+    <prompt text="Which major scale has this key signature?">
+        <lilyPond clef="treble" image="true" keySignature="g \major" template="singlestave.ly">
+            <insert content="r1"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="46b60f1b" text="G major"/>
+        <button id="4e8fdfdf" text="C major"/>
+        <button id="68abb42a" text="F major"/>
+        <button id="839b5a6a" text="D major"/>
+    </response>
+    <hint>
+        <lilyPond clef="treble" id="7c66d7f3" image="true" lights="true" notes="true" template="singlestave.ly">
+            <insert content="g8 a b c d e fis g"/>
+        </lilyPond>
+    </hint>
+</question>

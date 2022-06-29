@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-06-13T18:02:14.489704Z" id="6ce1becd">
+    <prompt text="What does a dot after a note mean?">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="e2."/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="895f2732" text="50% longer"/>
+        <button id="fc1fd1b8" text="50% shorter"/>
+        <button id="8b19a16d" text="50% louder"/>
+        <button id="ac301613" text="50% quieter"/>
+    </response>
+    <hint>
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="e2( e4)"/>
+        </lilyPond>
+    </hint>
+</question>

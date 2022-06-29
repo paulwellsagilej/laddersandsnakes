@@ -8,7 +8,7 @@
 		</lilyPond>
 	</prompt>
 	<response format="single-pick-to-submit">
-		<button correct="true" id="54e52d01" text="JS Bach" />
+		<button correct="true" id="54e52d01" text="Bach" />
 		<button id="98da1c97" text="Mozart" />
 		<button id="e4b23cdf" text="Beethoven" />
 	</response>

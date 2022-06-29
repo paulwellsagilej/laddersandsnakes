@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-06-13T19:53:25.464639Z" id="2a443e78">
+    <prompt text="Another name for eighth note is...">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="f8 f f f f f f f"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="ca6b9ee9" text="Quaver"/>
+        <button id="cef65476" text="Crotchet"/>
+        <button id="9a7e1675" text="Minim"/>
+        <button id="1d3976e4" text="Semibreve"/>
+    </response>
+    <hint/>
+</question>

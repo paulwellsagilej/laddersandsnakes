@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-06-13T17:31:56.721020Z" id="ea925775">
+    <prompt text="What does legato mean?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="3f9344d4" text="Smoothly"/>
+        <button id="44b303b5" text="Roughly"/>
+        <button id="5a6659e2" text="Loudly"/>
+        <button id="b825ad34" text="Quietly"/>
+    </response>
+    <hint/>
+</question>
