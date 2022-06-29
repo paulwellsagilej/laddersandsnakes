@@ -5,9 +5,19 @@
 
 	<level height="1.0" length="10" win="15" hintCost="3" completion="500" />
 
-	<level height="2.0" length="12" win="20" hintCost="6" completion="500" />
+	<level height="2.0" length="12" win="17" hintCost="6" completion="500" />
 
-	<level height="3.0" length="15" win="25" hintCost="12" completion="1000" />
+	<level height="3.0" length="15" win="19" hintCost="12" completion="1000" />
+
+	<level height="4.0" length="18" win="21" hintCost="13" completion="1000" />
+
+	<level height="5.0" length="20" win="22" hintCost="14" completion="1200" />
+
+	<level height="6.0" length="22" win="22" hintCost="15" completion="1500" />
+
+	<level height="7.0" length="23" win="23" hintCost="15" completion="1700" />
+
+	<level height="8.0" length="23" win="24" hintCost="15" completion="1900" />
 
 </levels>
 
