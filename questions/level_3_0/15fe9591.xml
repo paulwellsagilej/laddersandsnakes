@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <question category="Aural" creationDate="2022-06-13T16:09:12.690726Z" id="15fe9591">
-    <prompt text="What interval is this?">
+    <prompt text="What interval can you hear?">
         <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
             <insert content="c f"/>
         </lilyPond>

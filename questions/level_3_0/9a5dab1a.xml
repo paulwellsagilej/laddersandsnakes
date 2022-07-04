@@ -7,7 +7,7 @@
 			<insert content="e g b" />
 		</lilyPond>
 	</prompt>
-	<response expectedMidiScript="e' g b" format="record-midi-sequence-then-submit" />
+	<response expectedMidiRelative="c'" expectedMidiScript="e g b" format="record-midi-sequence-then-submit" />
 	<hint text="Here is the first note">
 		<lilyPond clef="treble" id="11b1a2f0" lights="true" template="singlestave.ly">
 			<insert content="e" />

@@ -7,6 +7,6 @@
 			<insert content="c d e c" />
 		</lilyPond>
 	</prompt>
-	<response expectedMidiScript="c' d e c" format="record-midi-sequence-then-submit" />
+	<response expectedMidiRelative="c'" expectedMidiScript="c d e c" format="record-midi-sequence-then-submit" />
 	<hint text="C D E C" />
 </question>

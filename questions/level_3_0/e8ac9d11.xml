@@ -12,5 +12,5 @@
         <button id="d5c6fecb" text="A major seventh"/>
         <button id="62ef0dd0" text="A minor second"/>
     </response>
-    <hint/>
+    <hint text="There are three correct answers" />
 </question>
