@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-05T16:32:21.147020Z" id="5d4efa06">
+    <prompt text="What does flattening a note do?">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="bes'"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="3deffbeb" text="Lower its pitch"/>
+        <button id="40c4452c" text="Raise its pitch"/>
+        <button id="668e0c17" text="Pull it sooner"/>
+        <button id="906e6406" text="Push it later"/>
+    </response>
+    <hint text="The pitch is changed"/>
+</question>

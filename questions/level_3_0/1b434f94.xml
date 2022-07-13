@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-08T21:28:31.997824Z" id="1b434f94">
+    <prompt text="The symbol on the left is called...">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="r1"/>
+        </lilyPond>
+    </prompt>
+    <response format="checkboxes-then-submit">
+        <button correct="true" id="ea45656b" text="The treble clef"/>
+        <button correct="true" id="78dd938d" text="The G clef"/>
+        <button id="63c3c676" text="The bass clef"/>
+        <button id="84522000" text="The F clef"/>
+    </response>
+    <hint text="Which pitch does the symbol start on (second line)?"/>
+</question>

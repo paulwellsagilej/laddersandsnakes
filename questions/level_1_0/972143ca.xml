@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-13T08:31:37.511733Z" id="972143ca">
+    <prompt text="What does the symbol on the top mean?">
+        <lilyPond image="true" template="singlestave.ly">
+            <insert content="b'1 \fermata"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="c04466f5" text="Pause"/>
+        <button id="c2aff7b6" text="Play"/>
+        <button id="d38286d1" text="Fast Forward"/>
+    </response>
+    <hint/>
+</question>

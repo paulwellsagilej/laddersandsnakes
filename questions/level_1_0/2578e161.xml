@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-05T12:39:35.571295Z" id="2578e161">
+    <prompt text="What does the symbol on the left mean?">
+        <lilyPond image="true" template="singlestave.ly">
+            <insert content="bis'1"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="2e82ccad" text="Make the next note sharp"/>
+        <button id="1c50f78a" text="Make the next note flat"/>
+        <button id="5564cc47" text="Press the hash key"/>
+        <button id="6636cf6a" text="Play noughts and crosses"/>
+    </response>
+    <hint/>
+</question>

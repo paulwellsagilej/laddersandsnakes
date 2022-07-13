@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-05T17:29:08.770874Z" id="f954a059">
+    <prompt text="Which of these notes have had their pitch changed?"/>
+    <response format="checkboxes-then-submit">
+        <button correct="true" id="5675bdb7">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
+                <insert content="fis"/>
+            </lilyPond>
+        </button>
+        <button correct="true" id="7f0319ea">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
+                <insert content="bes'"/>
+            </lilyPond>
+        </button>
+        <button id="a5584aac">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
+                <insert content="e 4."/>
+            </lilyPond>
+        </button>
+        <button id="7deda873">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
+                <insert content="r8 g'4"/>
+            </lilyPond>
+        </button>
+    </response>
+    <hint text="Pitch is changes with sharps and flats"/>
+</question>

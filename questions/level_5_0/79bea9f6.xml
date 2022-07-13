@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Aural" creationDate="2022-07-12T18:52:17.726086Z" id="79bea9f6">
+    <prompt text="Which of these chords are in root position?"/>
+    <response format="checkboxes-then-submit">
+        <button correct="true" id="282feff1">
+            <lilyPond clef="treble" id="bf7591eb" notes="true" template="singlestave.ly">
+                <insert content="&lt;c e g&gt;1"/>
+                <insert content="&lt;d fis a&gt;1"/>
+                <insert content="&lt;e gis b&gt;1"/>
+            </lilyPond>
+        </button>
+        <button correct="true" id="1dc1d099">
+            <lilyPond clef="treble" id="ec9a80c2" notes="true" template="singlestave.ly">
+                <insert content="&lt;f a c&gt;1"/>
+                <insert content="&lt;g b d&gt;1"/>
+                <insert content="&lt;a cis e&gt;1"/>
+            </lilyPond>
+        </button>
+        <button id="4ac502c4">
+            <lilyPond clef="treble" id="e4ecf3dc" notes="true" template="singlestave.ly">
+                <insert content="&lt;c e a&gt;1"/>
+                <insert content="&lt;d fis b&gt;1"/>
+                <insert content="&lt;e gis cis&gt;1"/>
+            </lilyPond>
+        </button>
+        <button id="8c859f2a">
+            <lilyPond clef="treble" id="2a8b55d3" notes="true" template="singlestave.ly">
+                <insert content="&lt;g b e&gt;1"/>
+                <insert content="&lt;a cis fis&gt;1"/>
+                <insert content="&lt;fis ais dis&gt;1"/>
+            </lilyPond>
+        </button>
+    </response>
+    <hint/>
+</question>

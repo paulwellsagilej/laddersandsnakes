@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-11T11:46:01.179827Z" id="b56b7f7b">
+    <prompt text="The symbol on the left is called the...">
+        <lilyPond clef="bass" image="true" template="singlestave.ly">
+            <insert content="r1"/>
+        </lilyPond>
+    </prompt>
+    <response format="checkboxes-then-submit">
+        <button correct="true" id="e5fb5109" text="Bass Clef"/>
+        <button correct="true" id="e9508346" text="F Clef"/>
+        <button id="2df325ae" text="Treble Clef"/>
+        <button id="31503ec6" text="G Clef"/>
+    </response>
+    <hint text="The two dots surround the fourth line up."/>
+</question>
