@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-15T08:39:29.748556Z" id="87d6a6eb">
+    <prompt text="Which major scale has one flat fewer than B Flat major?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="ffaff3e0" text="F Major"/>
+        <button id="c23fe189" text="C Major"/>
+        <button id="8cc00de4" text="E Flat Major"/>
+        <button id="a937163d" text="A Flat Major"/>
+    </response>
+    <hint/>
+</question>

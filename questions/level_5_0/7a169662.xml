@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-13T11:43:30.415110Z" id="7a169662">
+    <prompt text="Which mode is this?">
+        <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
+            <insert content="b8 c d e f g a b"/>
+            <insert content="c8 des ees f ges aes bes c"/>
+            <insert content="d8 ees f g aes bes c d"/>
+            <insert content="e8 f g a bes c d e"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="db66451b" text="Locrian"/>
+        <button id="9b010a80" text="Ionian"/>
+        <button id="99a4dc9b" text="Dorian"/>
+        <button id="3d74cbf8" text="Mixolydian"/>
+    </response>
+    <hint/>
+</question>

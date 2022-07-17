@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="General" creationDate="2022-07-16T18:21:10.064920Z" id="fff588ab">
+    <prompt text="Name this Beatles tune">
+        <lilyPond clef="treble" image="true" notes="true" lights="true" template="singlestave.ly">
+            <insert content="c'8 c c c c4 c b1 r4 bes8 bes bes c d c"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="d2b374fc" text="Something"/>
+        <button id="f468ca49" text="Someone"/>
+        <button id="64d38ddf" text="Somewhere"/>
+        <button id="3cd54c1e" text="Somehow"/>
+    </response>
+    <hint/>
+</question>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="General" creationDate="2022-07-16T21:48:16.125574Z" id="95d85469">
+    <prompt text="Name this Beatles tune">
+        <lilyPond clef="treble" image="true" keySignature="a \major" lights="true" notes="true" template="singlestave.ly">
+            <insert content="r4 cis'8 b4 cis a8 r4 cis8 a b cis4. r4 cis8 b4 cis4 a8"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="e39dda10" text="Here Comes the Sun"/>
+        <button id="63e23588" text="Here Comes the Moon"/>
+        <button id="50be5df5" text="Here Come the Stars"/>
+        <button id="cccb1980" text="Here Come the Planets"/>
+    </response>
+    <hint/>
+</question>

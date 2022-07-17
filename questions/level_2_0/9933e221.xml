@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-16T22:06:19.851814Z" id="9933e221">
+    <prompt text="What does pianissimo mean?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="93b6003a" text="Very quiet"/>
+        <button id="cfdfdaf8" text="Very loud"/>
+        <button id="c890f0e1" text="Very fast"/>
+        <button id="7bfb8d86" text="Very slow"/>
+    </response>
+    <hint/>
+</question>

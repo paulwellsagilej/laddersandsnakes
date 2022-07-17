@@ -9,6 +9,7 @@
         <button correct="true" id="c04466f5" text="Pause"/>
         <button id="c2aff7b6" text="Play"/>
         <button id="d38286d1" text="Fast Forward"/>
+        <button id="d4987d0" text="Rewind"/>
     </response>
     <hint/>
 </question>

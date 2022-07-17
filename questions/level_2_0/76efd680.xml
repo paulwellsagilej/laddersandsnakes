@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-07-16T17:25:06.146754Z" id="76efd680">
+    <prompt text="What do two dots after a note mean?">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="e2.."/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="b16b3c45" text="75% longer"/>
+        <button id="d49b1a4a" text="75% shorter"/>
+        <button id="45d06a26" text="75% louder"/>
+        <button id="19ed48dc" text="75% quieter"/>
+    </response>
+    <hint>
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="e2(e4)(e8)"/>
+        </lilyPond>
+    </hint>
+</question>
