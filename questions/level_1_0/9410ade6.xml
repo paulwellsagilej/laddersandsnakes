@@ -27,5 +27,5 @@
 			</lilyPond>
 		</button>
 	</response>
-	<hint />
+	<hint text="A major chord contains three notes spread out."/>
 </question>

@@ -7,9 +7,9 @@
     </prompt>
     <response format="single-pick-to-submit">
         <button correct="true" id="e39dda10" text="Here Comes the Sun"/>
-        <button id="63e23588" text="Here Comes the Moon"/>
-        <button id="50be5df5" text="Here Come the Stars"/>
-        <button id="cccb1980" text="Here Come the Planets"/>
+        <button id="63e23588" text="Here Comes the Wind"/>
+        <button id="50be5df5" text="Here Comes the Snow"/>
+        <button id="cccb1980" text="Here Comes the Rain"/>
     </response>
     <hint/>
 </question>

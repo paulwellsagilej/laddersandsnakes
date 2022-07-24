@@ -25,5 +25,5 @@
 			</lilyPond>
 		</button>
 	</response>
-	<hint />
+	<hint text="An octave sounds simple and empty compared to other intervals"/>
 </question>

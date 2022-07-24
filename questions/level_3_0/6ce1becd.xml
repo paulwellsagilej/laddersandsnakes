@@ -9,7 +9,7 @@
         <button correct="true" id="895f2732" text="50% longer"/>
         <button id="fc1fd1b8" text="50% shorter"/>
         <button id="8b19a16d" text="50% louder"/>
-        <button id="ac301613" text="50% quieter"/>
+        <button id="ac301613" text="50% off"/>
     </response>
     <hint>
         <lilyPond clef="treble" image="true" template="singlestave.ly">

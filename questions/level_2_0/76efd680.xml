@@ -7,7 +7,7 @@
     </prompt>
     <response format="single-pick-to-submit">
         <button correct="true" id="b16b3c45" text="75% longer"/>
-        <button id="d49b1a4a" text="75% shorter"/>
+        <button id="d49b1a4a" text="75% off"/>
         <button id="45d06a26" text="75% louder"/>
         <button id="19ed48dc" text="75% quieter"/>
     </response>

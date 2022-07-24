@@ -10,7 +10,7 @@
 	<response format="single-pick-to-submit">
 		<button correct="true" id="589e721e" text="Rest" />
 		<button id="a1eb1f1f" text="Break" />
-		<button id="2b433936" text="Pause" />
+		<button id="2b433936" text="Snooze" />
 		<button id="1043c753" text="Holiday" />
 	</response>
 	<hint />

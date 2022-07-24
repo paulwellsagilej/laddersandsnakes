@@ -24,6 +24,14 @@
 				<insert content="c8" />
 			</lilyPond>
 		</button>
+		<button id="f50e8629">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="f1" />
+				<insert content="f2" />
+				<insert content="f4" />
+				<insert content="f8" />
+			</lilyPond>
+		</button>
 	</response>
-	<hint />
+    <hint />
 </question>

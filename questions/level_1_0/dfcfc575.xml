@@ -7,7 +7,7 @@
     </prompt>
     <response format="single-pick-to-submit">
         <button correct="true" id="9998f258" text="With a little help from my friends"/>
-        <button id="c1de7092" text="Without help from my friends"/>
+        <button id="c1de7092" text="Without any help from my friends"/>
         <button id="f5284455" text="With a lot of help from my friends"/>
     </response>
     <hint/>

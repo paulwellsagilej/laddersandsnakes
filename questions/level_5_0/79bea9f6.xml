@@ -3,10 +3,10 @@
     <prompt text="Which of these chords are in root position?"/>
     <response format="checkboxes-then-submit">
         <button correct="true" id="282feff1">
-            <lilyPond clef="treble" id="bf7591eb" notes="true" template="singlestave.ly">
-                <insert content="&lt;c e g&gt;1"/>
+            <lilyPond clef="treble" id="bf7591eb" notes="true" template="singlestave.ly">              
+		<insert content="&lt;c e g&gt;1"/>
                 <insert content="&lt;d fis a&gt;1"/>
-                <insert content="&lt;e gis b&gt;1"/>
+                <insert content="&lt;e gis  b&gt;1"/>
             </lilyPond>
         </button>
         <button correct="true" id="1dc1d099">
