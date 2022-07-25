@@ -7,7 +7,7 @@
 			<insert content="e1" />
 		</lilyPond>
 	</prompt>
-	<response expectedMidiRelative="c'" expectedMidiScript="&lt;e gis b&gt;" format="play-single-chord-to-submit" />
+	<response expectedMidiRelative="c'" expectedMidiScript="&lt;e gis b&gt;" format="play-single-chord-to-submit" explainerKeySignature="c \major" explainerClef="\treble"/>
 	<hint text="E G# B">
 		<lilyPond clef="treble" id="1ddf4741" lights="true" template="singlestave.ly">
 			<insert content="&lt;e gis b&gt;1" />

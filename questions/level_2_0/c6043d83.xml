@@ -5,6 +5,6 @@
             <insert content="\partial 4 \tuplet 3/2 {c c8} d4 c f e"/>
         </lilyPond>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="c c d c f e" format="record-midi-sequence-then-submit"/>
+    <response expectedMidiRelative="c'" expectedMidiScript="c c d c f e" format="record-midi-sequence-then-submit" explainerKeySignature="c \major" explainerClef="\treble"/>
     <hint text="C C D C F E"/>
 </question>

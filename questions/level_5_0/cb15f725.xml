@@ -5,6 +5,6 @@
             <insert content="&lt;c e g&gt; &lt;b d g&gt; &lt;c e g&gt;2"/>
         </lilyPond>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="&lt;c e g&gt; &lt;b d g&gt; &lt;c e g&gt;" format="record-midi-sequence-then-submit"/>
+    <response expectedMidiRelative="c'" expectedMidiScript="&lt;c e g&gt; &lt;b d g&gt; &lt;c e g&gt;" format="record-midi-sequence-then-submit" explainerKeySignature="c \major" explainerClef="\treble"/>
     <hint text="C major, G major, C major"/>
 </question>

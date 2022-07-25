@@ -7,7 +7,7 @@
 			<insert content="f" />
 		</lilyPond>
 	</prompt>
-	<response expectedMidiRelative="c'" expectedMidiScript="f" format="play-single-chord-to-submit" />
+	<response expectedMidiRelative="c'" expectedMidiScript="f" format="play-single-chord-to-submit" explainerKeySignature="c \major" explainerClef="\treble"/>
 	<hint>
 		<lilyPond lights="true" template="singlestave.ly" clef="treble">
 			<insert content="f" />
