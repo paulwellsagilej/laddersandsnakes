@@ -4,11 +4,8 @@
   \with { 
     \omit TimeSignature 
   }
-  \relative c'
-  {
-  	$clef
-  	$keySignature
-   	$content
-  }
+  $clef
+  $keySignature
+  $content
   \layout{}
 }
