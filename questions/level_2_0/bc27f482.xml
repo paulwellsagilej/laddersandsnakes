@@ -7,6 +7,6 @@
 			<insert content="c d e c" />
 		</lilyPond>
 	</prompt>
-	<response expectedMidiRelative="c'" expectedMidiScript="c d e c" format="record-midi-sequence-then-submit" explainerKeySignature="c \major" explainerClef="\treble"/>
+	<response expectedMidiRelative="c'" expectedMidiScript="c d e c" format="record-midi-sequence-then-submit" explainerKeySignature="c \major" explainerClef="treble"/>
 	<hint text="C D E C" />
 </question>

@@ -4,8 +4,10 @@
   \with { 
     \omit TimeSignature 
   }
-  $clef
-  $keySignature
-  $content
+  {
+  	\clef $clef
+  	\key $keySignature
+  	$content
+  }
   \layout{}
 }

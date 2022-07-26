@@ -5,6 +5,6 @@
             <insert content="d1"/>
         </lilyPond>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="&lt;d f a&gt;" format="play-single-chord-to-submit" explainerKeySignature="c \major" explainerClef="\treble"/>
+    <response expectedMidiRelative="c'" expectedMidiScript="&lt;d f a&gt;" format="play-single-chord-to-submit" explainerKeySignature="c \major" explainerClef="treble"/>
     <hint text="D F A"/>
 </question>
