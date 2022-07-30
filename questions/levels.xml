@@ -7,17 +7,21 @@
 
 	<level height="2.0" gameplayLength="12" win="7" hintCost="3" completion="500" />
 
-	<level height="3.0" gameplayLength="15" win="9" hintCost="3" completion="1000" />
+	<level height="3.0" gameplayLength="15" win="8" hintCost="3" completion="1000" />
 
-	<level height="4.0" gameplayLength="18" win="11" hintCost="5" completion="1000" />
+	<level height="4.0" gameplayLength="18" win="10" hintCost="5" completion="1000" />
 
-	<level height="5.0" gameplayLength="20" win="12" hintCost="5" completion="1200" />
+	<level height="5.0" gameplayLength="20" win="11" hintCost="5" completion="1200" />
 
-	<level height="6.0" gameplayLength="22" win="12" hintCost="5" completion="1500" />
+	<level height="6.0" gameplayLength="22" win="11" hintCost="5" completion="1500" />
 
-	<level height="7.0" gameplayLength="23" win="13" hintCost="6" completion="1700" />
+	<level height="7.0" gameplayLength="23" win="12" hintCost="6" completion="1700" />
 
-	<level height="8.0" gameplayLength="23" win="14" hintCost="6" completion="1900" />
+	<level height="8.0" gameplayLength="23" win="13" hintCost="6" completion="1900" />
+
+	<level height="9.0" gameplayLength="26" win="14" hintCost="8" completion="2500" />
+
+	<level height="10.0" gameplayLength="30" win="14" hintCost="10" completion="3000" />
 
 </levels>
 
