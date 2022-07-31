@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-07-03T07:33:51.139121Z" id="cac9f816">
+
+<question category="Theory" creationDate="2022-07-03T07:33:51.139121Z" id="cac9f816" horizontalTag="rhythm">
     <prompt text="What does 3 over 4 mean?">
         <lilyPond clef="treble" image="true" template="singlestave.ly" timeSignature="3/4">
             <insert content="r1"/>

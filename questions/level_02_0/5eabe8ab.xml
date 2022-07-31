@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="5eabe8ab">
+
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="5eabe8ab" horizontalTag="terms">
     <prompt text="What does staccato mean?"/>
     <response format="single-pick-to-submit">
         <button correct="true" id="a4f07a76" text="Short, separated notes"/>

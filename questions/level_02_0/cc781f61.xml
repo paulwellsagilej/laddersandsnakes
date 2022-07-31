@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-06-15T21:05:19.989659Z" id="cc781f61">
+
+<question category="Theory" creationDate="2022-06-15T21:05:19.989659Z" id="cc781f61" horizontalTag="key signatures">
     <prompt text="Which is the key signature for F major?"/>
     <response format="single-pick-to-submit">
         <button correct="true" id="e8a714bf">

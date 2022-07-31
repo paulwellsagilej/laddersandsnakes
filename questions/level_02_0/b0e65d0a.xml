@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-06-15T20:44:58.437701Z" id="b0e65d0a">
+
+<question category="Theory" creationDate="2022-06-15T20:44:58.437701Z" id="b0e65d0a" horizontalTag="key signatures">
     <prompt text="Which major scale has this key signature?">
         <lilyPond clef="treble" image="true" keySignature="g \major" template="singlestave.ly">
             <insert content="r1"/>

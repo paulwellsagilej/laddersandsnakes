@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-06-12T12:06:35.380947Z" id="a525ecd2">
+
+<question category="Theory" creationDate="2022-06-12T12:06:35.380947Z" id="a525ecd2" horizontalTag="terms">
     <prompt text="What does presto mean?"/>
     <response format="single-pick-to-submit">
         <button correct="true" id="d38052f9" text="Fast"/>

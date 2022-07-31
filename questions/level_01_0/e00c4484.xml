@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="e00c4484">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="e00c4484" horizontalTag="symbols">
 	<prompt text="What is the name of the symbol on the left?">
 		<lilyPond image="true" template="singlestave.ly" clef="treble">
 			<insert content="f1" />

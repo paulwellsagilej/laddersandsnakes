@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="dde7fc8a">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="dde7fc8a" horizontalTag="notes spell words">
 	<prompt text="Which tune will not keep you awake all night?" />
 	<response format="single-pick-to-submit">
 		<button correct="true" id="1a2f5bbe">

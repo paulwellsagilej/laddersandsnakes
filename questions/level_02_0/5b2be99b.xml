@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-06-13T19:44:16.438633Z" id="5b2be99b">
+
+<question category="Theory" creationDate="2022-06-13T19:44:16.438633Z" id="5b2be99b" horizontalTag="terms">
     <prompt text="Another name for half note is...">
         <lilyPond clef="treble" image="true" template="singlestave.ly">
             <insert content="f2"/>

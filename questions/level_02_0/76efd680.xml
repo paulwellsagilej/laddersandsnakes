@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-07-16T17:25:06.146754Z" id="76efd680">
+
+<question category="Theory" creationDate="2022-07-16T17:25:06.146754Z" id="76efd680" horizontalTag="rhythm">
     <prompt text="What do two dots after a note mean?">
         <lilyPond clef="treble" image="true" template="singlestave.ly">
             <insert content="e2.."/>

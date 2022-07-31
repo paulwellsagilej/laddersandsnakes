@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="General" creationDate="2022-07-16T21:35:04.561360Z" id="a6bb40fe">
+
+<question category="General" creationDate="2022-07-16T21:35:04.561360Z" id="a6bb40fe" horizontalTag="beatles">
     <prompt text="Name this Beatles tune">
         <lilyPond clef="treble" image="true" keySignature="e \major" lights="true" notes="true" template="singlestave.ly" timeSignature="6/8">
             <insert content="b'4. cis8 b a gis4. fis8 a gis e4. d8 a' cis, b2."/>

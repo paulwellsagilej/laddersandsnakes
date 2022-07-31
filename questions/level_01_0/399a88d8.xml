@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="399a88d8">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="399a88d8" horizontalTag="recognise chords">
 	<prompt text="What type of chord is this?">
 		<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
 			<insert content="&lt;a c e&gt;" />

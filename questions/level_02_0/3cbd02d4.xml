@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-06-15T21:07:57.998891Z" id="3cbd02d4">
+
+<question category="Theory" creationDate="2022-06-15T21:07:57.998891Z" id="3cbd02d4" horizontalTag="key signatures">
     <prompt text="Which is the key signature for G major?"/>
     <response format="single-pick-to-submit">
         <button correct="true" id="e6b6dca6">

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-07-11T11:46:01.179827Z" id="b56b7f7b">
+
+<question category="Theory" creationDate="2022-07-11T11:46:01.179827Z" id="b56b7f7b" horizontalTag="symbols">
     <prompt text="The symbol on the left is called the...">
         <lilyPond clef="bass" image="true" template="singlestave.ly">
             <insert content="r1"/>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-06-13T20:09:17.879107Z" id="26250388">
+
+<question category="Theory" creationDate="2022-06-13T20:09:17.879107Z" id="26250388" horizontalTag="key signatures">
     <prompt text="This is the key signature for...">
         <lilyPond clef="treble" image="true" keySignature="f \major" template="singlestave.ly">
             <insert content="r1"/>

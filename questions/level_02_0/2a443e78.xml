@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-06-13T19:53:25.464639Z" id="2a443e78">
+<question category="Theory" creationDate="2022-06-13T19:53:25.464639Z" id="2a443e78" horizontalTag="terms">
     <prompt text="Another name for eighth note is...">
         <lilyPond clef="treble" image="true" template="singlestave.ly">
             <insert content="f8 f f f f f f f"/>

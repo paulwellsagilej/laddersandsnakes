@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question creationDate="2022-06-11T21:52:46.155667Z" category="General" id="aa46ce2a">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="General" id="aa46ce2a" horizontalTag="national anthems">
 	<prompt text="Whose national anthem is this?">
 		<lilyPond image="true" lights="true" notes="true" clef="treble" template="singlestave.ly" timeSignature="3/4">
 			<insert content="\partial 4 g'8. e16 c8 e g c2" />
