@@ -23,5 +23,5 @@
 			</lilyPond>
 		</button>
 	</response>
-	<hint />
+	<hint text="lowest note first, highest note last"/>
 </question>

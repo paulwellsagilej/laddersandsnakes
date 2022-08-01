@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Aural" creationDate="2022-08-01T17:14:29.989452Z" horizontalTag="recognise chords" id="30903c4c" verticalTag="minor chords">
+    <prompt text="Which one of these is a minor chord?"/>
+    <response format="radio-then-submit">
+        <button correct="true" id="380a0f10">
+            <lilyPond clef="treble" id="ae59f33b" lights="true" notes="true" template="singlestave.ly">
+                <insert content="&lt;e g b&gt;1"/>
+                <insert content="&lt;d f a&gt;1"/>
+                <insert content="&lt;a c e&gt;1"/>
+            </lilyPond>
+        </button>
+        <button id="cc2d78b3">
+            <lilyPond clef="treble" id="f0110494" lights="true" notes="true" template="singlestave.ly">
+                <insert content="&lt;c d g&gt;1"/>
+                <insert content="&lt;f a c&gt;1"/>
+            </lilyPond>
+        </button>
+        <button id="dee31076">
+            <lilyPond clef="treble" id="43d8cc4d" lights="true" notes="true" template="singlestave.ly">
+                <insert content="&lt;g b d&gt;1"/>
+                <insert content="&lt;a cis e&gt;1"/>
+            </lilyPond>
+        </button>
+    </response>
+    <hint text="Look gaps between lights. Which chord has its middle light nearer to the light on the left?"/>
+</question>

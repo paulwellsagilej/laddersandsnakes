@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="85061bf8" horizontalTag="symbols">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="85061bf8" horizontalTag="symbols" verticalTag="rests">
 	<prompt text="Which of these are rests?" />
 	<response format="checkboxes-then-submit">
 		<button correct="true" id="da24377f">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<question category="Theory" creationDate="2022-07-31T13:15:16.929512Z" horizontalTag="symbols" id="fca6279f">
+<question category="Theory" creationDate="2022-07-31T13:15:16.929512Z" horizontalTag="symbols" verticalTag="notes" id="fca6279f">
     <prompt text="Which of these are notes?"/>
     <response format="checkboxes-then-submit">
         <button correct="true" id="a3d59f03">

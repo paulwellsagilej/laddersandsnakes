@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-08-01T18:04:40.828530Z" horizontalTag="terms" id="b2c6dad0">
+    <prompt text="What does crescendo mean?">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="\crescTextCresc e \&lt; f g a \!"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="fba7d395" text="Getting Louder"/>
+        <button id="2a5dc2bb" text="Getting Quieter"/>
+        <button id="d9c8af98" text="Speeding Up"/>
+        <button id="a94e7655" text="Slowing Down"/>
+    </response>
+    <hint/>
+</question>
