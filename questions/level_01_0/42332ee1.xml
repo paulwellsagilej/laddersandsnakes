@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="42332ee1">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="42332ee1" horizontalTag="terms">
 	<prompt text="The difference in pitch between two notes is called their ..." />
 	<response format="single-pick-to-submit">
 		<button correct="true" id="86a6819d" text="Interval" />

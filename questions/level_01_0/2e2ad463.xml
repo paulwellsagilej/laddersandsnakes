@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Aural" creationDate="2022-08-01T06:52:27.600009Z" horizontalTag="match tune" id="2e2ad463">
+    <prompt text="Match this tune">
+        <lilyPond clef="treble" notes="true" template="singlestave.ly">
+            <insert content="ees bes' bes2"/>
+        </lilyPond>
+    </prompt>
+    <response format="radio-then-submit">
+        <button correct="true" id="42ba7a8c">
+            <lilyPond clef="treble" id="5203fc15" notes="true" template="singlestave.ly">
+                <insert content="ees bes' bes2"/>
+            </lilyPond>
+        </button>
+        <button id="5fb3552e">
+            <lilyPond clef="treble" id="c437a679" notes="true" template="singlestave.ly">
+                <insert content="f b b2"/>
+            </lilyPond>
+        </button>
+        <button id="bfc41017">
+            <lilyPond clef="treble" id="5216f60f" notes="true" template="singlestave.ly">
+                <insert content="d c d2"/>
+            </lilyPond>
+        </button>
+        <button correct="true" id="fb7b1f52">
+            <lilyPond clef="treble" id="b12d6b19" notes="true" template="singlestave.ly">
+                <insert content="a a g"/>
+            </lilyPond>
+        </button>
+    </response>
+    <hint/>
+</question>

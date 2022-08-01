@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="General" creationDate="2022-07-31T21:08:18.718183Z" horizontalTag="abba" id="6ff18972" verticalTag="mamma mia">
+    <prompt text="Name this ABBA tune">
+        <lilyPond clef="treble" image="true" keySignature="d \major" lights="true" notes="true" template="singlestave.ly">
+            <insert content="a' d cis 8 d e fis~ fis 4 d 8 d cis d cis b"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="3f8ae08e" text="Mamma Mia"/>
+        <button id="8dd3aba5" text="Dancing Queen"/>
+        <button id="68d639cb" text="Gimme! Gimme! Gimme!"/>
+        <button id="3419f144" text="Waterloo"/>
+    </response>
+    <hint/>
+</question>
