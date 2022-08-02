@@ -21,7 +21,5 @@
 
 	<level height="9.0" gameplayLength="26" win="14" hintCost="8" completion="5000" />
 
-	<level height="10.0" gameplayLength="30" win="14" hintCost="10" completion="6000" />
-
 </levels>
 
