@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Reading" id="deffd2d5" ignore="true">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Playing" id="deffd2d5" ignore="true" horizontalTag="play this note">
 	<prompt text="Play this note">
 		<lilyPond image="true" template="singlestave.ly" clef="treble">
 			<insert content="f" />
@@ -10,7 +10,7 @@
 	<response expectedMidiRelative="c'" expectedMidiScript="f" format="play-single-chord-to-submit" explainerKeySignature="c \major" explainerClef="treble"/>
 	<hint>
 		<lilyPond lights="true" template="singlestave.ly" clef="treble">
-			<insert content="f" />
+			<insert content="f1" />
 		</lilyPond>
 	</hint>
 </question>

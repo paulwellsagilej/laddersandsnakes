@@ -8,7 +8,7 @@
     <response format="single-pick-to-submit">
         <button correct="true" id="e0b983b9" text="Getting Quieter"/>
         <button id="dc1e546a" text="Getting Louder"/>
-        <button id="c54c1da0" text="Speedin Up"/>
+        <button id="c54c1da0" text="Speeding Up"/>
         <button id="8cb97b45" text="Slowing Down"/>
     </response>
     <hint/>

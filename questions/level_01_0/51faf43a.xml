@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Aural" id="51faf43a">
+<question creationDate="2022-06-11T21:52:46.155667Z" category="Aural" id="51faf43a" horizontalTag="match script to sound">
 	<prompt text="What can you hear?">
 		<lilyPond notes="true" template="singlestave.ly" clef="treble">
 			<insert content="c4 e g" />

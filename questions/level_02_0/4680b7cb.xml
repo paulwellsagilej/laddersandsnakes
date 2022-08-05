@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-08-04T09:45:58.381517Z" horizontalTag="terms" id="4680b7cb">
+    <prompt text="The symbol which cancels a previous sharp or flat is...">
+        <lilyPond clef="treble" image="true" template="singlestave.ly">
+            <insert content="&lt;fis bes&gt; &lt;f b&gt;"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="63581d08" text="Natural"/>
+        <button id="4e17d1f8" text="Normal"/>
+        <button id="b5208547" text="Neutral"/>
+        <button id="d1b19d67" text="Native"/>
+    </response>
+    <hint/>
+</question>

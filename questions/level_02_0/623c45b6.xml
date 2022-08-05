@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<question category="Aural" creationDate="2022-06-29T11:55:36.612086Z" id="623c45b6">
+<question category="Aural" creationDate="2022-06-29T11:55:36.612086Z" id="623c45b6" horizontalTag="intervals">
     <prompt text="Which pairs of notes are a whole tone apart?"/>
     <response format="checkboxes-then-submit">
         <button correct="true" id="dc6af0c3">
