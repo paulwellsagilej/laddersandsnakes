@@ -1,16 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Playing" id="deffd2d5" horizontalTag="play this note">
-	<prompt text="Play this note">
-		<lilyPond image="true" template="singlestave.ly" clef="treble">
-			<insert content="f" />
-		</lilyPond>
-	</prompt>
-	<response expectedMidiRelative="c'" expectedMidiScript="f" format="play-single-chord-to-submit" explainerKeySignature="c \major" explainerClef="treble"/>
-	<hint>
-		<lilyPond lights="true" template="singlestave.ly" clef="treble">
-			<insert content="f1" />
-		</lilyPond>
-	</hint>
+<question category="Playing" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="play this note" id="deffd2d5">
+    <prompt>
+        <standardOut image="true" text="Play this note">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="f"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response expectedMidiRelative="c'" expectedMidiScript="f" explainerClef="treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
+    <hint>
+        <standardOut lights="true">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="f1"/>
+            </lilyPond>
+        </standardOut>
+    </hint>
 </question>

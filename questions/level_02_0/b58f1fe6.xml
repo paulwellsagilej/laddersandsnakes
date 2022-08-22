@@ -1,16 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="b58f1fe6" horizontalTag="terms">
-	<prompt text="Notes in an incomplete bar before the first bar line are called...">
-		<lilyPond clef="treble" timeSignature="4/4" image="true" template="singlestave.ly">
-			<insert content="\partial 4 g8 a  b4 c d e" />
-		</lilyPond>
-	</prompt>
-	<response format="single-pick-to-submit">
-		<button correct="true" id="fe480589" text="Anacrusis" />
-		<button id="64a16391" text="Anaconda" />
-		<button id="6bac5ee8" text="Analgesic" />
-	</response>
-	<hint />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="terms" id="b58f1fe6">
+    <prompt>
+        <standardOut image="true" text="Notes in an incomplete bar before the first bar line are called...">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly" timeSignature="4/4">
+                <insert content="\partial 4 g8 a  b4 c d e"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="fe480589">
+            <standardOut text="Anacrusis"/>
+        </button>
+        <button id="64a16391">
+            <standardOut text="Anaconda"/>
+        </button>
+        <button id="6bac5ee8">
+            <standardOut text="Analgesic"/>
+        </button>
+    </response>
+    <hint/>
 </question>

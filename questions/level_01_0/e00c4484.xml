@@ -1,16 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="e00c4484" horizontalTag="symbols">
-	<prompt text="What is the name of the symbol on the left?">
-		<lilyPond image="true" template="singlestave.ly" clef="treble">
-			<insert content="f1" />
-		</lilyPond>
-	</prompt>
-	<response format="single-pick-to-submit">
-		<button id="ad71a6c0" text="Spaghetti Clef" />
-		<button id="2d4e45e8" text="Bass Clef" />
-		<button correct="true" id="4d9c1f14" text="Treble Clef" />
-	</response>
-	<hint />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="symbols" id="e00c4484">
+    <prompt>
+        <standardOut image="true" text="What is the name of the symbol on the left?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="f1"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button id="ad71a6c0">
+            <standardOut text="Spaghetti Clef"/>
+        </button>
+        <button id="2d4e45e8">
+            <standardOut text="Bass Clef"/>
+        </button>
+        <button correct="true" id="4d9c1f14">
+            <standardOut text="Treble Clef"/>
+        </button>
+    </response>
+    <hint/>
 </question>

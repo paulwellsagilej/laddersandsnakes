@@ -1,27 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="50e1bb8d" horizontalTag="written pitch">
-	<prompt text="Arrange these notes in ascending order"/>
-	<response format="arrange-then-submit">
-		<button correct="true" id="8644a0a1">
-			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-				<insert content="c" />
-				<insert content="d" />
-			</lilyPond>
-		</button>
-		<button correct="true" id="7ff7e3a2">
-			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-				<insert content="f" />
-				<insert content="g'" />
-			</lilyPond>
-		</button>
-		<button correct="true" id="b1bc3bfe">
-			<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-				<insert content="c'" />
-				<insert content="d'" />
-			</lilyPond>
-		</button>
-	</response>
-	<hint text="lowest note first, highest note last"/>
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="written pitch" id="50e1bb8d">
+    <prompt>
+        <standardOut text="Arrange these notes in ascending order"/>
+    </prompt>
+    <response format="arrange-then-submit">
+        <button correct="true" id="8644a0a1">
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="c"/>
+                    <insert content="d"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+        <button correct="true" id="7ff7e3a2">
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="f"/>
+                    <insert content="g'"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+        <button correct="true" id="b1bc3bfe">
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="c'"/>
+                    <insert content="d'"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+    </response>
+    <hint>
+        <standardOut text="lowest note first, highest note last"/>
+    </hint>
 </question>

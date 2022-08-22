@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-<question category="Theory" creationDate="2022-06-13T13:00:45.112051Z" id="27c253f6" horizontalTag="notes spell words">
-    <prompt text="Which family member do these notes spell?">
-        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-            <insert content="d a' d,2"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-06-13T13:00:45.112051Z" horizontalTag="notes spell words" id="27c253f6">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Which family member do these notes spell?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="d a' d,2"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="33ab699f" text="Dad"/>
-        <button id="9b6ea66d" text="Mum"/>
-        <button id="c7a10b21" text="Brother"/>
-        <button id="682c7100" text="Sister"/>
+        <button correct="true" id="33ab699f">
+            <standardOut text="Dad"/>
+        </button>
+        <button id="9b6ea66d">
+            <standardOut text="Mum"/>
+        </button>
+        <button id="c7a10b21">
+            <standardOut text="Brother"/>
+        </button>
+        <button id="682c7100">
+            <standardOut text="Sister"/>
+        </button>
     </response>
-    <hint text="There are three notes. Notes are named A to G."/>
+    <hint>
+        <standardOut text="There are three notes. Notes are named A to G."/>
+    </hint>
 </question>

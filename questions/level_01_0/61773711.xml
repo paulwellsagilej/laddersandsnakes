@@ -1,36 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-<question category="Aural" creationDate="2022-08-02T16:40:24.485760Z" id="61773711" horizontalTag="written pitch">
-    <prompt text="Which tunes are descending?"/>
+<question category="Aural" creationDate="2022-08-02T16:40:24.485760Z" horizontalTag="written pitch" id="61773711">
+    <prompt>
+        <standardOut text="Which tunes are descending?"/>
+    </prompt>
     <response format="checkboxes-then-submit">
         <button correct="true" id="27c24b76">
-            <lilyPond clef="treble" id="9c03cf6a" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="c'2 a4 g f e d2"/>
-                <insert content="a'2 g4 f e c g2"/>
-                <insert content="d'2 a4 f e d a2"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="9c03cf6a" template="singlestave.ly">
+                    <insert content="c'2 a4 g f e d2"/>
+                    <insert content="a'2 g4 f e c g2"/>
+                    <insert content="d'2 a4 f e d a2"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button correct="true" id="8b221423">
-            <lilyPond clef="treble" id="6da248ee" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="f'2 e4 d a f d2"/>
-                <insert content="c'2 a4 g d c g2"/>
-                <insert content="b'2 g4 d b a g2"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="6da248ee" template="singlestave.ly">
+                    <insert content="f'2 e4 d a f d2"/>
+                    <insert content="c'2 a4 g d c g2"/>
+                    <insert content="b'2 g4 d b a g2"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="4721cc51">
-            <lilyPond clef="treble" id="c4e86321" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="g2 a4 c d e f2"/>
-                <insert content="a2 d4 e f c' d2"/>
-                <insert content="e2 b'4 c d e a2"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="c4e86321" template="singlestave.ly">
+                    <insert content="g2 a4 c d e f2"/>
+                    <insert content="a2 d4 e f c' d2"/>
+                    <insert content="e2 b'4 c d e a2"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="92aab14d">
-            <lilyPond clef="treble" id="4785410f" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="f2 g4 c d e f2"/>
-                <insert content="b2 d4 e f a b2"/>
-                <insert content="c2 d4 e g a c2"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="4785410f" template="singlestave.ly">
+                    <insert content="f2 g4 c d e f2"/>
+                    <insert content="b2 d4 e f a b2"/>
+                    <insert content="c2 d4 e g a c2"/>
+                </lilyPond>
+            </standardOut>
         </button>
     </response>
-    <hint text="Descending, falling, stepping downwards, sounding lower"/>
+    <hint>
+        <standardOut text="Descending, falling, stepping downwards, sounding lower"/>
+    </hint>
 </question>

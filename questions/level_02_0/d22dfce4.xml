@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-11T08:55:14.937698Z" horizontalTag="inversions" id="d22dfce4" verticalTag="inversions">
-    <prompt text="How do you make an inversion of a triad?">
-        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly" percentageSpeed="200">
-            <insert content="&lt;c e g&gt;1 &lt;e g c&gt;1 &lt;g c e&gt;1"/>
-        </lilyPond>
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="How do you make an inversion of a triad?">
+            <lilyPond channel="default" clef="treble" percentageSpeed="200" template="singlestave.ly">
+                <insert content="&lt;c e g&gt;1 &lt;e g c&gt;1 &lt;g c e&gt;1"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="e66676b5" text="Move the lowest note up one octave"/>
-        <button id="dacb9420" text="Move all of the notes up"/>
-        <button id="d1456f4a" text="Move all of the notes down"/>
+        <button correct="true" id="e66676b5">
+            <standardOut text="Move the lowest note up one octave"/>
+        </button>
+        <button id="dacb9420">
+            <standardOut text="Move all of the notes up"/>
+        </button>
+        <button id="d1456f4a">
+            <standardOut text="Move all of the notes down"/>
+        </button>
     </response>
-    <hint text="The chord in the picture has been inverted then inverted again. C E G, E G C, G C E"/>
+    <hint>
+        <standardOut text="The chord in the picture has been inverted then inverted again. C E G, E G C, G C E"/>
+    </hint>
 </question>

@@ -1,16 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="e7d15262" horizontalTag="symbols">
-	<prompt text="The five lines (and four spaces) on which we write music is called a...">
-		<lilyPond image="true" template="singlestave.ly">
-			<insert content="b'1" />
-		</lilyPond>
-	</prompt>
-	<response format="single-pick-to-submit">
-		<button correct="true" id="f03d5d05" text="Stave" />
-		<button id="6f7559ff" text="Stove" />
-		<button id="a0077c38" text="Steve" />
-	</response>
-	<hint />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="symbols" id="e7d15262">
+    <prompt>
+        <standardOut image="true" text="The five lines (and four spaces) on which we write music is called a...">
+            <lilyPond channel="default" template="singlestave.ly">
+                <insert content="b'1"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="f03d5d05">
+            <standardOut text="Stave"/>
+        </button>
+        <button id="6f7559ff">
+            <standardOut text="Stove"/>
+        </button>
+        <button id="a0077c38">
+            <standardOut text="Steve"/>
+        </button>
+    </response>
+    <hint/>
 </question>

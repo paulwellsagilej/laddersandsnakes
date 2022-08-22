@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Playing" creationDate="2022-08-05T15:04:40.510647Z" horizontalTag="play this note" id="ab225cd8">
-    <prompt text="Play this note">
-        <lilyPond clef="treble" image="true" template="singlestave.ly">
-            <insert content="c"/>
-        </lilyPond>
+    <prompt>
+        <standardOut image="true" text="Play this note">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="c"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response expectedMidiRelative="c'" expectedMidiScript="c" explainerClef="\treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
     <hint>
-        <lilyPond clef="treble" id="65b2f698" lights="true" template="singlestave.ly">
-            <insert content="c1"/>
-        </lilyPond>
+        <standardOut lights="true">
+            <lilyPond channel="default" clef="treble" id="65b2f698" template="singlestave.ly">
+                <insert content="c1"/>
+            </lilyPond>
+        </standardOut>
     </hint>
 </question>

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-07-31T17:37:11.302118Z" horizontalTag="terms" id="cde29bfa">
-    <prompt text="What do we call the short lines added above and below these notes?">
-        <lilyPond clef="treble" image="true" template="singlestave.ly">
-            <insert content="f, f'''"/>
-        </lilyPond>
+    <prompt>
+        <standardOut image="true" text="What do we call the short lines added above and below these notes?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="f, f'''"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="9e603e44" text="Ledger Lines"/>
-        <button id="2eae9d61" text="Balance Lines"/>
-        <button id="a0340df8" text="Extra Lines"/>
-        <button id="38a907d4" text="Step Lines"/>
+        <button correct="true" id="9e603e44">
+            <standardOut text="Ledger Lines"/>
+        </button>
+        <button id="2eae9d61">
+            <standardOut text="Balance Lines"/>
+        </button>
+        <button id="a0340df8">
+            <standardOut text="Extra Lines"/>
+        </button>
+        <button id="38a907d4">
+            <standardOut text="Step Lines"/>
+        </button>
     </response>
     <hint/>
 </question>

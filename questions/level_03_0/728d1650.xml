@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="General" creationDate="2022-07-16T18:47:03.611764Z" id="728d1650" horizontalTag="name this tune">
-    <prompt text="Name this tune">
-        <lilyPond clef="treble" image="true" keySignature="e \minor" lights="true" notes="true" template="singlestave.ly">
-            <insert content="\partial 8 e8 g4 a8 b8. c16 b8 a4 fis8 d8. e16 fis"/>
-        </lilyPond>
+<question category="General" creationDate="2022-07-16T18:47:03.611764Z" horizontalTag="name this tune" id="728d1650">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Name this tune">
+            <lilyPond channel="default" clef="treble" keySignature="e \minor" template="singlestave.ly">
+                <insert content="\partial 8 e8 g4 a8 b8. c16 b8 a4 fis8 d8. e16 fis"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="3906b6ec" text="Greensleeves"/>
-        <button id="6e86dc8a" text="Elizabethan Serenade"/>
-        <button id="31c202c6" text="Jerusalem"/>
+        <button correct="true" id="3906b6ec">
+            <standardOut text="Greensleeves"/>
+        </button>
+        <button id="6e86dc8a">
+            <standardOut text="Elizabethan Serenade"/>
+        </button>
+        <button id="31c202c6">
+            <standardOut text="Jerusalem"/>
+        </button>
     </response>
     <hint/>
 </question>

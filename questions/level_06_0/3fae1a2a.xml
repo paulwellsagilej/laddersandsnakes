@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-07T07:58:55.870729Z" horizontalTag="identify scale" id="3fae1a2a" verticalTag="whole tone scale">
-    <prompt text="Which scale does Stevie Wonder use in the introduction to 'You are the Sunshine of my Life'?" timeout="30">
-        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-            <insert content="&lt;b dis&gt;8 &lt;cis f&gt;16 &lt;dis g&gt;8 &lt;f a&gt;16 &lt;g b&gt;8 &lt;a cis&gt;16 &lt;b dis&gt;8 &lt;cis f&gt;16 &lt;dis g&gt;8 &lt;dis g&gt;"/>
-        </lilyPond>
+    <prompt timeout="30">
+        <standardOut image="true" lights="true" notes="true" text="Which scale does Stevie Wonder use in the introduction to 'You are the Sunshine of my Life'?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="&lt;b dis&gt;8 &lt;cis f&gt;16 &lt;dis g&gt;8 &lt;f a&gt;16 &lt;g b&gt;8 &lt;a cis&gt;16 &lt;b dis&gt;8 &lt;cis f&gt;16 &lt;dis g&gt;8 &lt;dis g&gt;"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="79e6ac8f" text="Whole Tone"/>
-        <button id="2a3b35e6" text="Pentatonic"/>
-        <button id="97383f52" text="Chromatic"/>
-        <button id="890756f4" text="Octatonic"/>
+        <button correct="true" id="79e6ac8f">
+            <standardOut text="Whole Tone"/>
+        </button>
+        <button id="2a3b35e6">
+            <standardOut text="Pentatonic"/>
+        </button>
+        <button id="97383f52">
+            <standardOut text="Chromatic"/>
+        </button>
+        <button id="890756f4">
+            <standardOut text="Octatonic"/>
+        </button>
     </response>
     <hint/>
 </question>

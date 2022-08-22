@@ -1,37 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="85061bf8" horizontalTag="symbols" verticalTag="rests">
-	<prompt text="Which of these are rests?" />
-	<response format="checkboxes-then-submit">
-		<button correct="true" id="da24377f">
-			<lilyPond image="true" template="singlestave.ly">
-				<insert content="r4" />
-				<insert content="r8" />
-			</lilyPond>
-		</button>
-		<button correct="true" id="88392a92">
-			<lilyPond image="true" template="singlestave.ly">
-				<insert content="r1" />
-				<insert content="r2" />
-			</lilyPond>
-		</button>
-		<button id="f50e95e4">
-			<lilyPond image="true" template="singlestave.ly">
-				<insert content="c1" />
-				<insert content="c2" />
-				<insert content="c4" />
-				<insert content="c8" />
-			</lilyPond>
-		</button>
-		<button id="f50e8629">
-			<lilyPond image="true" template="singlestave.ly">
-				<insert content="f1" />
-				<insert content="f2" />
-				<insert content="f4" />
-				<insert content="f8" />
-			</lilyPond>
-		</button>
-	</response>
-    <hint />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="symbols" id="85061bf8" verticalTag="rests">
+    <prompt>
+        <standardOut text="Which of these are rests?"/>
+    </prompt>
+    <response format="checkboxes-then-submit">
+        <button correct="true" id="da24377f">
+            <standardOut image="true">
+                <lilyPond channel="default" template="singlestave.ly">
+                    <insert content="r4"/>
+                    <insert content="r8"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+        <button correct="true" id="88392a92">
+            <standardOut image="true">
+                <lilyPond channel="default" template="singlestave.ly">
+                    <insert content="r1"/>
+                    <insert content="r2"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+        <button id="f50e95e4">
+            <standardOut image="true">
+                <lilyPond channel="default" template="singlestave.ly">
+                    <insert content="c1"/>
+                    <insert content="c2"/>
+                    <insert content="c4"/>
+                    <insert content="c8"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+        <button id="f50e8629">
+            <standardOut image="true">
+                <lilyPond channel="default" template="singlestave.ly">
+                    <insert content="f1"/>
+                    <insert content="f2"/>
+                    <insert content="f4"/>
+                    <insert content="f8"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+    </response>
+    <hint/>
 </question>

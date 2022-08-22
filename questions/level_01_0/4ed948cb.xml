@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-<question category="Theory" creationDate="2022-06-13T13:45:40.709236Z" id="4ed948cb" horizontalTag="notes spell words">
-    <prompt text="Which mathematical operator do these notes spell?">
-        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-            <insert content="a' d, d2"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-06-13T13:45:40.709236Z" horizontalTag="notes spell words" id="4ed948cb">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Which mathematical operator do these notes spell?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="a' d, d2"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="a2181e6f" text="Add"/>
-        <button id="7609688c" text="Divide"/>
-        <button id="a696c02d" text="Multiply"/>
-        <button id="d414a5e5" text="Subtract"/>
+        <button correct="true" id="a2181e6f">
+            <standardOut text="Add"/>
+        </button>
+        <button id="7609688c">
+            <standardOut text="Divide"/>
+        </button>
+        <button id="a696c02d">
+            <standardOut text="Multiply"/>
+        </button>
+        <button id="d414a5e5">
+            <standardOut text="Subtract"/>
+        </button>
     </response>
-    <hint text="Notes are named A B C D E F G"/>
+    <hint>
+        <standardOut text="Notes are named A B C D E F G"/>
+    </hint>
 </question>

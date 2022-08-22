@@ -1,33 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
 <question category="Theory" creationDate="2022-07-14T13:40:30.601730Z" id="80fec275">
-    <prompt text="Which is this major chord's relative minor chord?">
-        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-            <insert content="&lt;c e g&gt;1"/>
-        </lilyPond>
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Which is this major chord's relative minor chord?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="&lt;c e g&gt;1"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="radio-then-submit">
         <button correct="true" id="50bdd00e">
-            <lilyPond clef="treble" id="72ba6db3" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="&lt;a c e&gt;1"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="72ba6db3" template="singlestave.ly">
+                    <insert content="&lt;a c e&gt;1"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="33467586">
-            <lilyPond clef="treble" id="7b60650c" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="&lt;e g b&gt;1"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="7b60650c" template="singlestave.ly">
+                    <insert content="&lt;e g b&gt;1"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="84128c69">
-            <lilyPond clef="treble" id="a91e65dc" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="&lt;f, a c&gt;1"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="a91e65dc" template="singlestave.ly">
+                    <insert content="&lt;f, a c&gt;1"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="cbda16dc">
-            <lilyPond clef="treble" id="c4c321f1" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="&lt;g' b d&gt;1"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="c4c321f1" template="singlestave.ly">
+                    <insert content="&lt;g' b d&gt;1"/>
+                </lilyPond>
+            </standardOut>
         </button>
     </response>
-    <hint text="The relative major and minor share the same key signature"/>
+    <hint>
+        <standardOut text="The relative major and minor share the same key signature"/>
+    </hint>
 </question>

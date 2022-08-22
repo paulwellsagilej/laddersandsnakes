@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-13T15:49:53.168830Z" horizontalTag="modes" id="60366b2b">
-    <prompt text="Which mode is this?" timeout="30">
-        <lilyPond clef="treble" image="true" lights="true" notes="true" percentageSpeed="250" template="singlestave.ly">
-            <insert content="c des ees f ges aes bes c"/>
-        </lilyPond>
+    <prompt timeout="30">
+        <standardOut image="true" lights="true" notes="true" text="Which mode is this?">
+            <lilyPond channel="default" clef="treble" percentageSpeed="250" template="singlestave.ly">
+                <insert content="c des ees f ges aes bes c"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="3874e42b" text="Locrian"/>
-        <button id="37c86f79" text="Ionian"/>
-        <button id="20faef83" text="Dorian"/>
-        <button id="fe6f3101" text="Lydian"/>
-        <button id="4e754daa" text="Aeolian"/>
-        <button id="477a90d1" text="Phrygian"/>
+        <button correct="true" id="3874e42b">
+            <standardOut text="Locrian"/>
+        </button>
+        <button id="37c86f79">
+            <standardOut text="Ionian"/>
+        </button>
+        <button id="20faef83">
+            <standardOut text="Dorian"/>
+        </button>
+        <button id="fe6f3101">
+            <standardOut text="Lydian"/>
+        </button>
+        <button id="4e754daa">
+            <standardOut text="Aeolian"/>
+        </button>
+        <button id="477a90d1">
+            <standardOut text="Phrygian"/>
+        </button>
     </response>
-    <hint text="The only mode with no perfect fifth."/>
+    <hint>
+        <standardOut text="The only mode with no perfect fifth."/>
+    </hint>
 </question>

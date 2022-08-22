@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
 <question category="Aural" creationDate="2022-06-13T16:09:12.690726Z" id="15fe9591">
-    <prompt text="What interval can you hear?">
-        <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
-            <insert content="c f"/>
-        </lilyPond>
-    </prompt>
-    <response format="single-pick-to-submit">
-        <button correct="true" id="ea625a42" text="A fourth">
-            <lilyPond clef="treble" image="true" template="singlestave.ly">
+    <prompt>
+        <standardOut lights="true" notes="true" text="What interval can you hear?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
                 <insert content="c f"/>
             </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="ea625a42">
+            <standardOut image="true" text="A fourth">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="c f"/>
+                </lilyPond>
+            </standardOut>
         </button>
-        <button id="33868749" text="An octave">
-            <lilyPond clef="treble" image="true" template="singlestave.ly">
-                <insert content="c c'"/>
-            </lilyPond>
+        <button id="33868749">
+            <standardOut image="true" text="An octave">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="c c'"/>
+                </lilyPond>
+            </standardOut>
         </button>
-        <button id="21a93744" text="A third">
-            <lilyPond clef="treble" image="true" template="singlestave.ly">
-                <insert content="c e"/>
-            </lilyPond>
+        <button id="21a93744">
+            <standardOut image="true" text="A third">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="c e"/>
+                </lilyPond>
+            </standardOut>
         </button>
-        <button id="eda4e70d" text="A fifth">
-            <lilyPond clef="treble" image="true" template="singlestave.ly">
-                <insert content="c g'"/>
-            </lilyPond>
+        <button id="eda4e70d">
+            <standardOut image="true" text="A fifth">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="c g'"/>
+                </lilyPond>
+            </standardOut>
         </button>
     </response>
     <hint/>

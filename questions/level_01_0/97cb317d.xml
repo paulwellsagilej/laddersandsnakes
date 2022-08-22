@@ -1,17 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="97cb317d" horizontalTag="notes spell words">
-	<prompt text="Which part of your body do these notes spell?">
-		<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-			<insert content="f a c e" />
-		</lilyPond>
-	</prompt>
-	<response format="single-pick-to-submit">
-		<button correct="true" id="cfdb4434" text="Face" />
-		<button id="8337ffee" text="Hand" />
-		<button id="243c77f2" text="Foot" />
-		<button id="e446644" text="Leg" />
-	</response>
-	<hint text="Notes are named using only letters A to G" />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="notes spell words" id="97cb317d">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Which part of your body do these notes spell?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="f a c e"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="cfdb4434">
+            <standardOut text="Face"/>
+        </button>
+        <button id="8337ffee">
+            <standardOut text="Hand"/>
+        </button>
+        <button id="243c77f2">
+            <standardOut text="Foot"/>
+        </button>
+        <button id="e446644">
+            <standardOut text="Leg"/>
+        </button>
+    </response>
+    <hint>
+        <standardOut text="Notes are named using only letters A to G"/>
+    </hint>
 </question>

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="General" creationDate="2022-08-01T21:21:32.214961Z" horizontalTag="queen" id="7f8ecaf1">
-    <prompt text="Which Queen song has this bass line?">
-        <lilyPond clef="bass" image="true" keySignature="f \major" lights="true" notes="true" template="singlestave.ly">
-            <insert content="\partial 8 bes,16 aes f r8. f16 r8. f16 r4. f16 f8 f aes f16 bes"/>
-        </lilyPond>
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Which Queen song has this bass line?">
+            <lilyPond channel="default" clef="bass" keySignature="f \major" template="singlestave.ly">
+                <insert content="\partial 8 bes,16 aes f r8. f16 r8. f16 r4. f16 f8 f aes f16 bes"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="7f8c3fe9" text="Another one bites the dust"/>
-        <button id="96f5c558" text="Bohemian Rhapsody"/>
-        <button id="1d56deef" text="Somebody to Love"/>
-        <button id="d8a631f4" text="We Will Rock You"/>
+        <button correct="true" id="7f8c3fe9">
+            <standardOut text="Another one bites the dust"/>
+        </button>
+        <button id="96f5c558">
+            <standardOut text="Bohemian Rhapsody"/>
+        </button>
+        <button id="1d56deef">
+            <standardOut text="Somebody to Love"/>
+        </button>
+        <button id="d8a631f4">
+            <standardOut text="We Will Rock You"/>
+        </button>
     </response>
     <hint/>
 </question>

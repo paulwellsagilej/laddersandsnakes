@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-07-11T11:46:01.179827Z" id="b56b7f7b" horizontalTag="symbols">
-    <prompt text="The symbol on the left is called the...">
-        <lilyPond clef="bass" image="true" template="singlestave.ly">
-            <insert content="r1"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-07-11T11:46:01.179827Z" horizontalTag="symbols" id="b56b7f7b">
+    <prompt>
+        <standardOut image="true" text="The symbol on the left is called the...">
+            <lilyPond channel="default" clef="bass" template="singlestave.ly">
+                <insert content="r1"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="checkboxes-then-submit">
-        <button correct="true" id="e5fb5109" text="Bass Clef"/>
-        <button correct="true" id="e9508346" text="F Clef"/>
-        <button id="2df325ae" text="Treble Clef"/>
-        <button id="31503ec6" text="G Clef"/>
+        <button correct="true" id="e5fb5109">
+            <standardOut text="Bass Clef"/>
+        </button>
+        <button correct="true" id="e9508346">
+            <standardOut text="F Clef"/>
+        </button>
+        <button id="2df325ae">
+            <standardOut text="Treble Clef"/>
+        </button>
+        <button id="31503ec6">
+            <standardOut text="G Clef"/>
+        </button>
     </response>
-    <hint text="The two dots surround the fourth line up."/>
+    <hint>
+        <standardOut text="The two dots surround the fourth line up."/>
+    </hint>
 </question>

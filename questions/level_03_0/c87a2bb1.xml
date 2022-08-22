@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-07-13T09:25:19.318158Z" id="c87a2bb1" horizontalTag="key signatures">
-    <prompt text="In which minor key is the theme to Axel F?">
-        <lilyPond clef="treble" image="true" lights="true" notes="true" keySignature="f \minor" template="singlestave.ly">
-            <insert content="f aes8. f16~ f f bes8 f ees f4 c'8. f,16~ f f des'8 c aes"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-07-13T09:25:19.318158Z" horizontalTag="key signatures" id="c87a2bb1">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="In which minor key is the theme to Axel F?">
+            <lilyPond channel="default" clef="treble" keySignature="f \minor" template="singlestave.ly">
+                <insert content="f aes8. f16~ f f bes8 f ees f4 c'8. f,16~ f f des'8 c aes"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="6c11947b" text="F"/>
-        <button id="9851ebde" text="C"/>
-        <button id="9c8f1b22" text="D"/>
-        <button id="fae5db21" text="G"/>
+        <button correct="true" id="6c11947b">
+            <standardOut text="F"/>
+        </button>
+        <button id="9851ebde">
+            <standardOut text="C"/>
+        </button>
+        <button id="9c8f1b22">
+            <standardOut text="D"/>
+        </button>
+        <button id="fae5db21">
+            <standardOut text="G"/>
+        </button>
     </response>
-    <hint text="Axel G would have been in G minor"/>
+    <hint>
+        <standardOut text="Axel G would have been in G minor"/>
+    </hint>
 </question>

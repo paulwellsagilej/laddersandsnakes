@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-06-15T21:07:57.998891Z" id="3cbd02d4" horizontalTag="key signatures">
-    <prompt text="Which is the key signature for G major?"/>
+<question category="Theory" creationDate="2022-06-15T21:07:57.998891Z" horizontalTag="key signatures" id="3cbd02d4">
+    <prompt>
+        <standardOut text="Which is the key signature for G major?"/>
+    </prompt>
     <response format="single-pick-to-submit">
         <button correct="true" id="e6b6dca6">
-            <lilyPond clef="treble" image="true" keySignature="g \major" template="singlestave.ly">
-                <insert content="r1"/>
-            </lilyPond>
+            <standardOut image="true">
+                <lilyPond channel="default" clef="treble" keySignature="g \major" template="singlestave.ly">
+                    <insert content="r1"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="40f75951">
-            <lilyPond clef="treble" image="true" keySignature="d \major" template="singlestave.ly">
-                <insert content="r1"/>
-            </lilyPond>
+            <standardOut image="true">
+                <lilyPond channel="default" clef="treble" keySignature="d \major" template="singlestave.ly">
+                    <insert content="r1"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="f72aec03">
-            <lilyPond clef="treble" image="true" keySignature="c \major" template="singlestave.ly">
-                <insert content="r1"/>
-            </lilyPond>
+            <standardOut image="true">
+                <lilyPond channel="default" clef="treble" keySignature="c \major" template="singlestave.ly">
+                    <insert content="r1"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="2a97a805">
-            <lilyPond clef="treble" image="true" keySignature="f \major" template="singlestave.ly">
-                <insert content="r1"/>
-            </lilyPond>
+            <standardOut image="true">
+                <lilyPond channel="default" clef="treble" keySignature="f \major" template="singlestave.ly">
+                    <insert content="r1"/>
+                </lilyPond>
+            </standardOut>
         </button>
     </response>
     <hint/>

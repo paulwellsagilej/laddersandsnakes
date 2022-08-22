@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-07-05T16:28:58.737424Z" id="672dd030" horizontalTag="terms">
-    <prompt text="What does sharpening a note do?">
-        <lilyPond clef="treble" image="true" template="singlestave.ly">
-            <insert content="fis"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-07-05T16:28:58.737424Z" horizontalTag="terms" id="672dd030">
+    <prompt>
+        <standardOut image="true" text="What does sharpening a note do?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="fis"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="ea9ce743" text="Raise its pitch"/>
-        <button id="689241d0" text="Lower its pitch"/>
-        <button id="560576e4" text="Pull it sooner"/>
-        <button id="69c2f2f4" text="Push it later"/>
+        <button correct="true" id="ea9ce743">
+            <standardOut text="Raise its pitch"/>
+        </button>
+        <button id="689241d0">
+            <standardOut text="Lower its pitch"/>
+        </button>
+        <button id="560576e4">
+            <standardOut text="Pull it sooner"/>
+        </button>
+        <button id="69c2f2f4">
+            <standardOut text="Push it later"/>
+        </button>
     </response>
-    <hint text="The pitch is changed"/>
+    <hint>
+        <standardOut text="The pitch is changed"/>
+    </hint>
 </question>

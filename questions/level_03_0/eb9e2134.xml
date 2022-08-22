@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-04T05:35:52.294626Z" horizontalTag="pitch modifiers" id="eb9e2134">
-    <prompt text="A sharp, flat or natural which is not part of the key signature is an..."/>
+    <prompt>
+        <standardOut text="A sharp, flat or natural which is not part of the key signature is an..."/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="9c9737f0" text="Accidental"/>
-        <button id="97831456" text="Artificial"/>
-        <button id="29837540" text="Unintentional"/>
-        <button id="f7fb4f7c" text="Unexpected"/>
+        <button correct="true" id="9c9737f0">
+            <standardOut text="Accidental"/>
+        </button>
+        <button id="97831456">
+            <standardOut text="Artificial"/>
+        </button>
+        <button id="29837540">
+            <standardOut text="Unintentional"/>
+        </button>
+        <button id="f7fb4f7c">
+            <standardOut text="Unexpected"/>
+        </button>
     </response>
     <hint/>
 </question>

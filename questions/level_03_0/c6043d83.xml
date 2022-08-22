@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Playing" creationDate="2022-07-03T07:23:07.691017Z" id="c6043d83" horizontalTag="play these notes">
-    <prompt text="Play the first six note of Happy Birthday To You">
-        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4" keySignature="f \major">
-            <insert content="\partial 4 \tuplet 3/2 {c c8} d4 c f e"/>
-        </lilyPond>
+<question category="Playing" creationDate="2022-07-03T07:23:07.691017Z" horizontalTag="play these notes" id="c6043d83">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Play the first six note of Happy Birthday To You">
+            <lilyPond channel="default" clef="treble" keySignature="f \major" template="singlestave.ly" timeSignature="3/4">
+                <insert content="\partial 4 \tuplet 3/2 {c c8} d4 c f e"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="c c d c f e" format="record-midi-sequence-then-submit" explainerKeySignature="c \major" explainerClef="treble"/>
-    <hint text="C C D C F E"/>
+    <response expectedMidiRelative="c'" expectedMidiScript="c c d c f e" explainerClef="treble" explainerKeySignature="c \major" format="record-midi-sequence-then-submit"/>
+    <hint>
+        <standardOut text="C C D C F E"/>
+    </hint>
 </question>

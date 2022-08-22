@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="General" creationDate="2022-07-16T21:48:16.125574Z" id="95d85469" horizontalTag="beatles">
-    <prompt text="Name this Beatles tune">
-        <lilyPond clef="treble" image="true" keySignature="a \major" lights="true" notes="true" template="singlestave.ly">
-            <insert content="r4 cis'8 b4 cis a8 r4 cis8 a b cis4. r4 cis8 b4 cis4 a8"/>
-        </lilyPond>
+<question category="General" creationDate="2022-07-16T21:48:16.125574Z" horizontalTag="beatles" id="95d85469">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Name this Beatles tune">
+            <lilyPond channel="default" clef="treble" keySignature="a \major" template="singlestave.ly">
+                <insert content="r4 cis'8 b4 cis a8 r4 cis8 a b cis4. r4 cis8 b4 cis4 a8"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="e39dda10" text="Here Comes the Sun"/>
-        <button id="63e23588" text="Here Comes the Wind"/>
-        <button id="50be5df5" text="Here Comes the Snow"/>
-        <button id="cccb1980" text="Here Comes the Rain"/>
+        <button correct="true" id="e39dda10">
+            <standardOut text="Here Comes the Sun"/>
+        </button>
+        <button id="63e23588">
+            <standardOut text="Here Comes the Wind"/>
+        </button>
+        <button id="50be5df5">
+            <standardOut text="Here Comes the Snow"/>
+        </button>
+        <button id="cccb1980">
+            <standardOut text="Here Comes the Rain"/>
+        </button>
     </response>
     <hint/>
 </question>

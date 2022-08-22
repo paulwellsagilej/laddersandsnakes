@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-06-13T17:38:00.958733Z" id="257ab732" horizontalTag="terms">
-    <prompt text="What does rubato mean you may vary as you like?"/>
+<question category="Theory" creationDate="2022-06-13T17:38:00.958733Z" horizontalTag="terms" id="257ab732">
+    <prompt>
+        <standardOut text="What does rubato mean you may vary as you like?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="5ff595ec" text="Tempo"/>
-        <button id="4895d5d8" text="Loudness"/>
-        <button id="9e39abf1" text="Melody"/>
-        <button id="b22ff491" text="Harmony"/>
+        <button correct="true" id="5ff595ec">
+            <standardOut text="Tempo"/>
+        </button>
+        <button id="4895d5d8">
+            <standardOut text="Loudness"/>
+        </button>
+        <button id="9e39abf1">
+            <standardOut text="Melody"/>
+        </button>
+        <button id="b22ff491">
+            <standardOut text="Harmony"/>
+        </button>
     </response>
     <hint/>
 </question>

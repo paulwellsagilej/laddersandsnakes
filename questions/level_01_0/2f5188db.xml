@@ -1,18 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="2f5188db" horizontalTag="recognise chords">
-	<prompt text="What type of chord is this?">
-		<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-			<insert content="&lt;c e g&gt;" />
-			<insert content="&lt;g b d&gt;" />
-			<insert content="&lt;f a c&gt;" />
-		</lilyPond>
-	</prompt>
-	<response format="single-pick-to-submit">
-		<button correct="true" id="74ea356f" text="Major" />
-		<button id="bcf089be" text="Minor" />
-		<button id="f444259f" text="Diminished" />
-	</response>
-	<hint />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="recognise chords" id="2f5188db">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="What type of chord is this?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="&lt;c e g&gt;"/>
+                <insert content="&lt;g b d&gt;"/>
+                <insert content="&lt;f a c&gt;"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="74ea356f">
+            <standardOut text="Major"/>
+        </button>
+        <button id="bcf089be">
+            <standardOut text="Minor"/>
+        </button>
+        <button id="f444259f">
+            <standardOut text="Diminished"/>
+        </button>
+    </response>
+    <hint/>
 </question>

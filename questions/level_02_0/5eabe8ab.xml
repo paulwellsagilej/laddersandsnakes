@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="5eabe8ab" horizontalTag="terms">
-    <prompt text="What does staccato mean?"/>
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="terms" id="5eabe8ab">
+    <prompt>
+        <standardOut text="What does staccato mean?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="a4f07a76" text="Short, separated notes"/>
-        <button id="13f62960" text="Long, smooth notes"/>
-        <button id="a84b62e6" text="Notes played together, stacked"/>
+        <button correct="true" id="a4f07a76">
+            <standardOut text="Short, separated notes"/>
+        </button>
+        <button id="13f62960">
+            <standardOut text="Long, smooth notes"/>
+        </button>
+        <button id="a84b62e6">
+            <standardOut text="Notes played together, stacked"/>
+        </button>
     </response>
     <hint/>
 </question>

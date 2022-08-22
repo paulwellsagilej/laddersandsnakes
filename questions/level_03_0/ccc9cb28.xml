@@ -1,12 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="ccc9cb28" horizontalTag="key signatures">
-	<prompt text="Which major scale has one more sharp than A major?" />
-	<response format="single-pick-to-submit">
-		<button correct="true" id="cfe9c2ac" text="E Major" />
-		<button id="efdc68f2" text="D Major" />
-		<button id="c503f18b" text="B Major" />
-	</response>
-	<hint text="A fifth above A" />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="key signatures" id="ccc9cb28">
+    <prompt>
+        <standardOut text="Which major scale has one more sharp than A major?"/>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="cfe9c2ac">
+            <standardOut text="E Major"/>
+        </button>
+        <button id="efdc68f2">
+            <standardOut text="D Major"/>
+        </button>
+        <button id="c503f18b">
+            <standardOut text="B Major"/>
+        </button>
+    </response>
+    <hint>
+        <standardOut text="A fifth above A"/>
+    </hint>
 </question>

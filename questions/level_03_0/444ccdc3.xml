@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="General" creationDate="2022-06-29T11:40:25.114606Z" id="444ccdc3" horizontalTag="name this tune">
-    <prompt text="Name this tune">
-        <lilyPond clef="treble" image="true" keySignature="\G major" lights="true" notes="true" template="singlestave.ly">
-            <insert content="\partial 8 d16 d d8 d16 d d8 d16 d g8 a b"/>
-        </lilyPond>
+<question category="General" creationDate="2022-06-29T11:40:25.114606Z" horizontalTag="name this tune" id="444ccdc3">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Name this tune">
+            <lilyPond channel="default" clef="treble" keySignature="\G major" template="singlestave.ly">
+                <insert content="\partial 8 d16 d d8 d16 d d8 d16 d g8 a b"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="cd3d8bbc" text="Willian Tell Overture"/>
-        <button id="6cc7d0f7" text="Dance Macabre"/>
-        <button id="839f8db5" text="Dambusters March"/>
+        <button correct="true" id="cd3d8bbc">
+            <standardOut text="Willian Tell Overture"/>
+        </button>
+        <button id="6cc7d0f7">
+            <standardOut text="Dance Macabre"/>
+        </button>
+        <button id="839f8db5">
+            <standardOut text="Dambusters March"/>
+        </button>
     </response>
     <hint/>
 </question>

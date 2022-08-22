@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-06-15T20:53:35.749082Z" id="91a61961" horizontalTag="key signatures">
-    <prompt text="Which major scale has this key signature?">
-        <lilyPond clef="treble" image="true" keySignature="f \major" template="singlestave.ly">
-            <insert content="r1"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-06-15T20:53:35.749082Z" horizontalTag="key signatures" id="91a61961">
+    <prompt>
+        <standardOut image="true" text="Which major scale has this key signature?">
+            <lilyPond channel="default" clef="treble" keySignature="f \major" template="singlestave.ly">
+                <insert content="r1"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="b2858d68" text="F major"/>
-        <button id="dce15cba" text="C major"/>
-        <button id="c0a2d2bc" text="G major"/>
-        <button id="28b6af65" text="Bb major"/>
+        <button correct="true" id="b2858d68">
+            <standardOut text="F major"/>
+        </button>
+        <button id="dce15cba">
+            <standardOut text="C major"/>
+        </button>
+        <button id="c0a2d2bc">
+            <standardOut text="G major"/>
+        </button>
+        <button id="28b6af65">
+            <standardOut text="Bb major"/>
+        </button>
     </response>
     <hint>
-        <lilyPond clef="treble" id="7c66d7f3" image="true" lights="true" notes="true" template="singlestave.ly">
-            <insert content="f8 g a bes c d e f"/>
-        </lilyPond>
+        <standardOut image="true" lights="true" notes="true">
+            <lilyPond channel="default" clef="treble" id="7c66d7f3" template="singlestave.ly">
+                <insert content="f8 g a bes c d e f"/>
+            </lilyPond>
+        </standardOut>
     </hint>
 </question>

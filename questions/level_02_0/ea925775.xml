@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-06-13T17:31:56.721020Z" id="ea925775" horizontalTag="terms">
-    <prompt text="What does legato mean?"/>
+<question category="Theory" creationDate="2022-06-13T17:31:56.721020Z" horizontalTag="terms" id="ea925775">
+    <prompt>
+        <standardOut text="What does legato mean?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="3f9344d4" text="Smoothly"/>
-        <button id="44b303b5" text="Roughly"/>
-        <button id="5a6659e2" text="Loudly"/>
-        <button id="b825ad34" text="Quietly"/>
+        <button correct="true" id="3f9344d4">
+            <standardOut text="Smoothly"/>
+        </button>
+        <button id="44b303b5">
+            <standardOut text="Roughly"/>
+        </button>
+        <button id="5a6659e2">
+            <standardOut text="Loudly"/>
+        </button>
+        <button id="b825ad34">
+            <standardOut text="Quietly"/>
+        </button>
     </response>
     <hint/>
 </question>

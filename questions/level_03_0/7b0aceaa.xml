@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-07-23T18:27:42.215753Z" id="7b0aceaa" horizontalTag="key signatures">
-    <prompt text="Which major scale has one flat fewer than B Flat major?"/>
+<question category="Theory" creationDate="2022-07-23T18:27:42.215753Z" horizontalTag="key signatures" id="7b0aceaa">
+    <prompt>
+        <standardOut text="Which major scale has one flat fewer than B Flat major?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="d7d3fdf7" text="F Major"/>
-        <button id="f8054c9b" text="C Major"/>
-        <button id="6979ca5a" text="A Flat Major"/>
-        <button id="3404ef54" text="E Flat Major"/>
+        <button correct="true" id="d7d3fdf7">
+            <standardOut text="F Major"/>
+        </button>
+        <button id="f8054c9b">
+            <standardOut text="C Major"/>
+        </button>
+        <button id="6979ca5a">
+            <standardOut text="A Flat Major"/>
+        </button>
+        <button id="3404ef54">
+            <standardOut text="E Flat Major"/>
+        </button>
     </response>
-    <hint text="B flat major has two flats">
-        <lilyPond clef="treble" image="true" keySignature="bes \major" template="singlestave.ly">
-            <insert content="bes'1"/>
-        </lilyPond>
+    <hint>
+        <standardOut image="true" text="B flat major has two flats">
+            <lilyPond channel="default" clef="treble" keySignature="bes \major" template="singlestave.ly">
+                <insert content="bes'1"/>
+            </lilyPond>
+        </standardOut>
     </hint>
 </question>

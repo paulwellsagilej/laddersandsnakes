@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-07-11T10:36:51.837598Z" id="132bd7f9" horizontalTag="symbols">
-    <prompt text="The symbol on the left is called the...">
-        <lilyPond clef="treble" image="true" template="singlestave.ly">
-            <insert content="r1"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-07-11T10:36:51.837598Z" horizontalTag="symbols" id="132bd7f9">
+    <prompt>
+        <standardOut image="true" text="The symbol on the left is called the...">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="r1"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="checkboxes-then-submit">
-        <button correct="true" id="54866f64" text="Treble Clef"/>
-        <button correct="true" id="f82db4db" text="G Clef"/>
-        <button id="9eac2f1f" text="Bass Clef"/>
-        <button id="e70600cf" text="F Clef"/>
+        <button correct="true" id="54866f64">
+            <standardOut text="Treble Clef"/>
+        </button>
+        <button correct="true" id="f82db4db">
+            <standardOut text="G Clef"/>
+        </button>
+        <button id="9eac2f1f">
+            <standardOut text="Bass Clef"/>
+        </button>
+        <button id="e70600cf">
+            <standardOut text="F Clef"/>
+        </button>
     </response>
-    <hint text="The symbol starts on the second line up."/>
+    <hint>
+        <standardOut text="The symbol starts on the second line up."/>
+    </hint>
 </question>

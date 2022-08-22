@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-06-12T12:06:35.380947Z" id="a525ecd2" horizontalTag="terms">
-    <prompt text="What does presto mean?"/>
+<question category="Theory" creationDate="2022-06-12T12:06:35.380947Z" horizontalTag="terms" id="a525ecd2">
+    <prompt>
+        <standardOut text="What does presto mean?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="d38052f9" text="Fast"/>
-        <button id="7eaa5cd3" text="Slow"/>
-        <button id="d9e05261" text="Loud"/>
-        <button id="af5efeec" text="Quiet"/>
+        <button correct="true" id="d38052f9">
+            <standardOut text="Fast"/>
+        </button>
+        <button id="7eaa5cd3">
+            <standardOut text="Slow"/>
+        </button>
+        <button id="d9e05261">
+            <standardOut text="Loud"/>
+        </button>
+        <button id="af5efeec">
+            <standardOut text="Quiet"/>
+        </button>
     </response>
     <hint/>
 </question>

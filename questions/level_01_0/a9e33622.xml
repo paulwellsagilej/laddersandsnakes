@@ -1,28 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Aural" id="a9e33622" horizontalTag="recognise chords">
-	<prompt text="Which one of these is a major chord?" />
-	<response format="radio-then-submit">
-		<button correct="true" id="90883dd2">
-			<lilyPond lights="true" notes="true" template="singlestave.ly" clef="treble">
-				<insert content="&lt;c e g&gt;1" />
-				<insert content="&lt;f a c&gt;1" />
-				<insert content="&lt;g b d&gt;1" />
-			</lilyPond>
-		</button>
-		<button id="51a3b930">
-			<lilyPond lights="true" notes="true" template="singlestave.ly" clef="treble">
-				<insert content="&lt;d f a&gt;1" />
-				<insert content="&lt;e g b&gt;1" />
-			</lilyPond>
-		</button>
-		<button id="6548bb79">
-			<lilyPond lights="true" notes="true" template="singlestave.ly" clef="treble">
-				<insert content="&lt;a c e&gt;1" />
-				<insert content="&lt;b d f&gt;1" />
-			</lilyPond>
-		</button>
-	</response>
-	<hint text="Look gaps between lights. Which chord has its middle light nearer to the light on the right?"/>
+<question category="Aural" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="recognise chords" id="a9e33622">
+    <prompt>
+        <standardOut text="Which one of these is a major chord?"/>
+    </prompt>
+    <response format="radio-then-submit">
+        <button correct="true" id="90883dd2">
+            <standardOut lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="&lt;c e g&gt;1"/>
+                    <insert content="&lt;f a c&gt;1"/>
+                    <insert content="&lt;g b d&gt;1"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+        <button id="51a3b930">
+            <standardOut lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="&lt;d f a&gt;1"/>
+                    <insert content="&lt;e g b&gt;1"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+        <button id="6548bb79">
+            <standardOut lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                    <insert content="&lt;a c e&gt;1"/>
+                    <insert content="&lt;b d f&gt;1"/>
+                </lilyPond>
+            </standardOut>
+        </button>
+    </response>
+    <hint>
+        <standardOut text="Look gaps between lights. Which chord has its middle light nearer to the light on the right?"/>
+    </hint>
 </question>

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-08T17:18:59.234411Z" horizontalTag="identify scale" id="9c886d33" verticalTag="chromatic scale">
-    <prompt text="Which ascending scale do Led Zeppelin use in 'Kashmir'?" timeout="20">
-        <lilyPond clef="bass" image="true" lights="true" notes="true" template="singlestave.ly" percentageSpeed="120">
-            <insert content="&lt;d, a'&gt;16 &lt;d a'&gt; &lt;d a'&gt;8 r8 &lt;d a'&gt;16 &lt;d a'&gt; &lt;d a'&gt;8 r8 &lt;d bes'&gt;16 &lt;d bes'&gt; &lt;d bes'&gt;8 r8 &lt;d bes'&gt;16 &lt;d bes'&gt; &lt;d bes'&gt;8 r8 &lt;d b'&gt;16 &lt;d b'&gt; &lt;d b'&gt;8 r8 &lt;d b'&gt;16 &lt;d b'&gt; &lt;d b'&gt;8 r8 &lt;d c'&gt;16 &lt;d c'&gt; &lt;d c'&gt;8 r8 &lt;d c'&gt;16 &lt;d c'&gt; &lt;d c'&gt;8 r8"/>
-        </lilyPond>
+    <prompt timeout="20">
+        <standardOut image="true" lights="true" notes="true" text="Which ascending scale do Led Zeppelin use in 'Kashmir'?">
+            <lilyPond channel="default" clef="bass" percentageSpeed="120" template="singlestave.ly">
+                <insert content="&lt;d, a'&gt;16 &lt;d a'&gt; &lt;d a'&gt;8 r8 &lt;d a'&gt;16 &lt;d a'&gt; &lt;d a'&gt;8 r8 &lt;d bes'&gt;16 &lt;d bes'&gt; &lt;d bes'&gt;8 r8 &lt;d bes'&gt;16 &lt;d bes'&gt; &lt;d bes'&gt;8 r8 &lt;d b'&gt;16 &lt;d b'&gt; &lt;d b'&gt;8 r8 &lt;d b'&gt;16 &lt;d b'&gt; &lt;d b'&gt;8 r8 &lt;d c'&gt;16 &lt;d c'&gt; &lt;d c'&gt;8 r8 &lt;d c'&gt;16 &lt;d c'&gt; &lt;d c'&gt;8 r8"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="a669115d" text="Chromatic"/>
-        <button id="e6788902" text="Pentatonic"/>
-        <button id="78d8d1a0" text="Whole Tone"/>
-        <button id="a4953538" text="Octatonic"/>
+        <button correct="true" id="a669115d">
+            <standardOut text="Chromatic"/>
+        </button>
+        <button id="e6788902">
+            <standardOut text="Pentatonic"/>
+        </button>
+        <button id="78d8d1a0">
+            <standardOut text="Whole Tone"/>
+        </button>
+        <button id="a4953538">
+            <standardOut text="Octatonic"/>
+        </button>
     </response>
     <hint/>
 </question>

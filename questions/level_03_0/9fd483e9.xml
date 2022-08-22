@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-06-13T17:51:13.447003Z" id="9fd483e9" horizontalTag="terms">
-    <prompt text="What type of scale is this?">
-        <lilyPond clef="treble" image="true" template="singlestave.ly">
-            <insert content="c cis d dis e f fis g gis a ais b"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-06-13T17:51:13.447003Z" horizontalTag="terms" id="9fd483e9">
+    <prompt>
+        <standardOut image="true" text="What type of scale is this?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="c cis d dis e f fis g gis a ais b"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="86863037" text="Chromatic"/>
-        <button id="7e46f857" text="Dramatic"/>
-        <button id="65aaa5dc" text="Acrobatic"/>
-        <button id="3a9f02cf" text="Automatic"/>
+        <button correct="true" id="86863037">
+            <standardOut text="Chromatic"/>
+        </button>
+        <button id="7e46f857">
+            <standardOut text="Dramatic"/>
+        </button>
+        <button id="65aaa5dc">
+            <standardOut text="Acrobatic"/>
+        </button>
+        <button id="3a9f02cf">
+            <standardOut text="Automatic"/>
+        </button>
     </response>
     <hint/>
 </question>

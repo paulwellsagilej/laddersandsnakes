@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-08T05:53:58.415985Z" horizontalTag="ledger lines" id="17c8e4be">
-    <prompt text="Which are middle C?"/>
+    <prompt>
+        <standardOut text="Which are middle C?"/>
+    </prompt>
     <response format="checkboxes-then-submit">
         <button correct="true" id="490f990e">
-            <lilyPond clef="treble" id="a7594295" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="c2"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="a7594295" template="singlestave.ly">
+                    <insert content="c2"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button correct="true" id="31207853">
-            <lilyPond clef="bass" id="1c1bb619" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="c2"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="bass" id="1c1bb619" template="singlestave.ly">
+                    <insert content="c2"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="dc407149">
-            <lilyPond clef="bass" id="6edf4992" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="e,,2"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="bass" id="6edf4992" template="singlestave.ly">
+                    <insert content="e,,2"/>
+                </lilyPond>
+            </standardOut>
         </button>
         <button id="70983681">
-            <lilyPond clef="treble" id="61290091" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="b'2"/>
-            </lilyPond>
+            <standardOut image="true" lights="true" notes="true">
+                <lilyPond channel="default" clef="treble" id="61290091" template="singlestave.ly">
+                    <insert content="b'2"/>
+                </lilyPond>
+            </standardOut>
         </button>
     </response>
-    <hint text="Middle C sits on one ledger line below the stave with the treble clef, and one ledger line above the stave with the bass clef."/>
+    <hint>
+        <standardOut text="Middle C sits on one ledger line below the stave with the treble clef, and one ledger line above the stave with the bass clef."/>
+    </hint>
 </question>

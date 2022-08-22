@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-10T18:03:20.042358Z" id="45773efe" verticalTag="chromatic contrary motion">
-    <prompt text="A piano keyboard is a mirror image around which keys?"/>
+    <prompt>
+        <standardOut text="A piano keyboard is a mirror image around which keys?"/>
+    </prompt>
     <response format="checkboxes-then-submit">
-        <button correct="true" id="a1c7fd96" text="D">
-            <lilyPond clef="treble" id="10bdd2bf" lights="true" template="singlestave.ly">
-                <insert content="d1"/>
-            </lilyPond>
+        <button correct="true" id="a1c7fd96">
+            <standardOut lights="true" text="D">
+                <lilyPond channel="default" clef="treble" id="10bdd2bf" template="singlestave.ly">
+                    <insert content="d1"/>
+                </lilyPond>
+            </standardOut>
         </button>
-        <button correct="true" id="a0c55568" text="A flat / G sharp">
-            <lilyPond clef="treble" id="2910413a" lights="true" template="singlestave.ly">
-                <insert content="eas1"/>
-            </lilyPond>
+        <button correct="true" id="a0c55568">
+            <standardOut lights="true" text="A flat / G sharp">
+                <lilyPond channel="default" clef="treble" id="2910413a" template="singlestave.ly">
+                    <insert content="eas1"/>
+                </lilyPond>
+            </standardOut>
         </button>
-        <button id="5768384e" text="C">
-            <lilyPond clef="treble" id="5409eb18" lights="true" template="singlestave.ly">
-                <insert content="c1"/>
-            </lilyPond>
+        <button id="5768384e">
+            <standardOut lights="true" text="C">
+                <lilyPond channel="default" clef="treble" id="5409eb18" template="singlestave.ly">
+                    <insert content="c1"/>
+                </lilyPond>
+            </standardOut>
         </button>
-        <button id="f29f34c0" text="A">
-            <lilyPond clef="treble" id="bb75928b" lights="true" template="singlestave.ly">
-                <insert content="a1"/>
-            </lilyPond>
+        <button id="f29f34c0">
+            <standardOut lights="true" text="A">
+                <lilyPond channel="default" clef="treble" id="bb75928b" template="singlestave.ly">
+                    <insert content="a1"/>
+                </lilyPond>
+            </standardOut>
         </button>
     </response>
-    <hint text="Look carefully at the patter of keys, there are two keys where the pattern is the same on the left and the right."/>
+    <hint>
+        <standardOut text="Look carefully at the patter of keys, there are two keys where the pattern is the same on the left and the right."/>
+    </hint>
 </question>

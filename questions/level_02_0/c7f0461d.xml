@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="c7f0461d" horizontalTag="terms">
-    <prompt text="What does crescendo mean?"/>
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="terms" id="c7f0461d">
+    <prompt>
+        <standardOut text="What does crescendo mean?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="c1db6336" text="Getting louder"/>
-        <button id="cfbbd503" text="Getting quieter"/>
-        <button id="a751a31e" text="Getting faster"/>
-        <button id="44dcbc63" text="Getting slower"/>
+        <button correct="true" id="c1db6336">
+            <standardOut text="Getting louder"/>
+        </button>
+        <button id="cfbbd503">
+            <standardOut text="Getting quieter"/>
+        </button>
+        <button id="a751a31e">
+            <standardOut text="Getting faster"/>
+        </button>
+        <button id="44dcbc63">
+            <standardOut text="Getting slower"/>
+        </button>
     </response>
     <hint/>
 </question>

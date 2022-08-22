@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-01T21:00:00.894175Z" horizontalTag="terms" id="8b9fe8fd">
-    <prompt text="What is the pitch of a note?"/>
+    <prompt>
+        <standardOut text="What is the pitch of a note?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="e64fd1fb" text="How high or low it is"/>
-        <button id="cdfba17b" text="How loud or quiet it is"/>
-        <button id="1eb0840b" text="How long or short it is"/>
+        <button correct="true" id="e64fd1fb">
+            <standardOut text="How high or low it is"/>
+        </button>
+        <button id="cdfba17b">
+            <standardOut text="How loud or quiet it is"/>
+        </button>
+        <button id="1eb0840b">
+            <standardOut text="How long or short it is"/>
+        </button>
     </response>
     <hint/>
 </question>

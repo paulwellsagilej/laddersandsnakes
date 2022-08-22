@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="General" creationDate="2022-07-31T21:15:34.587069Z" horizontalTag="abba" id="ada02b0e" verticalTag="dancing queen">
-    <prompt text="Name this ABBA tune">
-        <lilyPond clef="treble" image="true" keySignature="a \major" lights="true" notes="true" template="singlestave.ly">
-            <insert content="cis' b8 b~ b2 cis 4 b8 b~ b4 cis a 8. b16~b8 gis a8. b16~ b8gis a16 gis fis"/>
-        </lilyPond>
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Name this ABBA tune">
+            <lilyPond channel="default" clef="treble" keySignature="a \major" template="singlestave.ly">
+                <insert content="cis' b8 b~ b2 cis 4 b8 b~ b4 cis a 8. b16~b8 gis a8. b16~ b8gis a16 gis fis"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="c7cfd313" text="Dancing Queen"/>
-        <button id="ded7715d" text="Mamma Mia"/>
-        <button id="49b398fa" text="Money Money Money"/>
-        <button id="dec59ab0" text="Waterloo"/>
+        <button correct="true" id="c7cfd313">
+            <standardOut text="Dancing Queen"/>
+        </button>
+        <button id="ded7715d">
+            <standardOut text="Mamma Mia"/>
+        </button>
+        <button id="49b398fa">
+            <standardOut text="Money Money Money"/>
+        </button>
+        <button id="dec59ab0">
+            <standardOut text="Waterloo"/>
+        </button>
     </response>
     <hint/>
 </question>

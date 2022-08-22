@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-12T08:39:42.553004Z" horizontalTag="inversions" id="3f8eaf28" verticalTag="inversions">
-    <prompt text="In which inversion is this major triad?">
-        <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
-            <insert content="&lt;f a c&gt;1"/>
-            <insert content="&lt;g' b d&gt;1"/>
-            <insert content="&lt;c e g&gt;1"/>
-        </lilyPond>
+    <prompt>
+        <standardOut lights="true" notes="true" text="In which inversion is this major triad?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="&lt;f a c&gt;1"/>
+                <insert content="&lt;g' b d&gt;1"/>
+                <insert content="&lt;c e g&gt;1"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="fb374a0b" text="Root"/>
-        <button id="cdffa185" text="First"/>
-        <button id="216a1f13" text="Second"/>
+        <button correct="true" id="fb374a0b">
+            <standardOut text="Root"/>
+        </button>
+        <button id="cdffa185">
+            <standardOut text="First"/>
+        </button>
+        <button id="216a1f13">
+            <standardOut text="Second"/>
+        </button>
     </response>
-    <hint text="Look at the gaps between lights. Root has a gap of 3 then a gap of 2."/>
+    <hint>
+        <standardOut text="Look at the gaps between lights. Root has a gap of 3 then a gap of 2."/>
+    </hint>
 </question>

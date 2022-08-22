@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-07-16T17:25:06.146754Z" id="76efd680" horizontalTag="rhythm">
-    <prompt text="What do two dots after a note mean?">
-        <lilyPond clef="treble" image="true" template="singlestave.ly">
-            <insert content="e2.."/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-07-16T17:25:06.146754Z" horizontalTag="rhythm" id="76efd680">
+    <prompt>
+        <standardOut image="true" text="What do two dots after a note mean?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="e2.."/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="b16b3c45" text="75% longer"/>
-        <button id="d49b1a4a" text="75% off"/>
-        <button id="45d06a26" text="75% louder"/>
-        <button id="19ed48dc" text="75% quieter"/>
+        <button correct="true" id="b16b3c45">
+            <standardOut text="75% longer"/>
+        </button>
+        <button id="d49b1a4a">
+            <standardOut text="75% off"/>
+        </button>
+        <button id="45d06a26">
+            <standardOut text="75% louder"/>
+        </button>
+        <button id="19ed48dc">
+            <standardOut text="75% quieter"/>
+        </button>
     </response>
     <hint>
-        <lilyPond clef="treble" image="true" template="singlestave.ly">
-            <insert content="e2(e4)(e8)"/>
-        </lilyPond>
+        <standardOut image="true">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="e2(e4)(e8)"/>
+            </lilyPond>
+        </standardOut>
     </hint>
 </question>

@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-07-13T12:46:43.309754Z" id="2b259876" horizontalTag="how many notes in scale" verticalTag="chromatic scale">
-    <prompt text="How many notes are there in the chromatic scale?">
-        <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
-            <insert content="c8 cis d dis e f fis g gis a ais b"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-07-13T12:46:43.309754Z" horizontalTag="how many notes in scale" id="2b259876" verticalTag="chromatic scale">
+    <prompt>
+        <standardOut lights="true" notes="true" text="How many notes are there in the chromatic scale?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="c8 cis d dis e f fis g gis a ais b"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="d38fba41" text="12"/>
-        <button id="489b374c" text="5"/>
-        <button id="ada504f0" text="6"/>
-        <button id="5ec17f81" text="8"/>
+        <button correct="true" id="d38fba41">
+            <standardOut text="12"/>
+        </button>
+        <button id="489b374c">
+            <standardOut text="5"/>
+        </button>
+        <button id="ada504f0">
+            <standardOut text="6"/>
+        </button>
+        <button id="5ec17f81">
+            <standardOut text="8"/>
+        </button>
     </response>
-    <hint text="C C# D D# E F F# G G# A A# B"/>
+    <hint>
+        <standardOut text="C C# D D# E F F# G G# A A# B"/>
+    </hint>
 </question>

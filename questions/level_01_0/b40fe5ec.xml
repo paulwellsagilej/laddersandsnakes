@@ -1,16 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="b40fe5ec" horizontalTag="notes spell words">
-	<prompt text="Which item of haberdashery do these notes spell?">
-		<lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-			<insert content="\partial 2. b'8 a d,4 g e1" />
-		</lilyPond>
-	</prompt>
-	<response format="single-pick-to-submit">
-		<button correct="true" id="c747f408" text="Badge" />
-		<button id="c11afc08" text="Button" />
-		<button id="13120f14" text="Buckle" />
-	</response>
-	<hint text="Notes are named using only letters A to G" />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="notes spell words" id="b40fe5ec">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Which item of haberdashery do these notes spell?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="\partial 2. b'8 a d,4 g e1"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="c747f408">
+            <standardOut text="Badge"/>
+        </button>
+        <button id="c11afc08">
+            <standardOut text="Button"/>
+        </button>
+        <button id="13120f14">
+            <standardOut text="Buckle"/>
+        </button>
+    </response>
+    <hint>
+        <standardOut text="Notes are named using only letters A to G"/>
+    </hint>
 </question>

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="7d34bc7f" horizontalTag="terms">
-    <prompt text="What does fortissimo mean?"/>
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="terms" id="7d34bc7f">
+    <prompt>
+        <standardOut text="What does fortissimo mean?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="fc08ce12" text="Very loud"/>
-        <button id="6b1178e0" text="Very fast"/>
-        <button id="2506885c" text="Very quiet"/>
-        <button id="7d234f9e" text="Very slow"/>
+        <button correct="true" id="fc08ce12">
+            <standardOut text="Very loud"/>
+        </button>
+        <button id="6b1178e0">
+            <standardOut text="Very fast"/>
+        </button>
+        <button id="2506885c">
+            <standardOut text="Very quiet"/>
+        </button>
+        <button id="7d234f9e">
+            <standardOut text="Very slow"/>
+        </button>
     </response>
     <hint/>
 </question>

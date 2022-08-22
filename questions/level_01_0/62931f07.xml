@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-<question category="Theory" creationDate="2022-06-16T17:20:08.332992Z" id="62931f07" horizontalTag="terms">
-    <prompt text="What does unison mean?"/>
+<question category="Theory" creationDate="2022-06-16T17:20:08.332992Z" horizontalTag="terms" id="62931f07">
+    <prompt>
+        <standardOut text="What does unison mean?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="60a46262" text="All play the same note at the same time"/>
-        <button id="deae9d80" text="Each play a different note at the same time"/>
-        <button id="ddf440ce" text="Each play the same note at different times"/>
-        <button id="399e8b01" text="Each play a different note at different times"/>
+        <button correct="true" id="60a46262">
+            <standardOut text="All play the same note at the same time"/>
+        </button>
+        <button id="deae9d80">
+            <standardOut text="Each play a different note at the same time"/>
+        </button>
+        <button id="ddf440ce">
+            <standardOut text="Each play the same note at different times"/>
+        </button>
+        <button id="399e8b01">
+            <standardOut text="Each play a different note at different times"/>
+        </button>
     </response>
     <hint/>
 </question>

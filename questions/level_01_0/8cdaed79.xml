@@ -1,16 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="8cdaed79" horizontalTag="notes spell words">
-	<prompt text="What vegetable do these notes spell?">
-		<lilyPond image="true" lights="true" notes="true" template="singlestave.ly" clef="treble">
-			<insert content="c' a b8 b4. a4 g e2" />
-		</lilyPond>
-	</prompt>
-	<response format="single-pick-to-submit">
-		<button correct="true" id="61874723" text="Cabbage" />
-		<button id="75b1c204" text="Cauliflower" />
-		<button id="ceaeddf6" text="Broccoli" />
-	</response>
-	<hint text="Notes are named using only letters A to G" />
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="notes spell words" id="8cdaed79">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="What vegetable do these notes spell?">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="c' a b8 b4. a4 g e2"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="61874723">
+            <standardOut text="Cabbage"/>
+        </button>
+        <button id="75b1c204">
+            <standardOut text="Cauliflower"/>
+        </button>
+        <button id="ceaeddf6">
+            <standardOut text="Broccoli"/>
+        </button>
+    </response>
+    <hint>
+        <standardOut text="Notes are named using only letters A to G"/>
+    </hint>
 </question>

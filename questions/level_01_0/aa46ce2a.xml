@@ -1,18 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="General" id="aa46ce2a" horizontalTag="national anthems">
-	<prompt text="Whose national anthem is this?">
-		<lilyPond image="true" lights="true" notes="true" clef="treble" template="singlestave.ly" timeSignature="3/4" percentageSpeed="151">
-			<insert content="\partial 4 g'8. e16 c4 e g c2" />
-		</lilyPond>
-	</prompt>
-	<response format="single-pick-to-submit">
-		<button correct="true" id="42a5bc9e" text="USA" />
-		<button id="c3d09f4f" text="Canadaa" />
-		<button id="ee925134" text="Germany" />
-		<button id="a2819e90" text="France" />
-	</response>
-	<hint />
+<question category="General" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="national anthems" id="aa46ce2a">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Whose national anthem is this?">
+            <lilyPond channel="default" clef="treble" percentageSpeed="151" template="singlestave.ly" timeSignature="3/4">
+                <insert content="\partial 4 g'8. e16 c4 e g c2"/>
+            </lilyPond>
+        </standardOut>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="42a5bc9e">
+            <standardOut text="USA"/>
+        </button>
+        <button id="c3d09f4f">
+            <standardOut text="Canadaa"/>
+        </button>
+        <button id="ee925134">
+            <standardOut text="Germany"/>
+        </button>
+        <button id="a2819e90">
+            <standardOut text="France"/>
+        </button>
+    </response>
+    <hint/>
 </question>
-	

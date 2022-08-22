@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question creationDate="2022-06-11T21:52:46.155667Z" category="Theory" id="5c5fca1a" horizontalTag="terms">
-    <prompt text="What does rallentando mean?"/>
+<question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="terms" id="5c5fca1a">
+    <prompt>
+        <standardOut text="What does rallentando mean?"/>
+    </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="d77499e3" text="Slowing down"/>
-        <button id="ff577470" text="Speeding up"/>
-        <button id="eb29cb61" text="Getting louder"/>
-        <button id="2ffb1afc" text="Getting quieter"/>
+        <button correct="true" id="d77499e3">
+            <standardOut text="Slowing down"/>
+        </button>
+        <button id="ff577470">
+            <standardOut text="Speeding up"/>
+        </button>
+        <button id="eb29cb61">
+            <standardOut text="Getting louder"/>
+        </button>
+        <button id="2ffb1afc">
+            <standardOut text="Getting quieter"/>
+        </button>
     </response>
     <hint/>
 </question>

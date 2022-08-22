@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-<question category="Theory" creationDate="2022-07-05T12:39:35.571295Z" id="2578e161" horizontalTag="symbols">
-    <prompt text="What does the symbol on the left mean?">
-        <lilyPond image="true" template="singlestave.ly">
-            <insert content="bis'1"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-07-05T12:39:35.571295Z" horizontalTag="symbols" id="2578e161">
+    <prompt>
+        <standardOut image="true" text="What does the symbol on the left mean?">
+            <lilyPond channel="default" template="singlestave.ly">
+                <insert content="bis'1"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="2e82ccad" text="Make the next note sharp"/>
-        <button id="1c50f78a" text="Make the next note flat"/>
-        <button id="5564cc47" text="Press the hash key"/>
-        <button id="6636cf6a" text="Play noughts and crosses"/>
+        <button correct="true" id="2e82ccad">
+            <standardOut text="Make the next note sharp"/>
+        </button>
+        <button id="1c50f78a">
+            <standardOut text="Make the next note flat"/>
+        </button>
+        <button id="5564cc47">
+            <standardOut text="Press the hash key"/>
+        </button>
+        <button id="6636cf6a">
+            <standardOut text="Play noughts and crosses"/>
+        </button>
     </response>
     <hint/>
 </question>

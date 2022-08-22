@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-
-<question category="Theory" creationDate="2022-06-13T19:42:10.765382Z" id="a8101144" horizontalTag="terms">
-    <prompt text="Another name for quarter note is...">
-        <lilyPond clef="treble" image="true" template="singlestave.ly">
-            <insert content="f f f f"/>
-        </lilyPond>
+<question category="Theory" creationDate="2022-06-13T19:42:10.765382Z" horizontalTag="terms" id="a8101144">
+    <prompt>
+        <standardOut image="true" text="Another name for quarter note is...">
+            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+                <insert content="f f f f"/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="28969b80" text="Crotchet"/>
-        <button id="5d2a6da3" text="Quaver"/>
-        <button id="fecbcbf2" text="Minim"/>
-        <button id="54c27def" text="Semibreve"/>
+        <button correct="true" id="28969b80">
+            <standardOut text="Crotchet"/>
+        </button>
+        <button id="5d2a6da3">
+            <standardOut text="Quaver"/>
+        </button>
+        <button id="fecbcbf2">
+            <standardOut text="Minim"/>
+        </button>
+        <button id="54c27def">
+            <standardOut text="Semibreve"/>
+        </button>
     </response>
     <hint/>
 </question>

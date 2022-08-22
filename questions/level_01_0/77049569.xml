@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE xml>
-<question category="General" creationDate="2022-07-16T17:36:02.698856Z" id="77049569" horizontalTag="beatles">
-    <prompt text="Name this Beatles tune">
-        <lilyPond clef="treble" image="true" keySignature="f \major" lights="true" notes="true" template="singlestave.ly">
-            <insert content="g'8 f f2. r4 a8 b cis d e f e d8 d2."/>
-        </lilyPond>
+<question category="General" creationDate="2022-07-16T17:36:02.698856Z" horizontalTag="beatles" id="77049569">
+    <prompt>
+        <standardOut image="true" lights="true" notes="true" text="Name this Beatles tune">
+            <lilyPond channel="default" clef="treble" keySignature="f \major" template="singlestave.ly">
+                <insert content="g'8 f f2. r4 a8 b cis d e f e d8 d2."/>
+            </lilyPond>
+        </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
-        <button correct="true" id="d3cac9b9" text="Yesterday"/>
-        <button id="83e18759" text="Tomorrow"/>
-        <button id="98bcc552" text="Today"/>
-        <button id="98495bd6" text="Next Week"/>
+        <button correct="true" id="d3cac9b9">
+            <standardOut text="Yesterday"/>
+        </button>
+        <button id="83e18759">
+            <standardOut text="Tomorrow"/>
+        </button>
+        <button id="98bcc552">
+            <standardOut text="Today"/>
+        </button>
+        <button id="98495bd6">
+            <standardOut text="Next Week"/>
+        </button>
     </response>
     <hint/>
 </question>
