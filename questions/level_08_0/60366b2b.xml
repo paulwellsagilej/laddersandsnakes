@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-08-13T15:49:53.168830Z" horizontalTag="modes" id="60366b2b">
+    <prompt text="Which mode is this?" timeout="30">
+        <lilyPond clef="treble" image="true" lights="true" notes="true" percentageSpeed="250" template="singlestave.ly">
+            <insert content="c des ees f ges aes bes c"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="3874e42b" text="Locrian"/>
+        <button id="37c86f79" text="Ionian"/>
+        <button id="20faef83" text="Dorian"/>
+        <button id="fe6f3101" text="Lydian"/>
+        <button id="4e754daa" text="Aeolian"/>
+        <button id="477a90d1" text="Phrygian"/>
+    </response>
+    <hint text="The only mode with no perfect fifth."/>
+</question>

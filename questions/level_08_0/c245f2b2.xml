@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-08-13T15:40:11.424622Z" horizontalTag="modes" id="c245f2b2">
+    <prompt text="Which mode is this?"  timeout="30">
+        <lilyPond clef="treble" image="true" lights="true" notes="true" percentageSpeed="250" template="singlestave.ly">
+            <insert content="c d ees f g aes bes c"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="69dee326" text="Aeolian"/>
+        <button id="3ca41ffb" text="Locrian"/>
+        <button id="35581b8a" text="Mixolydian"/>
+        <button id="c5fec714" text="Phrygian"/>
+        <button id="a5185cf6" text="Dorian"/>
+        <button id="be01e190" text="Ionian"/>
+    </response>
+    <hint text="Also known as the Natural Minor scale."/>
+</question>

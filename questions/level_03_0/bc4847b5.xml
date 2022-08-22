@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Playing" creationDate="2022-08-12T12:25:13.082154Z" horizontalTag="intervals" id="bc4847b5">
+    <prompt text="Play a chord of two notes a major third apart. The light shows the lower note.">
+        <lilyPond clef="treble" lights="true" percentageSpeed="50" template="singlestave.ly">
+            <insert content="f1"/>
+        </lilyPond>
+    </prompt>
+    <response expectedMidiRelative="c'" expectedMidiScript="&lt;f a&gt;" explainerClef="\treble" explainerKeySignature="f \major" format="play-single-chord-to-submit"/>
+    <hint text="The upper note is A is four lights higher than the lower note shown."/>
+</question>

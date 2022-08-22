@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-08-11T12:48:31.410868Z" horizontalTag="notes spell words" id="acfaae2d">
+    <prompt text="What do these notes spell?">
+        <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
+            <insert content="b b c2"/>
+        </lilyPond>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="966f415c" text="BBC"/>
+        <button id="33f47f36" text="ITV"/>
+        <button id="44044ec6" text="Channel 4"/>
+        <button id="1ae2790e" text="Sky"/>
+    </response>
+    <hint/>
+</question>

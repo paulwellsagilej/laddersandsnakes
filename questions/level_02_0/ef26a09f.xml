@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-08-11T12:34:01.126136Z" horizontalTag="time signatures" id="ef26a09f">
+    <prompt text="Which is the time signature for a waltz?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="5dc3c2ce">
+            <lilyPond image="true" template="singlestave.ly" timeSignature="3/4">
+                <insert content="r1"/>
+            </lilyPond>
+        </button>
+        <button id="2cdd89a6">
+            <lilyPond image="true" template="singlestave.ly" timeSignature="4/4">
+                <insert content="r1"/>
+            </lilyPond>
+        </button>
+        <button id="272cedde">
+            <lilyPond image="true" template="singlestave.ly" timeSignature="2/4">
+                <insert content="r1"/>
+            </lilyPond>
+        </button>
+        <button id="193e0a9d">
+            <lilyPond image="true" template="singlestave.ly" timeSignature="6/8">
+                <insert content="r1"/>
+            </lilyPond>
+        </button>
+    </response>
+    <hint>
+        <lilyPond clef="treble" id="6d1e0671" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
+            <insert content="c &lt;e g&gt; &lt;e g&gt; cis &lt;e g&gt; &lt;e g&gt; d &lt;f a&gt; &lt;f a&gt; c &lt;f a&gt; &lt;f a&gt;"/>
+        </lilyPond>
+    </hint>
+</question>

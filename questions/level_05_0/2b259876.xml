@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<question category="Theory" creationDate="2022-07-13T12:46:43.309754Z" id="2b259876" horizontalTag="how many notes in scale">
+<question category="Theory" creationDate="2022-07-13T12:46:43.309754Z" id="2b259876" horizontalTag="how many notes in scale" verticalTag="chromatic scale">
     <prompt text="How many notes are there in the chromatic scale?">
         <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
             <insert content="c8 cis d dis e f fis g gis a ais b"/>

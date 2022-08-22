@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-08-12T11:54:42.206093Z" horizontalTag="resolution" id="e5454757" verticalTag="resolution">
+    <prompt text="Which pairs of chords for a resolution?"/>
+    <response format="checkboxes-then-submit">
+        <button correct="true" id="bebed385">
+            <lilyPond clef="treble" id="4ac65539" image="true" lights="true" notes="true" template="singlestave.ly" percentageSpeed="200">
+                <insert content="&lt;g f' b&gt;2 &lt;c e c'&gt;"/>
+            </lilyPond>
+        </button>
+        <button id="a5f82c9c">
+            <lilyPond clef="treble" image="true"  lights="true" notes="true" template="singlestave.ly" percentageSpeed="200">
+                <insert content="&lt;d f b&gt;2 &lt;f g c&gt;"/>
+            </lilyPond>
+        </button>
+        <button correct="true" id="737b6ce2">
+            <lilyPond clef="treble" id="142624de" image="true" keySignature="aes \major" lights="true" notes="true" template="singlestave.ly" percentageSpeed="200">
+                <insert content="&lt;aes des f&gt;2 &lt;aes c ees&gt;"/>
+            </lilyPond>
+        </button>
+        <button id="609e2149">
+            <lilyPond clef="treble" id="1f2fda72" image="true" keySignature="a \major" lights="true" notes="true" template="singlestave.ly" percentageSpeed="200">
+                <insert content="&lt;a d fis&gt;2 &lt;a d e&gt;"/>
+            </lilyPond>
+        </button>
+    </response>
+    <hint text="Which sound like the music has come to a stopping point with no need to add any more?"/>
+</question>

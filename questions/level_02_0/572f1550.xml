@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<question category="Theory" creationDate="2022-08-11T06:57:13.184726Z" id="572f1550" verticalTag="transpose">
+    <prompt text="What do you do when you transpose a tune?"/>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="bfe8d543" text="Move every note higher or lower by the same amount."/>
+        <button id="74e571de" text="Move every note earlier or later by the same amount."/>
+        <button id="80a93127" text="Play the tune faster"/>
+        <button id="439fa6d7" text="Play the tune louder.."/>
+    </response>
+    <hint/>
+</question>
