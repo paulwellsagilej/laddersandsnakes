@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-01T18:04:40.828530Z" horizontalTag="terms" id="b2c6dad0">
     <prompt text="What does crescendo mean?">
         <lilyPond clef="treble" image="true" template="singlestave.ly">

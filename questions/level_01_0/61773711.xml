@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Aural" creationDate="2022-08-02T16:40:24.485760Z" id="61773711" horizontalTag="written pitch">
     <prompt text="Which tunes are descending?"/>
     <response format="checkboxes-then-submit">

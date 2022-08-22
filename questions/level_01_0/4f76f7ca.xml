@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-11T12:45:45.994515Z" horizontalTag="notes spell words" id="4f76f7ca">
     <prompt text="What does a baby bird hatch from?"/>
     <response format="radio-then-submit">

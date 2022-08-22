@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-01T21:00:00.894175Z" horizontalTag="terms" id="8b9fe8fd">
     <prompt text="What is the pitch of a note?"/>
     <response format="single-pick-to-submit">

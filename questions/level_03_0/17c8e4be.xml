@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-08T05:53:58.415985Z" horizontalTag="ledger lines" id="17c8e4be">
     <prompt text="Which are middle C?"/>
     <response format="checkboxes-then-submit">

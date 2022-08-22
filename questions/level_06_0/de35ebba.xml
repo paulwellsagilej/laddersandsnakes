@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 
 <question category="Playing" creationDate="2022-07-26T08:29:49.947706Z" id="de35ebba" horizontalTag="transpose this tune">
     <prompt text="Play this tune transposed up one tone." timeout="30">

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-11T06:57:13.184726Z" id="572f1550" verticalTag="transpose">
     <prompt text="What do you do when you transpose a tune?"/>
     <response format="single-pick-to-submit">

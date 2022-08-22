@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-08T17:18:59.234411Z" horizontalTag="identify scale" id="9c886d33" verticalTag="chromatic scale">
     <prompt text="Which ascending scale do Led Zeppelin use in 'Kashmir'?" timeout="20">
         <lilyPond clef="bass" image="true" lights="true" notes="true" template="singlestave.ly" percentageSpeed="120">

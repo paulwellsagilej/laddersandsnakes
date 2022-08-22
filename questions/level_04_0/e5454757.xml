@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-12T11:54:42.206093Z" horizontalTag="resolution" id="e5454757" verticalTag="resolution">
     <prompt text="Which pairs of chords for a resolution?"/>
     <response format="checkboxes-then-submit">

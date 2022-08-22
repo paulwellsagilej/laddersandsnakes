@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Aural" creationDate="2022-07-31T17:26:51.916543Z" horizontalTag="recognise chords" id="34668338" verticalTag="major chords">
     <prompt text="What type of chord can you hear">
         <lilyPond clef="treble" notes="true" template="singlestave.ly">

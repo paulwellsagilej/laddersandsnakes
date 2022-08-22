@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
 <question category="Playing" creationDate="2022-08-12T12:25:13.082154Z" horizontalTag="intervals" id="bc4847b5">
     <prompt text="Play a chord of two notes a major third apart. The light shows the lower note.">
         <lilyPond clef="treble" lights="true" percentageSpeed="50" template="singlestave.ly">
