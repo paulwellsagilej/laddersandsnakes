@@ -6,29 +6,29 @@
     </prompt>
     <response format="checkboxes-then-submit">
         <button correct="true" id="bebed385">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="4ac65539" percentageSpeed="200" template="singlestave.ly">
+            <standardOut image="true" lights="true" notes="true" percentageSpeed="200">
+                <lilyPond channel="default" clef="treble" id="4ac65539" template="singlestave.ly">
                     <insert content="&lt;g f' b&gt;2 &lt;c e c'&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="a5f82c9c">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" percentageSpeed="200" template="singlestave.ly">
+            <standardOut image="true" lights="true" notes="true" percentageSpeed="200">
+                <lilyPond channel="default" clef="treble" template="singlestave.ly">
                     <insert content="&lt;d f b&gt;2 &lt;f g c&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="737b6ce2">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="142624de" keySignature="aes \major" percentageSpeed="200" template="singlestave.ly">
+            <standardOut image="true" lights="true" notes="true" percentageSpeed="200">
+                <lilyPond channel="default" clef="treble" id="142624de" keySignature="aes \major" template="singlestave.ly">
                     <insert content="&lt;aes des f&gt;2 &lt;aes c ees&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="609e2149">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="1f2fda72" keySignature="a \major" percentageSpeed="200" template="singlestave.ly">
+            <standardOut image="true" lights="true" notes="true" percentageSpeed="200">
+                <lilyPond channel="default" clef="treble" id="1f2fda72" keySignature="a \major" template="singlestave.ly">
                     <insert content="&lt;a d fis&gt;2 &lt;a d e&gt;"/>
                 </lilyPond>
             </standardOut>
