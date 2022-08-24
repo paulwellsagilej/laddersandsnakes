@@ -13,5 +13,5 @@
    	$content
   }
   \layout{}
-  $omitMidi
+  \midi{}
 }
