@@ -19,8 +19,8 @@
         </button>
     </response>
     <hint>
-        <standardOut image="true" text="B flat major has two flats">
-            <lilyPond channel="default" clef="treble" keySignature="bes \major" template="singlestave.ly">
+        <standardOut text="B flat major has two flats">
+            <lilyPond clef="treble" image="true" keySignature="bes \major" template="singlestave.ly">
                 <insert content="bes'1"/>
             </lilyPond>
         </standardOut>

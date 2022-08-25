@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-06-13T16:02:01.242470Z" id="96f97fac">
     <prompt>
-        <standardOut image="true" lights="true" notes="true" text="This interval is..">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="This interval is..">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                 <insert content="&lt;c e&gt;1"/>
             </lilyPond>
         </standardOut>

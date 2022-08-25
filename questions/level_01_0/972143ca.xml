@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-07-13T08:31:37.511733Z" horizontalTag="symbols" id="972143ca">
     <prompt>
-        <standardOut image="true" text="What does the symbol on the top mean?">
-            <lilyPond channel="default" template="singlestave.ly">
+        <standardOut text="What does the symbol on the top mean?">
+            <lilyPond image="true" template="singlestave.ly">
                 <insert content="b'1 \fermata"/>
             </lilyPond>
         </standardOut>

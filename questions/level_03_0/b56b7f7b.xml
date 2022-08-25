@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-07-11T11:46:01.179827Z" horizontalTag="symbols" id="b56b7f7b">
     <prompt>
-        <standardOut image="true" text="The symbol on the left is called the...">
-            <lilyPond channel="default" clef="bass" template="singlestave.ly">
+        <standardOut text="The symbol on the left is called the...">
+            <lilyPond clef="bass" image="true" template="singlestave.ly">
                 <insert content="r1"/>
             </lilyPond>
         </standardOut>

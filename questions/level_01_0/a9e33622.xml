@@ -6,8 +6,8 @@
     </prompt>
     <response format="radio-then-submit">
         <button correct="true" id="90883dd2">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;c e g&gt;1"/>
                     <insert content="&lt;f a c&gt;1"/>
                     <insert content="&lt;g b d&gt;1"/>
@@ -15,16 +15,16 @@
             </standardOut>
         </button>
         <button id="51a3b930">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;d f a&gt;1"/>
                     <insert content="&lt;e g b&gt;1"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="6548bb79">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;a c e&gt;1"/>
                     <insert content="&lt;b d f&gt;1"/>
                 </lilyPond>

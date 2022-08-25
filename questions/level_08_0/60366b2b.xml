@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-13T15:49:53.168830Z" horizontalTag="modes" id="60366b2b">
     <prompt timeout="30">
-        <standardOut image="true" lights="true" notes="true" percentageSpeed="250" text="Which mode is this?">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut percentageSpeed="250" text="Which mode is this?">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                 <insert content="c des ees f ges aes bes c"/>
             </lilyPond>
         </standardOut>

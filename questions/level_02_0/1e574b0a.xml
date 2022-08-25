@@ -6,8 +6,8 @@
     </prompt>
     <response format="checkboxes-then-submit">
         <button correct="true" id="5e741514">
-            <standardOut image="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" image="true" template="singlestave.ly">
                     <insert content="d2~ d"/>
                     <insert content="e2~ e"/>
                     <insert content="f2~ f"/>
@@ -16,8 +16,8 @@
             </standardOut>
         </button>
         <button id="5765cd47">
-            <standardOut image="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" image="true" template="singlestave.ly">
                     <insert content="d2( e)"/>
                     <insert content="e2( f)"/>
                     <insert content="f2( g)"/>
@@ -25,8 +25,8 @@
             </standardOut>
         </button>
         <button id="a39fdfea">
-            <standardOut image="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" image="true" template="singlestave.ly">
                     <insert content="g'2( f)"/>
                     <insert content="f2( e)"/>
                     <insert content="e2( d)"/>
@@ -34,8 +34,8 @@
             </standardOut>
         </button>
         <button id="56f1926d">
-            <standardOut image="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" image="true" template="singlestave.ly">
                     <insert content="d2 d"/>
                     <insert content="e2 e"/>
                     <insert content="f2 f"/>

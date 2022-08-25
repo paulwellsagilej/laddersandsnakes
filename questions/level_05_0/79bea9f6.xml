@@ -6,8 +6,8 @@
     </prompt>
     <response format="checkboxes-then-submit">
         <button correct="true" id="282feff1">
-            <standardOut notes="true">
-                <lilyPond channel="default" clef="treble" id="bf7591eb" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="bf7591eb" notes="true" template="singlestave.ly">
                     <insert content="&lt;c e g&gt;1"/>
                     <insert content="&lt;d fis a&gt;1"/>
                     <insert content="&lt;e gis  b&gt;1"/>
@@ -15,8 +15,8 @@
             </standardOut>
         </button>
         <button correct="true" id="1dc1d099">
-            <standardOut notes="true">
-                <lilyPond channel="default" clef="treble" id="ec9a80c2" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="ec9a80c2" notes="true" template="singlestave.ly">
                     <insert content="&lt;f a c&gt;1"/>
                     <insert content="&lt;g b d&gt;1"/>
                     <insert content="&lt;a cis e&gt;1"/>
@@ -24,8 +24,8 @@
             </standardOut>
         </button>
         <button id="4ac502c4">
-            <standardOut notes="true">
-                <lilyPond channel="default" clef="treble" id="e4ecf3dc" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="e4ecf3dc" notes="true" template="singlestave.ly">
                     <insert content="&lt;c e a&gt;1"/>
                     <insert content="&lt;d fis b&gt;1"/>
                     <insert content="&lt;e gis cis&gt;1"/>
@@ -33,8 +33,8 @@
             </standardOut>
         </button>
         <button id="8c859f2a">
-            <standardOut notes="true">
-                <lilyPond channel="default" clef="treble" id="2a8b55d3" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="2a8b55d3" notes="true" template="singlestave.ly">
                     <insert content="&lt;g b e&gt;1"/>
                     <insert content="&lt;a cis fis&gt;1"/>
                     <insert content="&lt;fis ais dis&gt;1"/>

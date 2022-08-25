@@ -6,24 +6,24 @@
     </prompt>
     <response format="checkboxes-then-submit">
         <button correct="true" id="da24377f">
-            <standardOut image="true">
-                <lilyPond channel="default" template="singlestave.ly">
+            <standardOut>
+                <lilyPond image="true" template="singlestave.ly">
                     <insert content="r4"/>
                     <insert content="r8"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="88392a92">
-            <standardOut image="true">
-                <lilyPond channel="default" template="singlestave.ly">
+            <standardOut>
+                <lilyPond image="true" template="singlestave.ly">
                     <insert content="r1"/>
                     <insert content="r2"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="f50e95e4">
-            <standardOut image="true">
-                <lilyPond channel="default" template="singlestave.ly">
+            <standardOut>
+                <lilyPond image="true" template="singlestave.ly">
                     <insert content="c1"/>
                     <insert content="c2"/>
                     <insert content="c4"/>
@@ -32,8 +32,8 @@
             </standardOut>
         </button>
         <button id="f50e8629">
-            <standardOut image="true">
-                <lilyPond channel="default" template="singlestave.ly">
+            <standardOut>
+                <lilyPond image="true" template="singlestave.ly">
                     <insert content="f1"/>
                     <insert content="f2"/>
                     <insert content="f4"/>

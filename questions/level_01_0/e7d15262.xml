@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="symbols" id="e7d15262">
     <prompt>
-        <standardOut image="true" text="The five lines (and four spaces) on which we write music is called a...">
-            <lilyPond channel="default" template="singlestave.ly">
+        <standardOut text="The five lines (and four spaces) on which we write music is called a...">
+            <lilyPond image="true" template="singlestave.ly">
                 <insert content="b'1"/>
             </lilyPond>
         </standardOut>

@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-07-16T17:25:06.146754Z" horizontalTag="rhythm" id="76efd680">
     <prompt>
-        <standardOut image="true" text="What do two dots after a note mean?">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="What do two dots after a note mean?">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
                 <insert content="e2.."/>
             </lilyPond>
         </standardOut>
@@ -23,8 +23,8 @@
         </button>
     </response>
     <hint>
-        <standardOut image="true">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut>
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
                 <insert content="e2(e4)(e8)"/>
             </lilyPond>
         </standardOut>

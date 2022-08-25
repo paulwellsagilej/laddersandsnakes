@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-12T08:39:42.553004Z" horizontalTag="inversions" id="3f8eaf28" verticalTag="inversions">
     <prompt>
-        <standardOut lights="true" notes="true" text="In which inversion is this major triad?">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="In which inversion is this major triad?">
+            <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
                 <insert content="&lt;f a c&gt;1"/>
                 <insert content="&lt;g' b d&gt;1"/>
                 <insert content="&lt;c e g&gt;1"/>

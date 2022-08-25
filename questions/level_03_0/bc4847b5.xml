@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Playing" creationDate="2022-08-12T12:25:13.082154Z" horizontalTag="intervals" id="bc4847b5">
     <prompt>
-        <standardOut lights="true" percentageSpeed="50" text="Play a chord of two notes a major third apart. The light shows the lower note.">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut percentageSpeed="50" text="Play a chord of two notes a major third apart. The light shows the lower note.">
+            <lilyPond clef="treble" lights="true" template="singlestave.ly">
                 <insert content="f1"/>
             </lilyPond>
         </standardOut>

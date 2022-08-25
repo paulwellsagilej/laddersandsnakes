@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-01T17:40:58.859334Z" horizontalTag="terms" id="e35f9793">
     <prompt>
-        <standardOut image="true" text="What is a chord?">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="What is a chord?">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
                 <insert content="&lt;c e g b d f&gt;1"/>
             </lilyPond>
         </standardOut>

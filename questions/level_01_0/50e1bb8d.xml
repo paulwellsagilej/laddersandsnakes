@@ -6,24 +6,24 @@
     </prompt>
     <response format="arrange-then-submit">
         <button correct="true" id="8644a0a1">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="c"/>
                     <insert content="d"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="7ff7e3a2">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="f"/>
                     <insert content="g'"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="b1bc3bfe">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="c'"/>
                     <insert content="d'"/>
                 </lilyPond>

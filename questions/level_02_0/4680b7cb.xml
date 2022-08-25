@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-08-04T09:45:58.381517Z" horizontalTag="terms" id="4680b7cb">
     <prompt>
-        <standardOut image="true" text="The symbol which cancels a previous sharp or flat is...">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="The symbol which cancels a previous sharp or flat is...">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
                 <insert content="&lt;fis bes&gt; &lt;f b&gt;"/>
             </lilyPond>
         </standardOut>

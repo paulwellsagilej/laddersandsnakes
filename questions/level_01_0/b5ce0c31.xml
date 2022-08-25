@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="General" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="who composed" id="b5ce0c31">
     <prompt>
-        <standardOut image="true" lights="true" notes="true" text="Who composed Mozart's Piano Sonata No 11 in A major?">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly" timeSignature="6/8">
+        <standardOut text="Who composed Mozart's Piano Sonata No 11 in A major?">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="6/8">
                 <insert content="cis'8. d16 cis8 e4 e8 b8. cis16 b8 d4 d8"/>
             </lilyPond>
         </standardOut>

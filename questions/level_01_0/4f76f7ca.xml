@@ -6,29 +6,29 @@
     </prompt>
     <response format="radio-then-submit">
         <button correct="true" id="11d8fcf2">
-            <standardOut image="true" lights="true" notes="true" percentageSpeed="150">
-                <lilyPond channel="default" clef="treble" id="5c79fbe5" template="singlestave.ly">
+            <standardOut percentageSpeed="150">
+                <lilyPond clef="treble" id="5c79fbe5" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="e g g2"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="ba75e3f8">
-            <standardOut image="true" lights="true" notes="true" percentageSpeed="150">
-                <lilyPond channel="default" clef="treble" id="21f361d4" template="singlestave.ly">
+            <standardOut percentageSpeed="150">
+                <lilyPond clef="treble" id="21f361d4" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="g' e e2"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="842dbd53">
-            <standardOut image="true" lights="true" notes="true" percentageSpeed="150">
-                <lilyPond channel="default" clef="treble" template="singlestave.ly">
+            <standardOut percentageSpeed="150">
+                <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="d e f2"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="30651162">
-            <standardOut image="true" lights="true" notes="true" percentageSpeed="150">
-                <lilyPond channel="default" clef="treble" id="9404e15d" template="singlestave.ly">
+            <standardOut percentageSpeed="150">
+                <lilyPond clef="treble" id="9404e15d" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="a' g e2"/>
                 </lilyPond>
             </standardOut>

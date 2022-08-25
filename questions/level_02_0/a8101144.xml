@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-06-13T19:42:10.765382Z" horizontalTag="terms" id="a8101144">
     <prompt>
-        <standardOut image="true" text="Another name for quarter note is...">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="Another name for quarter note is...">
+            <lilyPond clef="treble" image="true" template="singlestave.ly">
                 <insert content="f f f f"/>
             </lilyPond>
         </standardOut>

@@ -2,16 +2,16 @@
 <!DOCTYPE xml>
 <question category="Playing" creationDate="2022-08-12T08:34:16.049184Z" horizontalTag="transpose" id="7613e4f8">
     <prompt>
-        <standardOut image="true" lights="true" notes="true" text="Play this chord transposed up one whole tone">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="Play this chord transposed up one whole tone">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                 <insert content="&lt;c g'&gt;1"/>
             </lilyPond>
         </standardOut>
     </prompt>
     <response expectedMidiRelative="c'" expectedMidiScript="&lt;d a&gt;" explainerClef="\treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
     <hint>
-        <standardOut lights="true" text="Play the notes moved two lights to the right">
-            <lilyPond channel="default" clef="treble" id="af8b296a" template="singlestave.ly">
+        <standardOut text="Play the notes moved two lights to the right">
+            <lilyPond clef="treble" id="af8b296a" lights="true" template="singlestave.ly">
                 <insert content="&lt;d a'&gt;1"/>
             </lilyPond>
         </standardOut>

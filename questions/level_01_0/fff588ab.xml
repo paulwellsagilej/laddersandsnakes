@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="General" creationDate="2022-07-16T18:21:10.064920Z" horizontalTag="beatles" id="fff588ab">
     <prompt>
-        <standardOut image="true" lights="true" notes="true" text="Name this Beatles tune">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="Name this Beatles tune">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                 <insert content="c'8 c c c c4 c b1 r4 bes8 bes bes c d c c a"/>
             </lilyPond>
         </standardOut>

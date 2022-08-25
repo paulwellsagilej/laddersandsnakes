@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Playing" creationDate="2022-07-26T08:29:49.947706Z" horizontalTag="transpose this tune" id="de35ebba">
     <prompt timeout="30">
-        <standardOut image="true" lights="true" notes="true" text="Play this tune transposed up one tone.">
-            <lilyPond channel="default" clef="treble" keySignature="f \major" template="singlestave.ly">
+        <standardOut text="Play this tune transposed up one tone.">
+            <lilyPond clef="treble" image="true" keySignature="f \major" lights="true" notes="true" template="singlestave.ly">
                 <insert content="f a c2"/>
             </lilyPond>
         </standardOut>

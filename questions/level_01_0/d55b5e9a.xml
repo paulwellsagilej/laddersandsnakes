@@ -6,23 +6,23 @@
     </prompt>
     <response format="arrange-then-submit">
         <button correct="true" id="f8e9188d">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" template="singlestave.ly">
+            <standardOut>
+                <lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="f'"/>
                     <insert content="e'"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="20312df6">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" template="singlestave.ly">
+            <standardOut>
+                <lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="c'"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="c2f93cc3">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" template="singlestave.ly">
+            <standardOut>
+                <lilyPond image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="f"/>
                     <insert content="g"/>
                 </lilyPond>

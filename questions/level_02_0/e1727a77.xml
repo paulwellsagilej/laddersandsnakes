@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-06-13T19:37:38.072567Z" horizontalTag="rhythm" id="e1727a77">
     <prompt>
-        <standardOut image="true" text="One number on top of another is a...">
-            <lilyPond channel="default" template="singlestave.ly" timeSignature="3/4">
+        <standardOut text="One number on top of another is a...">
+            <lilyPond image="true" template="singlestave.ly" timeSignature="3/4">
                 <insert content="r1"/>
             </lilyPond>
         </standardOut>

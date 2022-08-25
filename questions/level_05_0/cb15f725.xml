@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Playing" creationDate="2022-07-03T17:08:17.044790Z" horizontalTag="play these chords" id="cb15f725">
     <prompt>
-        <standardOut image="true" lights="true" notes="true" text="Play these chords">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="Play these chords">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                 <insert content="&lt;c e g&gt; &lt;b d g&gt; &lt;c e g&gt;2"/>
             </lilyPond>
         </standardOut>

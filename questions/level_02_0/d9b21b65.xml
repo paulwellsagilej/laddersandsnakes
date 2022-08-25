@@ -6,43 +6,43 @@
     </prompt>
     <response format="checkboxes-then-submit">
         <button correct="true" id="6e6ed3ff">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="3949394d" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="3949394d" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;c e g&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="564764f7">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="6ff921f0" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="6ff921f0" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;f a c&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="d6e79f13">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="af644b61" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="af644b61" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;g b d&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="455e94b4">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="f910b849" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="f910b849" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;d f a&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="6b80cd46">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="1a5d744e" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="1a5d744e" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;e g b&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="cdc3f74c">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="f199743c" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="f199743c" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;a c e&gt;"/>
                 </lilyPond>
             </standardOut>

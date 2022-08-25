@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Playing" creationDate="2022-07-16T18:54:51.154544Z" id="2aad1180">
     <prompt timeout="15">
-        <standardOut lights="true" notes="true" text="Play a minor triad in root position. This is the tonic.">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="Play a minor triad in root position. This is the tonic.">
+            <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
                 <insert content="d1"/>
             </lilyPond>
         </standardOut>

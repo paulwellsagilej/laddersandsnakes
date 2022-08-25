@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="General" creationDate="2022-07-31T13:36:43.604246Z" horizontalTag="who composed" id="724b13f0">
     <prompt>
-        <standardOut image="true" lights="true" notes="true" text="Who composed Brahms Waltz Op.39 No.15 in A flat major?">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly" timeSignature="3/4">
+        <standardOut text="Who composed Brahms Waltz Op.39 No.15 in A flat major?">
+            <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
                 <insert content="c' 4. aes 8 aes c c4. aes 8 aes c des 8. ees 32 des c 4 bes c 4."/>
             </lilyPond>
         </standardOut>

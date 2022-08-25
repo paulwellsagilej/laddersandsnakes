@@ -2,8 +2,8 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-07-13T12:18:45.210841Z" horizontalTag="how many notes in scale" id="365283ed" verticalTag="pentatonic scale">
     <prompt>
-        <standardOut lights="true" notes="true" text="How many notes are there in the pentatonic scale?">
-            <lilyPond channel="default" clef="treble" template="singlestave.ly">
+        <standardOut text="How many notes are there in the pentatonic scale?">
+            <lilyPond clef="treble" lights="true" notes="true" template="singlestave.ly">
                 <insert content="c d e g a1"/>
             </lilyPond>
         </standardOut>

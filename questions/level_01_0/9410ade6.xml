@@ -6,31 +6,31 @@
     </prompt>
     <response format="checkboxes-then-submit">
         <button correct="true" id="4df1b3e1">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="ed14da99" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="ed14da99" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;c e g&gt;"/>
                     <insert content="&lt;cis f gis&gt;"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button correct="true" id="d21dc864">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="d9abd16f" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="d9abd16f" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;f a c&gt;1"/>
                     <insert content="&lt;g b d&gt;1"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="7c0ce3b2">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="e07b6def" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="e07b6def" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;c cis d dis&gt;1"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="cf2394d3">
-            <standardOut lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="e2f956c9" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="e2f956c9" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;f fis g gis&gt;1"/>
                 </lilyPond>
             </standardOut>

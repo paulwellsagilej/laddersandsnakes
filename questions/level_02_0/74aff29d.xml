@@ -6,29 +6,29 @@
     </prompt>
     <response format="radio-then-submit">
         <button correct="true" id="51eda48a">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="f2748274" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="f2748274" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;c c'&gt;1"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="d779ff91">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="e84bbc76" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="e84bbc76" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;ais b&gt;1"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="a9ea6cf4">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="252b0540" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="252b0540" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;f b&gt;1"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="88b97857">
-            <standardOut image="true" lights="true" notes="true">
-                <lilyPond channel="default" clef="treble" id="954a259f" template="singlestave.ly">
+            <standardOut>
+                <lilyPond clef="treble" id="954a259f" image="true" lights="true" notes="true" template="singlestave.ly">
                     <insert content="&lt;a b&gt;1"/>
                 </lilyPond>
             </standardOut>
