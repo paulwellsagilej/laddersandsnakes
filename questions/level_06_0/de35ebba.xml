@@ -8,7 +8,7 @@
             </lilyPond>
         </standardOut>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="g b d'" explainerClef="\treble" explainerKeySignature="g \major" format="record-midi-sequence-then-submit"/>
+    <response expectedMidiScript="g b d'" explainerClef="\treble" explainerKeySignature="g \major" format="record-midi-sequence-then-submit"/>
     <hint>
         <standardOut text="Play each note one white key higher."/>
     </hint>

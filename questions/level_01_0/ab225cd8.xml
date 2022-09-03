@@ -8,7 +8,7 @@
             </lilyPond>
         </standardOut>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="c" explainerClef="\treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
+    <response expectedMidiScript="c" explainerClef="\treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
     <hint>
         <standardOut>
             <lilyPond clef="treble" id="65b2f698" lights="true" template="singlestave.ly">

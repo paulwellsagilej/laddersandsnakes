@@ -8,7 +8,7 @@
             </lilyPond>
         </standardOut>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="&lt;c' f g&gt;" explainerClef="\treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
+    <response expectedMidiScript="&lt;c' f g&gt;" explainerClef="\treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
     <hint>
         <standardOut text="This is the lowest note of the transposed chord">
             <lilyPond clef="treble" id="6f01de43" lights="true" template="singlestave.ly">

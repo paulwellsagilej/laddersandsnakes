@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="Play these notes: C D E"/>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="c d e" format="record-midi-sequence-then-submit"/>
+    <response expectedMidiScript="c d e" explainerClef="treble" explainerKeySignature="c \major" format="record-midi-sequence-then-submit"/>
     <hint>
         <standardOut text="there is no hint"/>
     </hint>

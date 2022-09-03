@@ -8,7 +8,7 @@
             </lilyPond>
         </standardOut>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="c c d c f e" explainerClef="treble" explainerKeySignature="c \major" format="record-midi-sequence-then-submit"/>
+    <response expectedMidiScript="c c d c f e" explainerClef="treble" explainerKeySignature="c \major" format="record-midi-sequence-then-submit"/>
     <hint>
         <standardOut text="C C D C F E"/>
     </hint>

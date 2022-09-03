@@ -8,7 +8,7 @@
             </lilyPond>
         </standardOut>
     </prompt>
-    <response expectedMidiRelative="c'" expectedMidiScript="&lt;f a&gt;" explainerClef="\treble" explainerKeySignature="f \major" format="play-single-chord-to-submit"/>
+    <response expectedMidiScript="&lt;f a&gt;" explainerClef="\treble" explainerKeySignature="f \major" format="play-single-chord-to-submit"/>
     <hint>
         <standardOut text="The upper note is A is four lights higher than the lower note shown."/>
     </hint>
