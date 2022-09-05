@@ -2,7 +2,7 @@
 <!DOCTYPE xml>
 <question category="Playing" creationDate="2022-06-11T21:52:46.155667Z" id="aee143f1">
     <prompt>
-        <standardOut text="Play these notes: C D E"/>
+        <standardOut text="Play these notes: Middle C, D, E"/>
     </prompt>
     <response expectedMidiScript="c d e" explainerClef="treble" explainerKeySignature="c \major" format="record-midi-sequence-then-submit"/>
     <hint>

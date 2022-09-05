@@ -8,7 +8,7 @@
             </lilyPond>
         </standardOut>
     </prompt>
-    <response expectedMidiScript="c'" explainerClef="treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
+    <response expectedMidiScript="c" explainerClef="treble" explainerKeySignature="c \major" format="play-single-chord-to-submit"/>
     <hint>
         <standardOut text="Find the next key to the right which is the same shape.">
             <lilyPond clef="treble" id="ece67e26" lights="true" template="singlestave.ly">

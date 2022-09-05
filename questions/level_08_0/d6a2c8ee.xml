@@ -12,7 +12,7 @@
     <hint>
         <standardOut>
             <lilyPond clef="treble" id="c142693a" lights="true" notes="true" template="singlestave.ly">
-                <insert content="&lt;ees g bes&gt;"/>
+                <insert content="&lt;bes' ees g&gt;"/>
             </lilyPond>
         </standardOut>
     </hint>
