@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="Name this TV theme tune">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="4/4">
-                <insert content="c4. e4 fis a8 g4. e4 c a8 fis fis fis g"/>
+                <insert content="c4. e4 fis a8 g4. e4 c a,8 fis, fis, fis, g,"/>
             </lilyPond>
         </standardOut>
     </prompt>

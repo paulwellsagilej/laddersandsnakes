@@ -5,7 +5,7 @@
         <standardOut text="What type of chord is this?">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
                 <insert content="&lt;c e g&gt;"/>
-                <insert content="&lt;g b d&gt;"/>
+                <insert content="&lt;g b d'&gt;"/>
                 <insert content="&lt;f a c&gt;"/>
             </lilyPond>
         </standardOut>

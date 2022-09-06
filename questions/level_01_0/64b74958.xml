@@ -28,18 +28,18 @@
         <button id="1ae9840b">
             <standardOut>
                 <lilyPond clef="treble" image="true" template="singlestave.ly">
-                    <insert content="c' g e c"/>
+                    <insert content="c g, e c"/>
                     <insert content="c'  a f d"/>
-                    <insert content="d' a f c"/>
+                    <insert content="d' a f c'"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="a923474c">
             <standardOut>
                 <lilyPond clef="treble" image="true" template="singlestave.ly">
-                    <insert content="c' c, c' c,"/>
-                    <insert content="d' d, d' d,"/>
-                    <insert content="e' e, e' e,"/>
+                    <insert content="c' c c' c"/>
+                    <insert content="d' d d' d"/>
+                    <insert content="e' e e' e"/>
                 </lilyPond>
             </standardOut>
         </button>

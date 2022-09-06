@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="Name this tune">
             <lilyPond clef="treble" image="true" keySignature="g \major" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
-                <insert content="g'2. d c4 b a d2. g4 fis g e a g fis e fis d"/>
+                <insert content="g2. d c4 b, a, d2. g4 fis g e a g fis e fis d"/>
             </lilyPond>
         </standardOut>
     </prompt>

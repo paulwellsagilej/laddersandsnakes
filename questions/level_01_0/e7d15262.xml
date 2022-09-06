@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="The five lines (and four spaces) on which we write music is called a...">
             <lilyPond image="true" template="singlestave.ly">
-                <insert content="b'1"/>
+                <insert content="b1"/>
             </lilyPond>
         </standardOut>
     </prompt>

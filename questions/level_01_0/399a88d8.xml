@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="What type of chord is this?">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="&lt;a c e&gt;"/>
+                <insert content="&lt;a, c e&gt;"/>
                 <insert content="&lt;e g b&gt;"/>
                 <insert content="&lt;d f a&gt;"/>
             </lilyPond>

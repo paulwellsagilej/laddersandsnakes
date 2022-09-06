@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="What does the symbol on the left mean?">
             <lilyPond image="true" template="singlestave.ly">
-                <insert content="bis'1"/>
+                <insert content="bis1"/>
             </lilyPond>
         </standardOut>
     </prompt>

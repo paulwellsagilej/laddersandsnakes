@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="Who composed Brahms Waltz Op.39 No.15 in A flat major?">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
-                <insert content="c' 4. aes 8 aes c c4. aes 8 aes c des 8. ees 32 des c 4 bes c 4."/>
+                <insert content="c' 4. aes 8 aes c' c'4. aes 8 aes c' des' 8. ees' 32 des' c' 4 bes c' 4."/>
             </lilyPond>
         </standardOut>
     </prompt>

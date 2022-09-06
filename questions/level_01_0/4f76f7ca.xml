@@ -15,7 +15,7 @@
         <button id="ba75e3f8">
             <standardOut percentageSpeed="150">
                 <lilyPond clef="treble" id="21f361d4" image="true" lights="true" notes="true" template="singlestave.ly">
-                    <insert content="g' e e2"/>
+                    <insert content="g e e2"/>
                 </lilyPond>
             </standardOut>
         </button>
@@ -29,7 +29,7 @@
         <button id="30651162">
             <standardOut percentageSpeed="150">
                 <lilyPond clef="treble" id="9404e15d" image="true" lights="true" notes="true" template="singlestave.ly">
-                    <insert content="a' g e2"/>
+                    <insert content="a g e2"/>
                 </lilyPond>
             </standardOut>
         </button>

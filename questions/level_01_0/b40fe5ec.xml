@@ -2,9 +2,9 @@
 <!DOCTYPE xml>
 <question category="Theory" creationDate="2022-06-11T21:52:46.155667Z" horizontalTag="notes spell words" id="b40fe5ec">
     <prompt>
-        <standardOut text="Which item of haberdashery do these notes spell?">
+        <standardOut text="What do these notes spell?">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="\partial 2. b'8 a d,4 g e1"/>
+                <insert content="\partial 2. b8 a d4 g e1"/>
             </lilyPond>
         </standardOut>
     </prompt>

@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="Match this tune">
             <lilyPond clef="treble" notes="true" template="singlestave.ly">
-                <insert content="ees bes' bes2"/>
+                <insert content="ees bes bes2"/>
             </lilyPond>
         </standardOut>
     </prompt>
@@ -12,7 +12,7 @@
         <button correct="true" id="42ba7a8c">
             <standardOut>
                 <lilyPond clef="treble" id="5203fc15" notes="true" template="singlestave.ly">
-                    <insert content="ees bes' bes2"/>
+                    <insert content="ees bes bes2"/>
                 </lilyPond>
             </standardOut>
         </button>
@@ -30,7 +30,7 @@
                 </lilyPond>
             </standardOut>
         </button>
-        <button correct="true" id="fb7b1f52">
+        <button id="fb7b1f52">
             <standardOut>
                 <lilyPond clef="treble" id="b12d6b19" notes="true" template="singlestave.ly">
                     <insert content="a a g"/>

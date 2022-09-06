@@ -19,8 +19,8 @@
         <button id="488a49ff">
             <standardOut>
                 <lilyPond clef="treble" image="true" template="singlestave.ly">
-                    <insert content="c4 g' g"/>
-                    <insert content="g'4 g g"/>
+                    <insert content="c4 g g"/>
+                    <insert content="g4 g g"/>
                     <insert content="c4 c c"/>
                 </lilyPond>
             </standardOut>
@@ -28,8 +28,8 @@
         <button id="1c1f1639">
             <standardOut>
                 <lilyPond clef="treble" image="true" template="singlestave.ly">
-                    <insert content="g'4 g e"/>
-                    <insert content="g'4 e c"/>
+                    <insert content="g4 g e"/>
+                    <insert content="g4 e c"/>
                 </lilyPond>
             </standardOut>
         </button>

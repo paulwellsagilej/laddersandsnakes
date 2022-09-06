@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="Name this Beatles tune">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="\partial 4. g'8 \tuplet 3/2 {c d e }~ e d \tuplet 3/2 {c b c}~ c b a g \tuplet 3/2 {a g f}"/>
+                <insert content="\partial 4. g8 \tuplet 3/2 {c' d' e' }~ e' d' \tuplet 3/2 {c' b c'}~ c' b a g \tuplet 3/2 {a g f}"/>
             </lilyPond>
         </standardOut>
     </prompt>

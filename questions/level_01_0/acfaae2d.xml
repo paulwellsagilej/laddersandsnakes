@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="What do these notes spell?">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="b b c2"/>
+                <insert content="b, b, c2"/>
             </lilyPond>
         </standardOut>
     </prompt>

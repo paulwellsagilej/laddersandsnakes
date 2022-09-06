@@ -19,14 +19,14 @@
         <button id="33e28d58">
             <standardOut>
                 <lilyPond clef="treble" id="5addbacd" notes="true" template="singlestave.ly">
-                    <insert content="b f b2"/>
+                    <insert content="b, f b,2"/>
                 </lilyPond>
             </standardOut>
         </button>
         <button id="a380a5fe">
             <standardOut>
                 <lilyPond clef="treble" id="e6e07ddc" notes="true" template="singlestave.ly">
-                    <insert content="gis' cis gis2"/>
+                    <insert content="gis cis' gis2"/>
                 </lilyPond>
             </standardOut>
         </button>

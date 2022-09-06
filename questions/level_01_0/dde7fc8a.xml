@@ -8,7 +8,7 @@
         <button correct="true" id="1a2f5bbe">
             <standardOut>
                 <lilyPond clef="treble" id="96d781cc" image="true" lights="true" notes="true" template="singlestave.ly">
-                    <insert content="d e c a' f1"/>
+                    <insert content="d e c a f1"/>
                 </lilyPond>
             </standardOut>
         </button>

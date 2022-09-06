@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="Name this Beatles tune">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="c'8 c c c c4 c b1 r4 bes8 bes bes c d c c a"/>
+                <insert content="c'8 c' c' c' c'4 c' b1 r4 bes8 bes bes c' d' c' c' a"/>
             </lilyPond>
         </standardOut>
     </prompt>
