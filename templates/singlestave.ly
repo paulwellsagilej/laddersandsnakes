@@ -5,7 +5,7 @@
     $omitClef
     $omitTimeSignature 
   }
-  \relative c'
+  \fixed c'
   {
   	$clef
   	$timeSignature

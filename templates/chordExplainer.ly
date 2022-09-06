@@ -4,7 +4,7 @@
   \with { 
     \omit TimeSignature 
   }
-  \relative c'
+  \fixed c'
   {
   	\clef $clef
   	\key $keySignature

@@ -4,6 +4,7 @@
   \with { 
     \omit TimeSignature 
   }
+  \fixed c'
   {
   	\clef $clef
   	$content
