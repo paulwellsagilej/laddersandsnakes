@@ -4,22 +4,22 @@
     <prompt>
         <standardOut text="What is a chord?">
             <lilyPond clef="treble" image="true" template="singlestave.ly">
-                <insert content="&lt;c e g b d f&gt;1"/>
+                <insert content="&lt;c e g b &gt;1"/>
             </lilyPond>
         </standardOut>
     </prompt>
     <response format="single-pick-to-submit">
         <button correct="true" id="f5d021a7">
-            <standardOut text="Multiple notes of different pitches played together"/>
+            <standardOut text="Different pitches, played together"/>
         </button>
         <button id="94b194c3">
-            <standardOut text="Multiple notes of different pitches played separately"/>
+            <standardOut text="Different pitches, played separately"/>
         </button>
         <button id="b52b3733">
-            <standardOut text="Multiple notes of the same pitch played separately"/>
+            <standardOut text="Same pitch, played separately"/>
         </button>
         <button id="a2693a6e">
-            <standardOut text="Multiple notes of the same pitch played together"/>
+            <standardOut text="Same pitch, played together"/>
         </button>
     </response>
     <hint/>
