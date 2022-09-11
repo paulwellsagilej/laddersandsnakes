@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="Name this ABBA tune">
             <lilyPond clef="treble" image="true" lights="true" notes="true" template="singlestave.ly">
-                <insert content="\partial  8 g8 g aes aes g g aes aes g g aes aes g g c c( b) r2 aes'8 aes4 aes8 g"/>
+                <insert content="\partial  8 g,8 g, aes, aes, g, g, aes, aes, g, g, aes, aes, g, g, c c( b,) r2 aes8 aes4 aes8 g"/>
             </lilyPond>
         </standardOut>
     </prompt>

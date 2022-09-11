@@ -2,7 +2,7 @@
 <!DOCTYPE xml>
 <question category="General" creationDate="2022-08-05T16:06:21.208732Z" horizontalTag="name this tune" id="da9e9c82">
     <prompt>
-        <standardOut text="Name this tune">
+        <standardOut text="Name this tune" percentageSpeed="200">
             <lilyPond clef="treble" image="true" keySignature="g \major" lights="true" notes="true" template="singlestave.ly" timeSignature="3/4">
                 <insert content="g2. d c4 b, a, d2. g4 fis g e a g fis e fis d"/>
             </lilyPond>
