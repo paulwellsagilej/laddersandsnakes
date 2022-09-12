@@ -32,6 +32,6 @@
         </button>
     </response>
     <hint>
-        <standardOut text="Look gaps between lights. Which chord has its middle light nearer to the light on the left?"/>
+        <standardOut text="Look at the gaps between lights. Which chord has its middle light nearer to the light on the left?"/>
     </hint>
 </question>

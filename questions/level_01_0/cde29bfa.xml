@@ -4,7 +4,7 @@
     <prompt>
         <standardOut text="What do we call the short lines added above and below these notes?">
             <lilyPond clef="treble" image="true" template="singlestave.ly">
-                <insert content="f, f'''"/>
+                <insert content="f, f''"/>
             </lilyPond>
         </standardOut>
     </prompt>
