@@ -22,5 +22,5 @@
             <standardOut text="Sky"/>
         </button>
     </response>
-    <hint/>
+    <hint text="There are three notes. The first two notes are the same."/>
 </question>
