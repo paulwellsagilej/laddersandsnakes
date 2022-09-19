@@ -3,38 +3,64 @@
 
 <levels>
 
-	<level height="1.0" gameplayLength="10" win="3" hintCost="1" completion="600">
-		<randomizedIntervals lowestNote="F3" highestNote="E5">
-			<!-- new -->
-			<randomizedInterval id="359c87ed" interval="augmented-octave" lowerNoteOptions="c, e, b" split="true" lights="true" />
-			<randomizedInterval id="4142ede6" interval="perfect-fifth" lowerNoteOptions="c, d, g" split="true" lights="true" />
-			<randomizedInterval id="b6b7982d" interval="major-second" lowerNoteOptions="d, f, a" split="true" lights="true" />
-		</randomizedIntervals>
-	</level>
-
-	<level height="2.0" gameplayLength="12" win="4" hintCost="2" completion="1000">
-		<randomizedIntervals lowestNote="A2" highestNote="E5">
-			<!-- new -->
-			<randomizedInterval id="4c8b6c24" interval="augmented-fourth" lowerNoteOptions="c, e, b" split="true" lights="true" />
-			<randomizedInterval id="523bef2b" interval="perfect-octave" lowerNoteOptions="c, d, g" split="true" lights="true" />
-			<randomizedInterval id="d40e7606" interval="major-third" lowerNoteOptions="d, f, a" split="true" lights="true" />
+	<level height="9.0" gameplayLength="26" win="14" hintCost="8" completion="5000">
+		<randomizedIntervals lowestNote="C1" highestNote="C6">
 			<!-- incomplete -->
-			<randomizedInterval id="3fc67aa3" interval="perfect-fifth" lowerNoteOptions="c, d, g, e, f, a" lights="true" />
-			<randomizedInterval id="7eb331fc" interval="major-second" lowerNoteOptions="d, f, a, c, g, fis" lights="true" />
-		</randomizedIntervals>
-	</level>
-
-	<level height="3.0" gameplayLength="15" win="6" hintCost="3" completion="2000">
-		<randomizedIntervals lowestNote="E2" highestNote="G5">
-			<!-- new -->
-			<randomizedInterval id="10b66bbc" interval="minor-third" lowerNoteOptions="d, e, a" split="true" lights="true" />
-			<randomizedInterval id="bb9dbade" interval="minor-second" lowerNoteOptions="c, d, g" split="true" lights="true" />
-			<randomizedInterval id="a20eb8d5" interval="minor-sixth" lowerNoteOptions="e, a, b" split="true" lights="true" />
-			<!-- incomplete -->
-			<randomizedInterval id="90ffeb8c" interval="perfect-octave" lowerNoteOptions="c, d, e, f, g, a, b" lights="true" />
-			<randomizedInterval id="28fbd5a5" interval="augmented-fourth" lowerNoteOptions="c, e, b, f, a" split="true" lights="true" />
 			<!-- complete -->
-			<randomizedInterval id="ae57fb4f" interval="perfect-fifth" lowerNoteOptions="*" lights="true" />
+			<randomizedInterval id="2d373e78" interval="augmented-octave" lowerNoteOptions="*" />
+			<randomizedInterval id="d9bd462d" interval="perfect-unison" lowerNoteOptions="*" />
+			<randomizedInterval id="e7f5e213" interval="major-second" lowerNoteOptions="*" />
+			<randomizedInterval id="7d4ea934" interval="major-third" lowerNoteOptions="*" />
+		</randomizedIntervals>
+	</level>
+
+	<level height="8.0" gameplayLength="23" win="13" hintCost="8" completion="4000">
+		<randomizedIntervals lowestNote="C1" highestNote="C6">
+			<!-- incomplete -->
+			<!-- complete -->
+			<randomizedInterval id="74fe1122" interval="augmented-octave" lowerNoteOptions="*" />
+			<randomizedInterval id="0f056443" interval="perfect-unison" lowerNoteOptions="*" />
+			<randomizedInterval id="55cbab5b" interval="major-second" lowerNoteOptions="*" />
+			<randomizedInterval id="d5a61453" interval="major-third" lowerNoteOptions="*" />
+		</randomizedIntervals>
+	</level>
+
+	<level height="7.0" gameplayLength="23" win="12" hintCost="7" completion="3400">
+		<randomizedIntervals lowestNote="C1" highestNote="C6">
+			<!-- incomplete -->
+			<randomizedInterval id="f17c693d" interval="major-third" lowerNoteOptions="d, f, a, c, g, e, b" />
+			<!-- complete -->
+			<randomizedInterval id="c00f49d2" interval="augmented-octave" lowerNoteOptions="*" />
+			<randomizedInterval id="acf5c1fb" interval="perfect-unison" lowerNoteOptions="*" />
+			<randomizedInterval id="9b082bf2" interval="major-second" lowerNoteOptions="*" />
+			<randomizedInterval id="c5eaf2cb" interval="augmented-fourth" lowerNoteOptions="*" />
+		</randomizedIntervals>
+	</level>
+
+	<level height="6.0" gameplayLength="22" win="11" hintCost="6" completion="3000">
+		<randomizedIntervals lowestNote="C1" highestNote="C6">
+			<!-- new -->
+			<randomizedInterval id="1e07c56e" interval="augmented-ninth" lowerNoteOptions="d, f, a, c, g, e, b" split="true" lights="true" />
+			<!-- incomplete -->
+			<randomizedInterval id="8f89beea" interval="major-third" lowerNoteOptions="d, f, a, c, g, e, b" />
+			<!-- complete -->
+			<randomizedInterval id="3d6fc5b0" interval="augmented-octave" lowerNoteOptions="*" />
+			<randomizedInterval id="5e517333" interval="perfect-unison" lowerNoteOptions="*" />
+			<randomizedInterval id="5ae435e4" interval="major-second" lowerNoteOptions="*" />
+		</randomizedIntervals>
+	</level>
+
+	<level height="5.0" gameplayLength="20" win="9" hintCost="5" completion="2400">
+		<randomizedIntervals lowestNote="C1" highestNote="C6">
+			<!-- new -->
+			<randomizedInterval id="dfc8ad8e" interval="major-sixth" lowerNoteOptions="c, f, g" split="true" lights="true" />
+			<randomizedInterval id="aa2daddc" interval="minor-seventh" lowerNoteOptions="d, e, g, a" split="true" lights="true" />
+			<randomizedInterval id="5f406bd7" interval="major-ninth" lowerNoteOptions="c, d, f, g, a" split="true" lights="true" />
+			<!-- incomplete -->
+			<randomizedInterval id="0e788ba2" interval="major-second" lowerNoteOptions="d, f, a, c, g, fis, b, e" />
+			<!-- complete -->
+			<randomizedInterval id="c917fd35" interval="augmented-octave" lowerNoteOptions="*" />
+			<randomizedInterval id="8c788c7b" interval="perfect-unison" lowerNoteOptions="*" />
 		</randomizedIntervals>
 	</level>
 
@@ -55,66 +81,41 @@
 		</randomizedIntervals>
 	</level>
 
-	<level height="5.0" gameplayLength="20" win="9" hintCost="5" completion="2400">
-		<randomizedIntervals lowestNote="C1" highestNote="C6">
+	<level height="3.0" gameplayLength="15" win="6" hintCost="3" completion="2000">
+		<randomizedIntervals lowestNote="E2" highestNote="G5">
 			<!-- new -->
-			<randomizedInterval id="dfc8ad8e" interval="major-sixth" lowerNoteOptions="c, f, g" split="true" lights="true" />
-			<randomizedInterval id="aa2daddc" interval="minor-seventh" lowerNoteOptions="d, e, g, a" split="true" lights="true" />
-			<randomizedInterval id="5f406bd7" interval="major-ninth" lowerNoteOptions="c, d, f, g, a" split="true" lights="true" />
+			<randomizedInterval id="10b66bbc" interval="minor-third" lowerNoteOptions="d, e, a" split="true" lights="true" />
+			<randomizedInterval id="bb9dbade" interval="minor-second" lowerNoteOptions="c, d, g" split="true" lights="true" />
+			<randomizedInterval id="a20eb8d5" interval="minor-sixth" lowerNoteOptions="e, a, b" split="true" lights="true" />
 			<!-- incomplete -->
-			<randomizedInterval id="0e788ba2" interval="major-second" lowerNoteOptions="d, f, a, c, g, fis, b, e" />
+			<randomizedInterval id="90ffeb8c" interval="perfect-octave" lowerNoteOptions="c, d, e, f, g, a, b" lights="true" />
+			<randomizedInterval id="28fbd5a5" interval="augmented-fourth" lowerNoteOptions="c, e, b, f, a" split="true" lights="true" />
 			<!-- complete -->
-			<randomizedInterval id="c917fd35" interval="augmented-octave" lowerNoteOptions="*" />
-			<randomizedInterval id="8c788c7b" interval="perfect-unison" lowerNoteOptions="*" />
+			<randomizedInterval id="ae57fb4f" interval="perfect-fifth" lowerNoteOptions="*" lights="true" />
 		</randomizedIntervals>
 	</level>
 
-	<level height="6.0" gameplayLength="22" win="11" hintCost="6" completion="3000">
-		<randomizedIntervals lowestNote="C1" highestNote="C6">
+	<level height="2.0" gameplayLength="12" win="4" hintCost="2" completion="1000">
+		<randomizedIntervals lowestNote="A2" highestNote="E5">
 			<!-- new -->
-			<randomizedInterval id="1e07c56e" interval="augmented-ninth" lowerNoteOptions="d, f, a, c, g, e, b" split="true" lights="true" />
+			<randomizedInterval id="4c8b6c24" interval="augmented-fourth" lowerNoteOptions="c, e, b" split="true" lights="true" />
+			<randomizedInterval id="523bef2b" interval="perfect-octave" lowerNoteOptions="c, d, g" split="true" lights="true" />
+			<randomizedInterval id="d40e7606" interval="major-third" lowerNoteOptions="d, f, a" split="true" lights="true" />
 			<!-- incomplete -->
-			<randomizedInterval id="8f89beea" interval="major-third" lowerNoteOptions="d, f, a, c, g, e, b" />
-			<!-- complete -->
-			<randomizedInterval id="3d6fc5b0" interval="augmented-octave" lowerNoteOptions="*" />
-			<randomizedInterval id="5e517333" interval="perfect-unison" lowerNoteOptions="*" />
-			<randomizedInterval id="5ae435e4" interval="major-second" lowerNoteOptions="*" />
+			<randomizedInterval id="3fc67aa3" interval="perfect-fifth" lowerNoteOptions="c, d, g, e, f, a" lights="true" />
+			<randomizedInterval id="7eb331fc" interval="major-second" lowerNoteOptions="d, f, a, c, g, fis" lights="true" />
 		</randomizedIntervals>
 	</level>
 
-	<level height="7.0" gameplayLength="23" win="12" hintCost="7" completion="3400">
-		<randomizedIntervals lowestNote="C1" highestNote="C6">
-			<!-- incomplete -->
-			<randomizedInterval id="f17c693d" interval="major-third" lowerNoteOptions="d, f, a, c, g, e, b" />
-			<!-- complete -->
-			<randomizedInterval id="c00f49d2" interval="augmented-octave" lowerNoteOptions="*" />
-			<randomizedInterval id="acf5c1fb" interval="perfect-unison" lowerNoteOptions="*" />
-			<randomizedInterval id="9b082bf2" interval="major-second" lowerNoteOptions="*" />
-			<randomizedInterval id="c5eaf2cb" interval="augmented-fourth" lowerNoteOptions="*" />
-		</randomizedIntervals>
-	</level>
-
-	<level height="8.0" gameplayLength="23" win="13" hintCost="8" completion="4000">
-		<randomizedIntervals lowestNote="C1" highestNote="C6">
-			<!-- incomplete -->
-			<!-- complete -->
-			<randomizedInterval id="74fe1122" interval="augmented-octave" lowerNoteOptions="*" />
-			<randomizedInterval id="0f056443" interval="perfect-unison" lowerNoteOptions="*" />
-			<randomizedInterval id="55cbab5b" interval="major-second" lowerNoteOptions="*" />
-			<randomizedInterval id="d5a61453" interval="major-third" lowerNoteOptions="*" />
-		</randomizedIntervals>
-	</level>
-
-	<level height="9.0" gameplayLength="26" win="14" hintCost="8" completion="5000">
-		<randomizedIntervals lowestNote="C1" highestNote="C6">
-			<!-- incomplete -->
-			<!-- complete -->
-			<randomizedInterval id="2d373e78" interval="augmented-octave" lowerNoteOptions="*" />
-			<randomizedInterval id="d9bd462d" interval="perfect-unison" lowerNoteOptions="*" />
-			<randomizedInterval id="e7f5e213" interval="major-second" lowerNoteOptions="*" />
-			<randomizedInterval id="7d4ea934" interval="major-third" lowerNoteOptions="*" />
+	<level height="1.0" gameplayLength="10" win="3" hintCost="1" completion="600">
+		<randomizedIntervals lowestNote="F3" highestNote="E5">
+			<!-- new -->
+			<randomizedInterval id="359c87ed" interval="augmented-octave" lowerNoteOptions="c, e, b" split="true" lights="true" />
+			<randomizedInterval id="4142ede6" interval="perfect-fifth" lowerNoteOptions="c, d, g" split="true" lights="true" />
+			<randomizedInterval id="b6b7982d" interval="major-second" lowerNoteOptions="d, f, a" split="true" lights="true" />
 		</randomizedIntervals>
 	</level>
 
 </levels>
+
 
