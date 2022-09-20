@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<!-- 
+Demo: time limit
+Here’s a question. The timer shows you have 45 seconds to answer 
+-->
+<question category="Theory" creationDate="2022-09-20T15:46:58.481570Z" id="b9d58a00">
+	<prompt>
+		<standardOut text="Which letters do we use to name notes?" timeout="45" />
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="425949b5">
+			<standardOut text="A B C D E F G" />
+		</button>
+		<button id="d3ce41c5">
+			<standardOut text="H I J K L M N" />
+		</button>
+		<button id="719c4094">
+			<standardOut text="O P Q R S T U" />
+		</button>
+		<button id="c18369d8">
+			<standardOut text="V W X Y Z" />
+		</button>
+	</response>
+	<hint />
+</question>
