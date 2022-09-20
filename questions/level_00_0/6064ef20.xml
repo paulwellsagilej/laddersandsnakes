@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<!-- 
+Demo: 
+	Words only prompt. 
+	Single pick to submit 
+-->
+<question category="Playing" creationDate="2022-09-20T21:52:46.155667Z" id="6064ef20">
+    <prompt>
+        <standardOut text="Where do you play high notes on a piano?"/>
+    </prompt>
+    <response format="single-pick-to-submit">
+        <button correct="true" id="72734545">
+            <standardOut text="On the right"/>
+        </button>
+        <button id="86487110">
+            <standardOut text="On the left"/>
+        </button>
+        <button id="4e4e2904">
+            <standardOut text="In the middle"/>
+        </button>
+    </response>
+    <hint/>
+</question>
