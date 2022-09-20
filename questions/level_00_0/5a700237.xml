@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<!-- 
+Demo: prompt with a picture 
+Here are some words and a picture. Press a button to respond. 
+-->
+<question category="Theory" creationDate="2022-09-20T16:00:20.574204Z" id="5a700237">
+	<prompt>
+		<standardOut text="How many horizontal lines are there?">
+			<lilyPond image="true" template="singlestave.ly">
+				<insert content="b1" />
+			</lilyPond>
+		</standardOut>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="95372336">
+			<standardOut text="5" />
+		</button>
+		<button id="948c207c">
+			<standardOut text="4" />
+		</button>
+		<button id="aa285e54">
+			<standardOut text="6" />
+		</button>
+		<button id="ab45af40">
+			<standardOut text="7" />
+		</button>
+	</response>
+	<hint />
+</question>
+
