@@ -2,10 +2,10 @@
 <!DOCTYPE xml>
 
 <!-- 
-Demo: time limit
+Demo: 3 time limit
 Here’s a question. The timer shows you have 45 seconds to answer 
 -->
-<question category="Theory" creationDate="2022-09-20T15:46:58.481570Z" id="b9d58a00">
+<question category="Theory" creationDate="2022-09-20T15:46:58.481570Z" id="39d58a00">
 	<prompt>
 		<standardOut text="Which letters do we use to name notes?" timeout="45" />
 	</prompt>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<!-- 
+Demo: 6 prompt with ear, press the ear to hear the prompt again
+Here is an ear and some words. Press the ear again to hear something.
+-->
+<question category="Aural" creationDate="2022-09-20T17:00:38.958589Z" id="61421a01">
+	<prompt>
+		<standardOut text="How many notes can you hear?">
+			<lilyPond clef="treble" notes="true" template="singlestave.ly">
+				<insert content="c e g a" />
+			</lilyPond>
+		</standardOut>
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="83d1b54d">
+			<standardOut text="4" />
+		</button>
+		<button id="db966baa">
+			<standardOut text="3" />
+		</button>
+		<button id="8b0eb33d">
+			<standardOut text="5" />
+		</button>
+		<button id="df9964cc">
+			<standardOut text="7" />
+		</button>
+	</response>
+	<hint />
+</question>

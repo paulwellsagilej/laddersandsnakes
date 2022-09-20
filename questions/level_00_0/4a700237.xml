@@ -2,10 +2,10 @@
 <!DOCTYPE xml>
 
 <!-- 
-Demo: prompt with a picture 
+Demo: 4 prompt with a picture 
 Here are some words and a picture. Press a button to respond. 
 -->
-<question category="Theory" creationDate="2022-09-20T16:00:20.574204Z" id="5a700237">
+<question category="Theory" creationDate="2022-09-20T16:00:20.574204Z" id="4a700237">
 	<prompt>
 		<standardOut text="How many horizontal lines are there?">
 			<lilyPond image="true" template="singlestave.ly">
