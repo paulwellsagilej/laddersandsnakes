@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<!-- 
+Demo: a select multiple buttons then submit
+Here are some buttons and each has a picture and plays notes and shows lights. Press the buttons to include in your answer. Press again to exclude from your answer. Press reset to clear the deck. 
+-->
+<question category="Aural" creationDate="2022-09-20T20:34:44.957945Z" id="ac0d8dd1">
+	<prompt>
+		<standardOut text="Which tunes include black keys?" />
+	</prompt>
+	<response format="checkboxes-then-submit">
+		<button correct="true" id="13156f4d">
+			<standardOut>
+				<lilyPond clef="treble" id="305b27db" image="true" lights="true" notes="true" percentageSpeed="111" template="singlestave.ly">
+					<insert content="c d ees e" />
+				</lilyPond>
+			</standardOut>
+		</button>
+		<button correct="true" id="23a755aa">
+			<standardOut>
+				<lilyPond clef="treble" id="3895f78c" image="true" lights="true" notes="true" percentageSpeed="111" template="singlestave.ly">
+					<insert content="f d cis d" />
+				</lilyPond>
+			</standardOut>
+		</button>
+		<button id="5e9ae49e">
+			<standardOut>
+				<lilyPond clef="treble" id="63ea115f" image="true" lights="true" notes="true" percentageSpeed="111" template="singlestave.ly">
+					<insert content="d f g e" />
+				</lilyPond>
+			</standardOut>
+		</button>
+		<button id="635f26c5">
+			<standardOut>
+				<lilyPond clef="treble" id="58c0a48a" image="true" lights="true" notes="true" percentageSpeed="111" template="singlestave.ly">
+					<insert content="e c d c" />
+				</lilyPond>
+			</standardOut>
+		</button>
+	</response>
+	<hint />
+</question>
