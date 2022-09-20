@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<!-- 
+Demo: hint Here are some words and some buttons. 
+Press the Hint button to get a clue. 
+-->
+<question category="Playing" creationDate="2022-09-20T15:06:44.283448Z" id="ff711879">
+	<prompt>
+		<standardOut text="Pressing lightly on a piano's keys creates..." />
+	</prompt>
+	<response format="single-pick-to-submit">
+		<button correct="true" id="906db046">
+			<standardOut text="Quieter notes" />
+		</button>
+		<button id="18159aff">
+			<standardOut text="Louder notes" />
+		</button>
+		<button id="bb8ea88f">
+			<standardOut text="Higher notes" />
+		</button>
+		<button id="e222e8b4">
+			<standardOut text="Lower notes" />
+		</button>
+	</response>
+	<hint />
+</question>
