@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<!-- 
+Demo: d play multiple notes to respond
+Play these notes. Press reset to start again. On the assessment page you can see what you got right and what you got wrong. 
+-->
+<question category="Playing" creationDate="2022-09-21T13:25:33.554790Z" id="d1db4ef8">
+    <prompt>
+    <standardOut text="Play this tune">
+        <lilyPond clef="treble" image="true" lights="true" notes="true" percentageSpeed="94" template="singlestave.ly">
+            <insert content="c e g2"/>
+        </lilyPond>
+    </standardOut>
+    </prompt>
+    <response expectedMidiScript="c e g" explainerClef="treble" explainerKeySignature="c \major" format="record-midi-sequence-then-submit"/>
+    <hint>
+    	<standardOut text="Middle C, E, G" />
+    </hint>
+</question>
+
