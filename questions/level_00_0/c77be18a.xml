@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xml>
+
+<!-- 
+Demo: c play a single note to respond
+Here’s a picture and some words. Play a single note to respond. 
+-->
+<question category="Playing" creationDate="2022-09-20T21:09:46.580004Z" id="c77be18a">
+	<prompt>
+		<standardOut text="Play this note">
+			<lilyPond clef="treble" image="true" template="singlestave.ly">
+				<insert content="c" />
+			</lilyPond>
+		</standardOut>
+	</prompt>
+	<response expectedMidiScript="c" explainerClef="\treble" explainerKeySignature="c \major" format="play-single-chord-to-submit" />
+	<hint>
+		<standardOut text="It's Middle C" />
+	</hint>
+</question>
