@@ -16,7 +16,10 @@
             <standardOut text="An Adagio"/>
         </button>
         <button id="46ffe02b">
-            <standardOut text="A digeridoo"/>
+            <standardOut text="A Digeridoo"/>
+        </button>
+        <button id="a560a229">
+            <standardOut text="An Allegro"/>
         </button>
     </response>
     <hint/>
