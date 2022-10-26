@@ -8,7 +8,7 @@ Here are some words and a picture and some notes. Press the picture again to hea
 <question category="Theory" creationDate="2022-09-20T16:17:23.280335Z" id="5df68bc4">
 	<prompt>
 		<standardOut text="Name this note">
-			<lilyPond clef="treble" image="true" notes="true" template="singlestave.ly">
+			<lilyPond clef="treble" image="true" notes="true" lights="true" template="singlestave.ly">
 				<insert content="c" />
 			</lilyPond>
 		</standardOut>
