@@ -116,7 +116,7 @@
 		</randomizedIntervals>
 	</level>
 
-	<level height="0.0" gameplayLength="13" win="2" hintCost="1" completion="50"/>
+	<level height="0.0" gameplayLength="13" win="2" hintCost="1" completion="10"/>
 
 </levels>
 
